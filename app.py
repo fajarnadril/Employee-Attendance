@@ -68,9 +68,9 @@ def save_attendance_data_to_github(df):
 
     response = requests.put(file_url, headers=headers, data=json.dumps(data))
     if response.status_code in [200, 201]:
-        st.success("✅ Data saved to GitHub.")
+        st.success(" Data saved to GitHub.")
     else:
-        st.error(f"❌ Failed to save to GitHub: {response.json()}")
+        st.error(f" Failed to save to GitHub: {response.json()}")
 
 # Streamlit app
 st.set_page_config(page_title="Employee Attendance", layout="wide")
@@ -81,13 +81,13 @@ attendance = load_attendance_data()
 today = date.today().strftime('%d/%m/%Y')
 
 if page == "Attendance":
-    st.title("🕒 Attendance Page")
+    st.title(" Attendance Page")
     emp_id = st.selectbox("Select Employee ID", employees['EmployeeID'])
     emp_name = employees.loc[employees['EmployeeID'] == emp_id, 'Name'].values[0]
     emp_status = employees.loc[employees['EmployeeID'] == emp_id, 'Status'].values[0]
-st.write(f"Name: {emp_name} | ID: {emp_id} | Status: {emp_status}")
-**🆔 ID:** {emp_id}  
-**📋 Status:** {emp_status}")
+    st.markdown(f"** Name:** {emp_name}  
+** ID:** {emp_id}  
+** Status:** {emp_status}")
 
     existing_today = attendance[
         (attendance['Date'] == today) &
@@ -103,7 +103,7 @@ st.write(f"Name: {emp_name} | ID: {emp_id} | Status: {emp_status}")
     ]
 
     if today_record.empty:
-        if st.button("✅ Clock In"):
+        if st.button(" Clock In"):
             now = get_current_time()
             new_row = pd.DataFrame([{
                 "Date": today,
@@ -114,11 +114,11 @@ st.write(f"Name: {emp_name} | ID: {emp_id} | Status: {emp_status}")
             }])
             attendance = pd.concat([attendance, new_row], ignore_index=True)
             save_attendance_data_to_github(attendance)
-            st.success(f"✅ Clocked In at {now}")
+            st.success(f" Clocked In at {now}")
             st.rerun()
     else:
         clock_in_time = today_record.iloc[0]['ClockIn']
-        st.info(f"🕒 Clock In Hari Ini: {clock_in_time}")
+        st.info(f" Clock In Hari Ini: {clock_in_time}")
 
         if pd.isna(today_record.iloc[0]['ClockOut']):
             with st.form("log_form"):
@@ -130,18 +130,18 @@ st.write(f"Name: {emp_name} | ID: {emp_id} | Status: {emp_status}")
                         attendance.at[idx[0], "ClockOut"] = get_current_time()
                         attendance.at[idx[0], "Log"] = work_log
                         save_attendance_data_to_github(attendance)
-                        st.success("✅ Clock Out berhasil disimpan.")
+                        st.success(" Clock Out berhasil disimpan.")
                         st.rerun()
                     else:
-                        st.error("⚠️ Tidak ditemukan baris Clock In yang aktif untuk hari ini.")
+                        st.error(" Tidak ditemukan baris Clock In yang aktif untuk hari ini.")
         else:
-            st.success(f"✅ Anda sudah Clock Out hari ini: {today_record.iloc[0]['ClockOut']}")
+            st.success(f" Anda sudah Clock Out hari ini: {today_record.iloc[0]['ClockOut']}")
 
     if already_clocked_out:
-        st.info("✅ Anda telah menyelesaikan absensi hari ini.")
+        st.info(" Anda telah menyelesaikan absensi hari ini.")
 
 elif page == "Dashboard":
-    st.title("🔒 Secure Dashboard")
+    st.title(" Secure Dashboard")
     pin = st.text_input("Enter PIN to access dashboard", type="password")
     if pin == "357101":
         st.dataframe(attendance)
