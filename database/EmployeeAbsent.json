@@ -19,5 +19,26 @@
     "ClockIn": "18:43:18",
     "ClockOut": "18:43:34",
     "DailyLog": "salar clockin ok, clock out ok gak muncul jam"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 323,
+    "ClockIn": "19:12:26",
+    "ClockOut": "19:12:31",
+    "DailyLog": "fdgfdg"
+  },
+  {
+    "Date": "14/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "00:15:00",
+    "ClockOut": "00:45:00",
+    "DailyLog": "inject manuall"
+  },
+  {
+    "Date": "11/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "00:15:00",
+    "ClockOut": "00:15:00",
+    "DailyLog": "dsfs"
   }
 ]
