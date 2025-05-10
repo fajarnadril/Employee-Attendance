@@ -33,5 +33,12 @@
     "ClockIn": "00:15:00",
     "ClockOut": "00:45:00",
     "DailyLog": "inject manuall"
+  },
+  {
+    "Date": "11/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "00:15:00",
+    "ClockOut": "00:15:00",
+    "DailyLog": "dsfs"
   }
 ]
