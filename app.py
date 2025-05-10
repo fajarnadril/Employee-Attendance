@@ -103,11 +103,13 @@ if menu == "Clock In / Out":
     if st.button("🔚 Clock Out"):
         matched = df[
             (df["Date"] == today_date) &
-            (df["EmployeeID"] == employee_id)
+            (df["EmployeeID"].astype(str) == str(employee_id))
         ]
         if not matched.empty:
             idx = matched.index[0]
-            if pd.isna(matched.at[idx, "ClockIn"]):
+            if pd.notna(matched.at[idx, "ClockOut"]):
+                st.warning("⚠️ Anda sudah Clock Out hari ini.")
+            elif pd.isna(matched.at[idx, "ClockIn"]):
                 st.session_state.submit_state = "manual"
             else:
                 st.session_state.submit_state = "update"
@@ -123,6 +125,7 @@ if menu == "Clock In / Out":
             if save_json_to_github(df, attendance_sha):
                 st.session_state.submit_state = "manual"
                 st.rerun()
+
 
     if st.session_state.submit_state == "update":
         st.markdown("---")
