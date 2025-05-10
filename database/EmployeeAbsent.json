@@ -173,5 +173,12 @@
     "ClockIn": "08:40",
     "ClockOut": "17:44:58",
     "DailyLog": "sorry telat isi"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602069620,
+    "ClockIn": "18:07:24",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
