@@ -81,7 +81,7 @@ if menu == "Clock In / Out":
             (df["EmployeeID"].astype(str) == employee_id_str)
         ]
         if not already_clocked_in.empty:
-            st.warning("⚠️ Anda sudah Clock In hari ini.")
+            st.error("⚠️ Anda sudah Clock In hari ini.")
         else:
             new_row = pd.DataFrame([{
                 "Date": today_date,
@@ -95,7 +95,7 @@ if menu == "Clock In / Out":
                 # Reload data untuk memastikan tersimpan
                 attendance_data, attendance_sha = load_json_from_github(ATTENDANCE_PATH)
                 df = pd.DataFrame(attendance_data)
-                st.success("✅ Anda sudah Clock In hari ini.")
+                st.error("✅ Anda sudah Clock In hari ini.")
                 st.rerun()
             else:
                 st.error("❌ Gagal menyimpan Clock In ke GitHub.")
