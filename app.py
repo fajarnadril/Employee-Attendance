@@ -64,14 +64,14 @@ if menu == "Clock In / Out":
     st.title("✨LOGIC Attendance")
     st.markdown(f"**Tanggal (GMT+7):** {today_date}")
     st.markdown(f"**Waktu (GMT+7):** {now_time}")
-    st.markdown("---")
     emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
+    st.markdown("---")
     selected = st.selectbox("Pilih Karyawan", emp_df["Display"])
     employee_id = int(selected.split(" - ")[0])
 
     if "submit_state" not in st.session_state:
         st.session_state.submit_state = ""
-
+    st.markdown("---")
     if st.button("✅ Clock In"):
         # Paksa string comparison
         employee_id_str = str(employee_id)
