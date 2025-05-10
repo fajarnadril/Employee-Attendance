@@ -86,8 +86,8 @@
   {
     "Date": "10/05/2025",
     "EmployeeID": "mhs11",
-    "ClockIn": null,
-    "ClockOut": "16:40:54",
-    "DailyLog": null
+    "ClockIn": "30:22",
+    "ClockOut": "16:41:16",
+    "DailyLog": "mhs12 clockout only"
   }
 ]
