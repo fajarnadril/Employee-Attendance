@@ -12,5 +12,12 @@
     "ClockIn": "16:19:48",
     "ClockOut": "16:19:58",
     "DailyLog": "IniFajar"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "Mhs1",
+    "ClockIn": "16:20:33",
+    "ClockOut": null,
+    "DailyLog": "ClockinMHS1"
   }
 ]
