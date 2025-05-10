@@ -222,5 +222,12 @@
     "ClockIn": "01:05",
     "ClockOut": "18:19:17",
     "DailyLog": "cvfv"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2702285933,
+    "ClockIn": null,
+    "ClockOut": "18:22:35",
+    "DailyLog": null
   }
 ]
