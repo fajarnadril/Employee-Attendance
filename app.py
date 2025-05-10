@@ -274,6 +274,7 @@ elif menu == "Dashboard":
 
         # =====================
         # Tampilkan EmployeeData
+        st.markdown("---")
         st.subheader("📋 Employee List")
         name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(emp_df["Name"].unique()))
         dept_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(emp_df["Department"].unique()))
@@ -352,6 +353,7 @@ elif menu == "Dashboard":
 
             # =====================
         # Tampilkan Log Absensi
+        st.markdown("---")
         st.subheader("📅 Attendance Log")
 
         emp_lookup = emp_df[["EmployeeID", "Name"]]
