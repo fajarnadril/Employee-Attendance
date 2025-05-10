@@ -298,12 +298,12 @@ elif menu == "Dashboard":
 
         st.markdown("---")
         st.subheader("🛠 Inject Attendance Data (Manual)")
-
         with st.form("inject_form"):
             inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
-            emp_df["Label"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
-            inj_selection = st.selectbox("Pilih Karyawan", emp_df["Label"])
-            inj_emp_id = inj_selection.split(" - ")[0] # Ambil EmployeeID dari label    
+            emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
+            inj_emp_display = st.selectbox("Pilih Karyawan", emp_df["Display"])
+            inj_emp_id = inj_emp_display.split(" - ")[0]
+
             col1, col2 = st.columns(2)
             with col1:
                 inj_clockin = st.time_input("Jam Clock In", value=None)
@@ -314,43 +314,47 @@ elif menu == "Dashboard":
 
             if inject_submit:
                 inj_date_str = inj_date.strftime("%d/%m/%Y")
-                duplicate = df[
+                existing_index = df[
                     (df["Date"] == inj_date_str) &
                     (df["EmployeeID"].astype(str) == inj_emp_id)
-                ]
-                if not duplicate.empty:
-                    st.warning("❗ Data dengan tanggal dan EmployeeID ini sudah ada.")
+                ].index
+
+                new_row = {
+                    "Date": inj_date_str,
+                    "EmployeeID": inj_emp_id,
+                    "ClockIn": inj_clockin.strftime("%H:%M:%S") if inj_clockin else None,
+                    "ClockOut": inj_clockout.strftime("%H:%M:%S") if inj_clockout else None,
+                    "DailyLog": inj_log
+                }
+
+                if not existing_index.empty:
+                    df.loc[existing_index[0]] = new_row
                 else:
-                    new_inj = pd.DataFrame([{
-                        "Date": inj_date_str,
-                        "EmployeeID": inj_emp_id,
-                        "ClockIn": inj_clockin.strftime("%H:%M:%S") if inj_clockin else None,
-                        "ClockOut": inj_clockout.strftime("%H:%M:%S") if inj_clockout else None,
-                        "DailyLog": inj_log
-                    }])
-                    df = pd.concat([df, new_inj], ignore_index=True)
+                    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
-                    # Save ke GitHub
-                    token = st.secrets["GITHUB_TOKEN"]
-                    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
-                    url = f"https://api.github.com/repos/{REPO}/contents/{ATTENDANCE_PATH}"
-                    encoded = base64.b64encode(json.dumps(df.to_dict(orient="records"), indent=2).encode()).decode()
-                    get_resp = requests.get(url, headers=headers)
-                    sha_attn = get_resp.json()["sha"] if get_resp.status_code == 200 else None
+                # Simpan ke GitHub
+                token = st.secrets["GITHUB_TOKEN"]
+                headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
+                url = f"https://api.github.com/repos/{REPO}/contents/{ATTENDANCE_PATH}"
+                encoded = base64.b64encode(json.dumps(df.to_dict(orient="records"), indent=2).encode()).decode()
+                get_resp = requests.get(url, headers=headers)
+                sha_attn = get_resp.json()["sha"] if get_resp.status_code == 200 else None
 
-                    payload = {
-                        "message": f"Manual inject {inj_emp_id} {inj_date_str}",
-                        "content": encoded,
-                        "branch": BRANCH,
-                        "sha": sha_attn
-                    }
-                    put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
-                    if put_resp.status_code in [200, 201]:
-                        st.success("✅ Data berhasil di-inject.")
-                        st.rerun()
-                    else:
-                        st.error("❌ Gagal menyimpan ke GitHub.")
-                        st.code(json.dumps(put_resp.json(), indent=2))
+                payload = {
+                    "message": f"Inject attendance {inj_emp_id} {inj_date_str}",
+                    "content": encoded,
+                    "branch": BRANCH,
+                    "sha": sha_attn
+                }
+                put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
+                if put_resp.status_code in [200, 201]:
+                    st.success("✅ Data berhasil di-inject atau diperbarui.")
+                    st.rerun()
+                else:
+                    st.error("❌ Gagal menyimpan ke GitHub.")
+                    st.code(json.dumps(put_resp.json(), indent=2))
+
+                
 
             # =====================
         # Tampilkan Log Absensi
