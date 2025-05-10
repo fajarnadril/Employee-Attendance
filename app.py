@@ -293,7 +293,7 @@ elif menu == "Dashboard":
         filtered_emp_with_logs = pd.merge(filtered_emp, log_counts, on="EmployeeID", how="left").fillna({"DailyLogCount": 0})
         filtered_emp_with_logs["DailyLogCount"] = filtered_emp_with_logs["DailyLogCount"].astype(int)
 
-        st.dataframe(filtered_emp_with_logs)
+        st.dataframe(filtered_emp_with_logs.drop(columns=["Display"]))
 
 
         st.markdown("---")
