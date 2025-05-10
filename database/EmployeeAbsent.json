@@ -5,5 +5,12 @@
     "ClockIn": "23:14:30",
     "ClockOut": "23:14:45",
     "DailyLog": "Sudah Log"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602069620,
+    "ClockIn": null,
+    "ClockOut": "23:38:41",
+    "DailyLog": null
   }
 ]
