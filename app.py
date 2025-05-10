@@ -297,7 +297,7 @@ elif menu == "Dashboard":
 
 
         st.markdown("---")
-        st.subheader("🛠 Inject Attendance Data (Manual)")
+        st.subheader("🛠 Edit Attendance Data (Manual)")
         with st.form("inject_form"):
             inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
             emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
