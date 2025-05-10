@@ -19,5 +19,12 @@
     "ClockIn": "18:43:18",
     "ClockOut": "18:43:34",
     "DailyLog": "salar clockin ok, clock out ok gak muncul jam"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 323,
+    "ClockIn": "19:12:26",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
