@@ -2,6 +2,7 @@
 import streamlit as st
 import pandas as pd
 from datetime import datetime, date
+import pytz
 import os
 
 # Paths
@@ -26,6 +27,11 @@ def load_attendance_data():
 
 def save_attendance_data(df):
     df.to_excel(ABSENT_FILE, index=False)
+
+# Timezone aware now
+def get_current_time():
+    tz = pytz.timezone('Asia/Jakarta')
+    return datetime.now(tz).strftime('%H:%M:%S')
 
 # --- Streamlit App ---
 st.set_page_config(page_title="Employee Attendance", layout="wide")
@@ -64,7 +70,7 @@ if page == "Attendance":
 
     with col1:
         if st.button("✅ Clock In", disabled=clock_in_disabled):
-            now = datetime.now().strftime('%H:%M:%S')
+            now = get_current_time()
             new_row = pd.DataFrame([{
                 "Date": today,
                 "EmployeeID": emp_id,
@@ -86,40 +92,52 @@ if page == "Attendance":
                     if work_log.strip() == "":
                         st.warning("Work log is required.")
                     else:
-                        idx = today_record.index[0]
-                        attendance.at[idx, "ClockOut"] = datetime.now().strftime('%H:%M:%S')
-                        attendance.at[idx, "Log"] = work_log
-                        save_attendance_data(attendance)
-                        st.success("Clocked out successfully.")
-                        st.rerun()
+                        idx = attendance[
+                            (attendance['Date'] == today) &
+                            (attendance['EmployeeID'] == emp_id) &
+                            (attendance['ClockOut'].isna())
+                        ].index
+
+                        if not idx.empty:
+                            attendance.at[idx[0], "ClockOut"] = get_current_time()
+                            attendance.at[idx[0], "Log"] = work_log
+                            save_attendance_data(attendance)
+                            st.success("Clocked out successfully.")
+                            st.rerun()
+                        else:
+                            st.error("No matching Clock In record found.")
 
     if already_clocked_out:
         st.info("✅ You have completed your attendance for today.")
 
 elif page == "Dashboard":
-    st.title("📊 Dashboard Page")
+    st.title("🔒 Secure Dashboard Access")
+    pin = st.text_input("Enter PIN to view dashboard", type="password")
+    if pin == "357101":
+        st.success("Access granted.")
+        st.dataframe(attendance)
 
-    st.dataframe(attendance)
+        with st.expander("➕ Inject Data"):
+            with st.form("inject_form"):
+                new_date = st.date_input("Date", date.today()).strftime('%d/%m/%Y')
+                new_emp = st.selectbox("Employee ID", employees['EmployeeID'])
+                new_in = st.text_input("Clock In Time (HH:MM:SS)")
+                new_out = st.text_input("Clock Out Time (HH:MM:SS)")
+                new_log = st.text_area("Log (max 150 chars)", max_chars=150)
 
-    with st.expander("➕ Inject Data"):
-        with st.form("inject_form"):
-            new_date = st.date_input("Date", date.today()).strftime('%d/%m/%Y')
-            new_emp = st.selectbox("Employee ID", employees['EmployeeID'])
-            new_in = st.text_input("Clock In Time (HH:MM:SS)")
-            new_out = st.text_input("Clock Out Time (HH:MM:SS)")
-            new_log = st.text_area("Log (max 150 chars)", max_chars=150)
+                submit = st.form_submit_button("Submit")
 
-            submit = st.form_submit_button("Submit")
-
-            if submit:
-                injected_row = pd.DataFrame([{
-                    "Date": new_date,
-                    "EmployeeID": new_emp,
-                    "ClockIn": new_in,
-                    "ClockOut": new_out,
-                    "Log": new_log
-                }])
-                attendance = pd.concat([attendance, injected_row], ignore_index=True)
-                save_attendance_data(attendance)
-                st.success("Record injected successfully.")
-                st.rerun()
+                if submit:
+                    injected_row = pd.DataFrame([{
+                        "Date": new_date,
+                        "EmployeeID": new_emp,
+                        "ClockIn": new_in,
+                        "ClockOut": new_out,
+                        "Log": new_log
+                    }])
+                    attendance = pd.concat([attendance, injected_row], ignore_index=True)
+                    save_attendance_data(attendance)
+                    st.success("Record injected successfully.")
+                    st.rerun()
+    else:
+        st.warning("Please enter the correct PIN to access the dashboard.")
