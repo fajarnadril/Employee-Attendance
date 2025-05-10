@@ -158,53 +158,206 @@ if menu == "Clock In / Out":
                     st.rerun()
 
 elif menu == "Dashboard":
-    if "last_reload" not in st.session_state or st.session_state.last_reload != "dashboard":
-        st.session_state.last_reload = "dashboard"
-        st.rerun()
+    if "dashboard_pin_authenticated" not in st.session_state:
+        st.session_state.dashboard_pin_authenticated = False
 
-    st.title("🔒 Dashboard Attendance")
-    st.success("✅ Akses diterima.")
+    if not st.session_state.dashboard_pin_authenticated:
+        st.title("🔒 Dashboard Attendance")
+        pin_input = st.text_input("Masukkan PIN untuk akses Dashboard:", type="password")
+        if pin_input == "357101":
+            st.success("✅ Akses diterima.")
+            st.session_state.dashboard_pin_authenticated = True
+            st.rerun()
+        elif pin_input:
+            st.error("❌ PIN salah.")
 
-    # =====================
-    # Tampilkan EmployeeData
-    st.subheader("📋 Employee List")
-    name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(emp_df["Name"].unique()))
-    dept_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(emp_df["Department"].unique()))
+    else:
+        # Seluruh kode dashboard kamu dimulai dari sini
+        if "last_reload" not in st.session_state or st.session_state.last_reload != "dashboard":
+            st.session_state.last_reload = "dashboard"
+            st.rerun()
+        st.title("📋 Dashboard Attendance")
 
-    filtered_emp = emp_df.copy()
-    if name_filter != "(All)":
-        filtered_emp = filtered_emp[filtered_emp["Name"] == name_filter]
-    if dept_filter != "(All)":
-        filtered_emp = filtered_emp[filtered_emp["Department"] == dept_filter]
+        # =====================
+        # Tambah Employee
+        st.markdown("---")
+        st.subheader("➕ Tambah Karyawan Baru")
+        with st.form("add_employee"):
+            new_id = st.text_input("EmployeeID")
+            new_name = st.text_input("Nama Lengkap")
+            new_dept = st.text_input("Department")
+            submitted = st.form_submit_button("Tambah")
 
-    st.dataframe(filtered_emp)
+            if submitted:
+                if new_id in emp_df["EmployeeID"].values:
+                    st.error("❌ EmployeeID sudah ada!")
+                elif new_name.strip() == "" or new_dept.strip() == "":
+                    st.error("❌ Semua field harus diisi.")
+                else:
+                    new_row = pd.DataFrame([{
+                        "EmployeeID": new_id,
+                        "Name": new_name.strip(),
+                        "Department": new_dept.strip()
+                    }])
+                    emp_df = pd.concat([emp_df, new_row], ignore_index=True)
+                    # Save ke GitHub
+                    token = st.secrets["GITHUB_TOKEN"]
+                    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
+                    url = f"https://api.github.com/repos/{REPO}/contents/{EMPLOYEE_PATH}"
 
-    # =====================
-    # Tampilkan Log Absensi
-    st.subheader("📅 Attendance Log")
-    emp_lookup = emp_df[["EmployeeID", "Name"]]
-    df_display = pd.merge(df, emp_lookup, on="EmployeeID", how="left")
+                    encoded = base64.b64encode(json.dumps(emp_df.to_dict(orient="records"), indent=2).encode()).decode()
+                    get_resp = requests.get(url, headers=headers)
+                    sha_emp = get_resp.json()["sha"] if get_resp.status_code == 200 else None
 
-    # Jika filter nama aktif → filter juga absensinya
-    if name_filter != "(All)":
-        df_display = df_display[df_display["Name"] == name_filter]
-    if dept_filter != "(All)":
-        allowed_ids = filtered_emp["EmployeeID"].unique()
-        df_display = df_display[df_display["EmployeeID"].isin(allowed_ids)]
+                    payload = {
+                        "message": f"Add employee {new_id}",
+                        "content": encoded,
+                        "branch": BRANCH,
+                        "sha": sha_emp
+                    }
+                    put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
+                    if put_resp.status_code in [200, 201]:
+                        st.success("✅ Karyawan berhasil ditambahkan.")
+                        st.rerun()
+                    else:
+                        st.error("❌ Gagal menyimpan ke GitHub.")
+                        st.code(json.dumps(put_resp.json(), indent=2))
 
-    df_display = df_display[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
+        # =====================
+        # Hapus Employee
+        st.markdown("---")
+        st.subheader("🗑 Hapus Karyawan")
+        employee_ids = emp_df["EmployeeID"].tolist()
+        selected_id = st.selectbox("Pilih EmployeeID untuk dihapus", employee_ids)
+        if st.button("Hapus Karyawan Ini"):
+            emp_df = emp_df[emp_df["EmployeeID"] != selected_id]
+            # Save ke GitHub
+            token = st.secrets["GITHUB_TOKEN"]
+            headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
+            url = f"https://api.github.com/repos/{REPO}/contents/{EMPLOYEE_PATH}"
 
-    # Tombol Download
-    output = BytesIO()
-    with pd.ExcelWriter(output, engine='openpyxl') as writer:
-        df_display.to_excel(writer, index=False, sheet_name='Attendance')
-    output.seek(0)
-    st.download_button(
-        label="📥 Download Excel (.xlsx)",
-        data=output,
-        file_name="EmployeeAttendance.xlsx",
-        mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
-    )
+            encoded = base64.b64encode(json.dumps(emp_df.to_dict(orient="records"), indent=2).encode()).decode()
+            get_resp = requests.get(url, headers=headers)
+            sha_emp = get_resp.json()["sha"] if get_resp.status_code == 200 else None
 
-    st.dataframe(df_display)
+            payload = {
+                "message": f"Delete employee {selected_id}",
+                "content": encoded,
+                "branch": BRANCH,
+                "sha": sha_emp
+            }
+            put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
+            if put_resp.status_code in [200, 201]:
+                st.success("✅ Karyawan berhasil dihapus.")
+                st.rerun()
+            else:
+                st.error("❌ Gagal menyimpan ke GitHub.")
+                st.code(json.dumps(put_resp.json(), indent=2))
+
+        # =====================
+        # Tampilkan EmployeeData
+        st.subheader("📋 Employee List")
+        name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(emp_df["Name"].unique()))
+        dept_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(emp_df["Department"].unique()))
+
+        filtered_emp = emp_df.copy()
+        if name_filter != "(All)":
+            filtered_emp = filtered_emp[filtered_emp["Name"] == name_filter]
+        if dept_filter != "(All)":
+            filtered_emp = filtered_emp[filtered_emp["Department"] == dept_filter]
+
+        # Hitung jumlah DailyLog per EmployeeID
+        log_counts = df[df["DailyLog"].notna()].groupby("EmployeeID").size().reset_index(name="DailyLogCount")
+
+        # Gabungkan ke filtered_emp
+        filtered_emp_with_logs = pd.merge(filtered_emp, log_counts, on="EmployeeID", how="left").fillna({"DailyLogCount": 0})
+        filtered_emp_with_logs["DailyLogCount"] = filtered_emp_with_logs["DailyLogCount"].astype(int)
+
+        st.dataframe(filtered_emp_with_logs)
+
+
+        
+        st.subheader("🛠 Inject Attendance Data (Manual)")
+
+        with st.form("inject_form"):
+            inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
+            inj_emp_id = st.selectbox("EmployeeID", emp_df["EmployeeID"].astype(str))
+            col1, col2 = st.columns(2)
+            with col1:
+                inj_clockin = st.time_input("Jam Clock In", value=None)
+            with col2:
+                inj_clockout = st.time_input("Jam Clock Out", value=None)
+            inj_log = st.text_area("Daily Log", max_chars=150)
+            inject_submit = st.form_submit_button("Submit Inject")
+
+            if inject_submit:
+                inj_date_str = inj_date.strftime("%d/%m/%Y")
+                duplicate = df[
+                    (df["Date"] == inj_date_str) &
+                    (df["EmployeeID"].astype(str) == inj_emp_id)
+                ]
+                if not duplicate.empty:
+                    st.warning("❗ Data dengan tanggal dan EmployeeID ini sudah ada.")
+                else:
+                    new_inj = pd.DataFrame([{
+                        "Date": inj_date_str,
+                        "EmployeeID": inj_emp_id,
+                        "ClockIn": inj_clockin.strftime("%H:%M:%S") if inj_clockin else None,
+                        "ClockOut": inj_clockout.strftime("%H:%M:%S") if inj_clockout else None,
+                        "DailyLog": inj_log
+                    }])
+                    df = pd.concat([df, new_inj], ignore_index=True)
+
+                    # Save ke GitHub
+                    token = st.secrets["GITHUB_TOKEN"]
+                    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
+                    url = f"https://api.github.com/repos/{REPO}/contents/{ATTENDANCE_PATH}"
+                    encoded = base64.b64encode(json.dumps(df.to_dict(orient="records"), indent=2).encode()).decode()
+                    get_resp = requests.get(url, headers=headers)
+                    sha_attn = get_resp.json()["sha"] if get_resp.status_code == 200 else None
+
+                    payload = {
+                        "message": f"Manual inject {inj_emp_id} {inj_date_str}",
+                        "content": encoded,
+                        "branch": BRANCH,
+                        "sha": sha_attn
+                    }
+                    put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
+                    if put_resp.status_code in [200, 201]:
+                        st.success("✅ Data berhasil di-inject.")
+                        st.rerun()
+                    else:
+                        st.error("❌ Gagal menyimpan ke GitHub.")
+                        st.code(json.dumps(put_resp.json(), indent=2))
+
+            # =====================
+        # Tampilkan Log Absensi
+        st.subheader("📅 Attendance Log")
+
+        emp_lookup = emp_df[["EmployeeID", "Name"]]
+        df_display = pd.merge(df, emp_lookup, on="EmployeeID", how="left")
+
+        # Jika filter nama aktif → filter juga absensinya
+        if name_filter != "(All)":
+            df_display = df_display[df_display["Name"] == name_filter]
+        if dept_filter != "(All)":
+            allowed_ids = filtered_emp["EmployeeID"].unique()
+            df_display = df_display[df_display["EmployeeID"].isin(allowed_ids)]
+
+        df_display = df_display[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
+
+        # Tombol Download
+        output = BytesIO()
+        with pd.ExcelWriter(output, engine='openpyxl') as writer:
+            df_display.to_excel(writer, index=False, sheet_name='Attendance')
+        output.seek(0)
+
+        st.download_button(
+            label="📥 Download Excel (.xlsx)",
+            data=output,
+            file_name="EmployeeAttendance.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        )
+
+        st.dataframe(df_display)
 
