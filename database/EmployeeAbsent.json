@@ -108,7 +108,7 @@
     "Date": "10/05/2025",
     "EmployeeID": "mhs14",
     "ClockIn": "16:52:58",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "16:53:10",
+    "DailyLog": "mhs14 clockout"
   }
 ]
