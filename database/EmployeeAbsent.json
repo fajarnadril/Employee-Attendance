@@ -2,8 +2,8 @@
   {
     "Date": "10/05/2025",
     "EmployeeID": 2602069620,
-    "ClockIn": null,
-    "ClockOut": "18:42:28",
-    "DailyLog": null
+    "ClockIn": "00:00",
+    "ClockOut": "18:42:44",
+    "DailyLog": "vincent clockin clockout"
   }
 ]
