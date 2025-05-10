@@ -14,10 +14,15 @@ def load_employee_data():
     return df[df['Status'] == 'Active']  # Filter only active employees
 
 def load_attendance_data():
-    if os.path.exists(ABSENT_FILE):
-        return pd.read_excel(ABSENT_FILE)
-    else:
-        return pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "Log"])
+    try:
+        if os.path.exists(ABSENT_FILE):
+            df = pd.read_excel(ABSENT_FILE)
+            if df.empty or not all(col in df.columns for col in ["Date", "EmployeeID", "ClockIn", "ClockOut", "Log"]):
+                raise ValueError("Invalid or empty structure")
+            return df
+    except:
+        pass
+    return pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "Log"])
 
 def save_attendance_data(df):
     df.to_excel(ABSENT_FILE, index=False)
