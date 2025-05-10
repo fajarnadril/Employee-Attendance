@@ -82,5 +82,11 @@
     "Name": "FAJAR",
     "Department": "DOSEN",
     "Display": "2001550520 - FAJAR"
+  },
+  {
+    "EmployeeID": "2702288651",
+    "Name": "GEORGE",
+    "Department": "LOGIC-ALPHA",
+    "Display": NaN
   }
 ]
