@@ -148,16 +148,8 @@ if menu == "Clock In / Out":
     elif st.session_state.submit_state == "manual":
         st.markdown("---")
         st.markdown("⚠️ **Anda belum Clock In! Isi di bawah ini secara manual:**")
-
-        hours = [f"{h:02d}" for h in range(0, 24)]
-        minutes = [f"{m:02d}" for m in range(0, 60, 5)]
-        col1, col2 = st.columns(2)
-        with col1:
-            selected_hour = st.selectbox("Jam", hours, key="manual_hour")
-        with col2:
-            selected_minute = st.selectbox("Menit", minutes, key="manual_minute")
-
-        manual_time = f"{selected_hour}:{selected_minute}"
+        manual_time_input = st.time_input("Jam Clock In Manual", key="manual_clockin")
+        manual_time = manual_time_input.strftime("%H:%M:%S")
         daily_log = st.text_area("Daily Log", key="log_manual", max_chars=150)
 
         if st.button("Submit Attendance"):
