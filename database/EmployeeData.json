@@ -3,102 +3,112 @@
     "EmployeeID": 2602069620,
     "Name": "Vincent Tanujaya",
     "Department": "LOGIC-Alpha",
-    "Display": "2602069620 - Vincent Tanujaya"
+    "Display": "2602069620 - Vincent Tanujaya",
+    "DisplayName": "2602069620 - Vincent Tanujaya"
   },
   {
     "EmployeeID": 2602099863,
     "Name": "Dicky Dixon",
     "Department": "LOGIC-Alpha",
-    "Display": "2602099863 - Dicky Dixon"
+    "Display": "2602099863 - Dicky Dixon",
+    "DisplayName": "2602099863 - Dicky Dixon"
   },
   {
     "EmployeeID": 2702258535,
     "Name": "Steven Salar",
     "Department": "LOGIC-Alpha",
-    "Display": "2702258535 - Steven Salar"
+    "Display": "2702258535 - Steven Salar",
+    "DisplayName": "2702258535 - Steven Salar"
   },
   {
     "EmployeeID": 2602100114,
     "Name": "Muhammad Ryan Arrafi ",
     "Department": "LOGIC-Alpha",
-    "Display": "2602100114 - Muhammad Ryan Arrafi "
+    "Display": "2602100114 - Muhammad Ryan Arrafi ",
+    "DisplayName": "2602100114 - Muhammad Ryan Arrafi "
   },
   {
     "EmployeeID": 2602076336,
     "Name": "Yohanes Duns Scotus Aerotri Tunyanan",
     "Department": "LOGIC-Alpha",
-    "Display": "2602076336 - Yohanes Duns Scotus Aerotri Tunyanan"
+    "Display": "2602076336 - Yohanes Duns Scotus Aerotri Tunyanan",
+    "DisplayName": "2602076336 - Yohanes Duns Scotus Aerotri Tunyanan"
   },
   {
     "EmployeeID": 2702326744,
     "Name": "David Drago Suherman",
     "Department": "LOGIC-Alpha",
-    "Display": "2702326744 - David Drago Suherman"
+    "Display": "2702326744 - David Drago Suherman",
+    "DisplayName": "2702326744 - David Drago Suherman"
   },
   {
     "EmployeeID": 2702285933,
     "Name": "Kevin Adi Santoso",
     "Department": "LOGIC-Alpha",
-    "Display": "2702285933 - Kevin Adi Santoso"
+    "Display": "2702285933 - Kevin Adi Santoso",
+    "DisplayName": "2702285933 - Kevin Adi Santoso"
   },
   {
     "EmployeeID": 2602076840,
     "Name": "Steven Putra Adicandra",
     "Department": "LOGIC-Alpha",
-    "Display": "2602076840 - Steven Putra Adicandra"
+    "Display": "2602076840 - Steven Putra Adicandra",
+    "DisplayName": "2602076840 - Steven Putra Adicandra"
   },
   {
     "EmployeeID": 2602071575,
     "Name": "Alexander Nathanael Lubis",
     "Department": "LOGIC-Alpha",
-    "Display": "2602071575 - Alexander Nathanael Lubis"
+    "Display": "2602071575 - Alexander Nathanael Lubis",
+    "DisplayName": "2602071575 - Alexander Nathanael Lubis"
   },
   {
     "EmployeeID": 2702288651,
     "Name": "George Mercedes",
     "Department": "LOGIC-Alpha",
-    "Display": "2702288651 - George Mercedes"
+    "Display": "2702288651 - George Mercedes",
+    "DisplayName": "2702288651 - George Mercedes"
   },
   {
     "EmployeeID": 2602054770,
     "Name": "Anthony Henry Suryana",
     "Department": "LOGIC-Beta",
-    "Display": "2602054770 - Anthony Henry Suryana"
+    "Display": "2602054770 - Anthony Henry Suryana",
+    "DisplayName": "2602054770 - Anthony Henry Suryana"
   },
   {
     "EmployeeID": 2602089824,
     "Name": "Jose Armando Kusnadi",
     "Department": "LOGIC-Beta",
-    "Display": "2602089824 - Jose Armando Kusnadi"
+    "Display": "2602089824 - Jose Armando Kusnadi",
+    "DisplayName": "2602089824 - Jose Armando Kusnadi"
   },
   {
     "EmployeeID": 2602105784,
     "Name": "Jonathan Oyong",
     "Department": "LOGIC-Beta",
-    "Display": "2602105784 - Jonathan Oyong"
+    "Display": "2602105784 - Jonathan Oyong",
+    "DisplayName": "2602105784 - Jonathan Oyong"
   },
   {
     "EmployeeID": 2602149691,
     "Name": "Steven Nugroho",
     "Department": "LOGIC-Beta",
-    "Display": "2602149691 - Steven Nugroho"
+    "Display": "2602149691 - Steven Nugroho",
+    "DisplayName": "2602149691 - Steven Nugroho"
   },
   {
     "EmployeeID": "2001550520",
     "Name": "MUHAMAD FAJAR",
     "Department": "DOSEN",
-    "Display": "2001550520 - MUHAMAD FAJAR"
+    "Display": "2001550520 - MUHAMAD FAJAR",
+    "DisplayName": "2001550520 - MUHAMAD FAJAR"
   },
   {
     "EmployeeID": "20015505200",
     "Name": "MUHAMAD FAJAR",
     "Department": "DOSEN",
-    "Display": "20015505200 - MUHAMAD FAJAR"
-  },
-  {
-    "EmployeeID": "20015505201",
-    "Name": "MUHAMAD FAJAR 201",
-    "Department": "DOSEN",
-    "Display": NaN
+    "Display": "20015505200 - MUHAMAD FAJAR",
+    "DisplayName": "20015505200 - MUHAMAD FAJAR"
   }
 ]
