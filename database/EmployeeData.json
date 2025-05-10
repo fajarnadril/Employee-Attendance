@@ -1,0 +1,86 @@
+[
+  {
+    "EmployeeID":2602099863,
+    "Name":"Dicky Dixon",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602069620,
+    "Name":"Vincent Tanujaya",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2702258535,
+    "Name":"Steven Salar",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602100114,
+    "Name":"Muhammad Ryan Arrafi ",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602076336,
+    "Name":"Yohanes Duns Scotus Aerotri Tunyanan",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2702326744,
+    "Name":"David Drago Suherman",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2702285933,
+    "Name":"Kevin Adi Santoso",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602076840,
+    "Name":"Steven Putra Adicandra",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602071575,
+    "Name":"Alexander Nathanael Lubis",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2702288651,
+    "Name":"George Mercedes junior suitela",
+    "Department":"LOGIC-Alpha",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602054770,
+    "Name":"Anthony Henry Suryana",
+    "Department":"LOGIC-Beta",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602089824,
+    "Name":"Jose Armando Kusnadi",
+    "Department":"LOGIC-Beta",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602105784,
+    "Name":"Jonathan Oyong",
+    "Department":"LOGIC-Beta",
+    "Status":"Active"
+  },
+  {
+    "EmployeeID":2602149691,
+    "Name":"Steven Nugroho",
+    "Department":"LOGIC-Beta",
+    "Status":"Active"
+  }
+]
