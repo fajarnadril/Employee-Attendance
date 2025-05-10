@@ -73,5 +73,10 @@
     "EmployeeID": "2240108974",
     "Name": "fajars2",
     "Department": "dosen"
+  },
+  {
+    "EmployeeID": "663",
+    "Name": "fajardosen",
+    "Department": "DoSeN"
   }
 ]
