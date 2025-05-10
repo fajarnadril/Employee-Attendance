@@ -15,8 +15,8 @@ FILE_PATHS = {
     "employee": "database/EmployeeData.json"
 }
 TIMEZONE = 'Asia/Jakarta'
-ADMIN_CREDENTIALS = {"username": "admin", "password": "admin"}
 DASHBOARD_PIN = "357101"
+ADMIN_PIN = "357101"  # Using the same PIN for both Dashboard and Admin access
 
 def get_current_time():
     """Get current date and time in Jakarta timezone."""
@@ -74,7 +74,7 @@ employee_df["DisplayName"] = employee_df["EmployeeID"].astype(str) + " - " + emp
 # Sidebar navigation
 selected_page = st.sidebar.selectbox(
     "Select Page", 
-    ["Clock In / Out", "Attandances", "Manage User"]
+    ["Clock In / Out", "Dashboard", "Manage User"]
 )
 
 # === Clock In/Out Page ===
@@ -205,14 +205,14 @@ if selected_page == "Clock In / Out":
             else:
                 st.error("Daily log cannot be empty.")
 
-# === Attandances Page ===
-elif selected_page == "Attandances":
+# === Dashboard Page ===
+elif selected_page == "Dashboard":
     if "dashboard_authenticated" not in st.session_state:
         st.session_state.dashboard_authenticated = False
 
     if not st.session_state.dashboard_authenticated:
         st.title("🔒 Attendance Dashboard")
-        pin_input = st.text_input("Enter PIN to access Attandances:", type="password")
+        pin_input = st.text_input("Enter PIN to access Dashboard:", type="password")
         
         if pin_input == DASHBOARD_PIN:
             st.success("✅ Access granted.")
@@ -221,7 +221,7 @@ elif selected_page == "Attandances":
         elif pin_input:
             st.error("❌ Incorrect PIN.")
     else:
-        st.title("📋 Attendances")
+        st.title("📋 Attendance Dashboard")
         
         # Attendance Record Editor
         st.markdown("---")
@@ -340,17 +340,15 @@ elif selected_page == "Manage User":
 
     if not st.session_state.admin_authenticated:
         st.markdown("---")
-        st.subheader("🔒 Admin Login")
-        username_input = st.text_input("Username")
-        password_input = st.text_input("Password", type="password")
+        st.subheader("🔒 Admin Authentication")
+        admin_pin_input = st.text_input("Enter PIN for Admin access:", type="password")
         
-        if st.button("Login"):
-            if (username_input == ADMIN_CREDENTIALS["username"] and 
-                password_input == ADMIN_CREDENTIALS["password"]):
-                st.session_state.admin_authenticated = True
-                st.rerun()
-            else:
-                st.error("Invalid credentials")
+        if admin_pin_input == ADMIN_PIN:
+            st.success("✅ Access granted.")
+            st.session_state.admin_authenticated = True
+            st.rerun()
+        elif admin_pin_input:
+            st.error("❌ Incorrect PIN.")
     else:
         st.success("✅ Logged in as Administrator")
         st.markdown("---")
