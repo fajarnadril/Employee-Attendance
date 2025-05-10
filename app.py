@@ -85,7 +85,7 @@ if page == "Attendance":
     emp_id = st.selectbox("Select Employee ID", employees['EmployeeID'])
     emp_name = employees.loc[employees['EmployeeID'] == emp_id, 'Name'].values[0]
     emp_status = employees.loc[employees['EmployeeID'] == emp_id, 'Status'].values[0]
-    st.markdown(f"**👤 Name:** {emp_name}  
+    st.write(f"👤 Name: {emp_name} | 🆔 ID: {emp_id} | 📋 Status: {emp_status}")  
 **🆔 ID:** {emp_id}  
 **📋 Status:** {emp_status}")
 
