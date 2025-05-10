@@ -61,7 +61,7 @@ emp_df = pd.DataFrame(employee_data)
 
 
 if menu == "Clock In / Out":
-    st.title("✨LOGIC Attendance")
+    st.title("✨LOGIC Attendance Web App")
     st.markdown(f"**Tanggal (GMT+7):** {today_date}")
     st.markdown(f"**Waktu (GMT+7):** {now_time}")
 
@@ -165,16 +165,36 @@ elif menu == "Dashboard":
     st.title("🔒 Dashboard Attendance")
     st.success("✅ Akses diterima.")
 
-    # ⬇️ Tambahkan ini untuk menampilkan EmployeeData
+    # =====================
+    # Tampilkan EmployeeData
     st.subheader("📋 Employee List")
-    st.dataframe(emp_df)
+    name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(emp_df["Name"].unique()))
+    dept_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(emp_df["Department"].unique()))
 
-    # Merge Name dari EmployeeData
-    emp_lookup = pd.DataFrame(employee_data)[["EmployeeID", "Name"]]
+    filtered_emp = emp_df.copy()
+    if name_filter != "(All)":
+        filtered_emp = filtered_emp[filtered_emp["Name"] == name_filter]
+    if dept_filter != "(All)":
+        filtered_emp = filtered_emp[filtered_emp["Department"] == dept_filter]
+
+    st.dataframe(filtered_emp)
+
+    # =====================
+    # Tampilkan Log Absensi
+    st.subheader("📅 Attendance Log")
+    emp_lookup = emp_df[["EmployeeID", "Name"]]
     df_display = pd.merge(df, emp_lookup, on="EmployeeID", how="left")
+
+    # Jika filter nama aktif → filter juga absensinya
+    if name_filter != "(All)":
+        df_display = df_display[df_display["Name"] == name_filter]
+    if dept_filter != "(All)":
+        allowed_ids = filtered_emp["EmployeeID"].unique()
+        df_display = df_display[df_display["EmployeeID"].isin(allowed_ids)]
+
     df_display = df_display[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
 
-    # Download tombol
+    # Tombol Download
     output = BytesIO()
     with pd.ExcelWriter(output, engine='openpyxl') as writer:
         df_display.to_excel(writer, index=False, sheet_name='Attendance')
@@ -186,6 +206,5 @@ elif menu == "Dashboard":
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
 
-    # Tampilkan data absensi
-    st.subheader("📅 Attendance Log")
     st.dataframe(df_display)
+
