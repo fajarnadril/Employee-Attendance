@@ -187,5 +187,12 @@
     "ClockIn": "22:38:10",
     "ClockOut": "22:38:53",
     "DailyLog": "fajar clockout after clockin"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2240108974,
+    "ClockIn": "22:42:46",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
