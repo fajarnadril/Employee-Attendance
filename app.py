@@ -109,7 +109,7 @@ if menu == "Clock In / Out":
         if not matched.empty:
             idx = matched.index[0]
             if pd.notna(matched.at[idx, "ClockOut"]):
-                st.warning("⚠️ Anda sudah Clock Out hari ini.")
+                st.error("⚠️ Anda sudah Clock Out hari ini.")
             elif pd.isna(matched.at[idx, "ClockIn"]):
                 st.session_state.submit_state = "manual"
             else:
@@ -297,7 +297,7 @@ elif menu == "Dashboard":
 
 
         st.markdown("---")
-        st.subheader("🛠 Edit Attendance Data (Manual)")
+        st.subheader("🛠 Edit Attendance Data")
         with st.form("inject_form"):
             inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
             emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
