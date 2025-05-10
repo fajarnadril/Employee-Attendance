@@ -64,7 +64,7 @@ if menu == "Clock In / Out":
     st.title("✨LOGIC Attendance Web App")
     st.markdown(f"**Tanggal (GMT+7):** {today_date}")
     st.markdown(f"**Waktu (GMT+7):** {now_time}")
-
+    st.markdown("---")
     emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
     selected = st.selectbox("Pilih Karyawan", emp_df["Display"])
     employee_id = int(selected.split(" - ")[0])
@@ -147,8 +147,8 @@ if menu == "Clock In / Out":
 
     elif st.session_state.submit_state == "manual":
         st.markdown("---")
-        st.markdown("⚠️ **Anda belum Clock In! Isi di bawah ini secara manual:**")
-        manual_time_input = st.time_input("Jam Clock In Manual", key="manual_clockin")
+        st.markdown("⚠️ **Anda belum Clock In!**")
+        manual_time_input = st.time_input("Jam Clock In (Isi Manual)", key="manual_clockin")
         manual_time = manual_time_input.strftime("%H:%M:%S")
         daily_log = st.text_area("Daily Log", key="log_manual", max_chars=150)
 
