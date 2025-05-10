@@ -109,7 +109,7 @@ if menu == "Clock In / Out":
         if not matched.empty:
             idx = matched.index[0]
             if pd.notna(matched.at[idx, "ClockOut"]):
-                st.error("⚠️ Anda sudah Clock Out hari ini.")
+                st.warning("⚠️ Anda sudah Clock Out hari ini.")
             elif pd.isna(matched.at[idx, "ClockIn"]):
                 st.session_state.submit_state = "manual"
             else:
@@ -142,7 +142,7 @@ if menu == "Clock In / Out":
                 df.at[idx, "ClockOut"] = now_time
                 df.at[idx, "DailyLog"] = daily_log
                 if save_json_to_github(df, attendance_sha):
-                    st.error("✅ Anda sudah attendance hari ini.")
+                    st.success("✅ Anda sudah attendance hari ini.")
                     st.session_state.submit_state = ""
                     st.rerun()
 
@@ -164,7 +164,7 @@ if menu == "Clock In / Out":
                 df.at[idx, "ClockOut"] = now_time
                 df.at[idx, "DailyLog"] = daily_log
                 if save_json_to_github(df, attendance_sha):
-                    st.error("✅ Anda sudah attendance hari ini.")
+                    st.success("✅ Anda sudah attendance hari ini.")
                     st.session_state.submit_state = ""
                     st.rerun()
 
@@ -176,7 +176,7 @@ elif menu == "Dashboard":
         st.title("🔒 Dashboard Attendance")
         pin_input = st.text_input("Masukkan PIN untuk akses Dashboard:", type="password")
         if pin_input == "357101":
-            st.error("✅ Akses diterima.")
+            st.success("✅ Akses diterima.")
             st.session_state.dashboard_pin_authenticated = True
             st.rerun()
         elif pin_input:
@@ -230,7 +230,7 @@ elif menu == "Dashboard":
                     }
                     put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
                     if put_resp.status_code in [200, 201]:
-                        st.error("✅ Karyawan berhasil ditambahkan.")
+                        st.success("✅ Karyawan berhasil ditambahkan.")
                         st.rerun()
                     else:
                         st.error("❌ Gagal menyimpan ke GitHub.")
@@ -248,7 +248,7 @@ elif menu == "Dashboard":
         if st.button("Hapus Karyawan Ini"):
             selected_name = emp_df[emp_df["EmployeeID"].astype(str) == selected_id]["Name"].values[0]
             emp_df = emp_df[emp_df["EmployeeID"].astype(str) != selected_id]
-            st.error(f"✅ Karyawan '{selected_name}' (ID: {selected_id}) telah dihapus.")
+            st.success(f"✅ Karyawan '{selected_name}' (ID: {selected_id}) telah dihapus.")
             
             # Save ke GitHub
             token = st.secrets["GITHUB_TOKEN"]
@@ -267,7 +267,7 @@ elif menu == "Dashboard":
             }
             put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
             if put_resp.status_code in [200, 201]:
-                st.error("✅ Karyawan berhasil dihapus.")
+                st.success("✅ Karyawan berhasil dihapus.")
                 st.rerun()
             else:
                 st.error("❌ Gagal menyimpan ke GitHub.")
@@ -295,11 +295,14 @@ elif menu == "Dashboard":
 
         st.dataframe(filtered_emp_with_logs.drop(columns=["Display"]))
 
-
+        # =====================
+        # Edit Attandance Data
         st.markdown("---")
         st.subheader("🛠 Edit Attendance Data")
+        
         with st.form("inject_form"):
             inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
+
             emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
             inj_emp_display = st.selectbox("Pilih Karyawan", emp_df["Display"])
             inj_emp_id = inj_emp_display.split(" - ")[0]
@@ -310,10 +313,16 @@ elif menu == "Dashboard":
             with col2:
                 inj_clockout = st.time_input("Jam Clock Out", value=None)
             inj_log = st.text_area("Daily Log", max_chars=150)
-            inject_submit = st.form_submit_button("Submit Inject")
+
+            col1, col2 = st.columns(2)
+            with col1:
+                inject_submit = st.form_submit_button("Submit Inject")
+            with col2:
+                delete_submit = st.form_submit_button("Hapus Data")
+
+            inj_date_str = inj_date.strftime("%d/%m/%Y")
 
             if inject_submit:
-                inj_date_str = inj_date.strftime("%d/%m/%Y")
                 existing_index = df[
                     (df["Date"] == inj_date_str) &
                     (df["EmployeeID"].astype(str) == inj_emp_id)
@@ -332,7 +341,7 @@ elif menu == "Dashboard":
                 else:
                     df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
 
-                # Simpan ke GitHub
+                # Save ke GitHub
                 token = st.secrets["GITHUB_TOKEN"]
                 headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
                 url = f"https://api.github.com/repos/{REPO}/contents/{ATTENDANCE_PATH}"
@@ -348,12 +357,43 @@ elif menu == "Dashboard":
                 }
                 put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
                 if put_resp.status_code in [200, 201]:
-                    st.error("✅ Data berhasil di-inject atau diperbarui.")
+                    st.success("✅ Data berhasil di-inject atau diperbarui.")
                     st.rerun()
                 else:
                     st.error("❌ Gagal menyimpan ke GitHub.")
                     st.code(json.dumps(put_resp.json(), indent=2))
 
+            elif delete_submit:
+                existing_index = df[
+                    (df["Date"] == inj_date_str) &
+                    (df["EmployeeID"].astype(str) == inj_emp_id)
+                ].index
+                if not existing_index.empty:
+                    df.drop(existing_index, inplace=True)
+
+                    # Simpan ke GitHub
+                    token = st.secrets["GITHUB_TOKEN"]
+                    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
+                    url = f"https://api.github.com/repos/{REPO}/contents/{ATTENDANCE_PATH}"
+                    encoded = base64.b64encode(json.dumps(df.to_dict(orient="records"), indent=2).encode()).decode()
+                    get_resp = requests.get(url, headers=headers)
+                    sha_attn = get_resp.json()["sha"] if get_resp.status_code == 200 else None
+
+                    payload = {
+                        "message": f"Delete attendance {inj_emp_id} {inj_date_str}",
+                        "content": encoded,
+                        "branch": BRANCH,
+                        "sha": sha_attn
+                    }
+                    put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
+                    if put_resp.status_code in [200, 201]:
+                        st.success("✅ Data berhasil dihapus.")
+                        st.rerun()
+                    else:
+                        st.error("❌ Gagal menyimpan ke GitHub.")
+                        st.code(json.dumps(put_resp.json(), indent=2))
+                else:
+                    st.warning("⚠️ Data tidak ditemukan.")
                 
 
             # =====================
