@@ -1,149 +1,182 @@
-
 import streamlit as st
 import pandas as pd
-from datetime import datetime, date
+from datetime import datetime
 import pytz
-import os
 import requests
 import base64
 import json
 from io import BytesIO
 
-# GitHub configuration
+# Konfigurasi GitHub
 REPO = "fajarnadril/Employee-Attendance"
 BRANCH = "main"
-EMPLOYEE_FILE_PATH = "database/EmployeeData.xlsx"
-ABSENT_FILE_PATH = "database/EmployeeAbsent.xlsx"
+FILE_PATH = "database/EmployeeAbsent.json"
 
-# Timezone
-def get_current_time():
+def get_jakarta_time():
     tz = pytz.timezone('Asia/Jakarta')
-    return datetime.now(tz).strftime('%H:%M:%S')
+    now = datetime.now(tz)
+    return now.strftime('%d/%m/%Y'), now.strftime('%H:%M:%S')
 
-# Load employee data
-def load_employee_data():
-    df = pd.read_excel(EMPLOYEE_FILE_PATH)
-    return df[df['Status'] == 'Active']
-
-# Load attendance data
-def load_attendance_data():
-    try:
-        df = pd.read_excel(ABSENT_FILE_PATH)
-        if df.empty or not all(col in df.columns for col in ["Date", "EmployeeID", "ClockIn", "ClockOut", "Log"]):
-            raise ValueError("Invalid structure")
-        return df
-    except:
-        return pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "Log"])
-
-# Save attendance to GitHub
-def save_attendance_data_to_github(df):
+def load_json_from_github():
     token = st.secrets["GITHUB_TOKEN"]
-    headers = {
-        "Authorization": f"token {token}",
-        "Accept": "application/vnd.github+json"
-    }
-    file_url = f"https://api.github.com/repos/{REPO}/contents/{ABSENT_FILE_PATH}"
+    headers = {"Authorization": f"token {token}"}
+    url = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
 
-    # Try to get SHA
-    r = requests.get(file_url, headers=headers)
-    if r.status_code == 200:
-        sha = r.json().get("sha", "")
-    elif r.status_code == 404:
-        sha = None  # File not found, will create new
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        sha = response.json()["sha"]
+        content = base64.b64decode(response.json()["content"]).decode()
+        data = json.loads(content)
+        return pd.DataFrame(data), sha
     else:
-        st.error(f"GitHub error: {r.json()}")
-        return
+        return pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "DailyLog"]), None
 
-    buffer = BytesIO()
-    df.to_excel(buffer, index=False)
-    encoded_content = base64.b64encode(buffer.getvalue()).decode()
+def save_json_to_github(df, sha=None):
+    token = st.secrets["GITHUB_TOKEN"]
+    headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
+    url = f"https://api.github.com/repos/{REPO}/contents/{FILE_PATH}"
 
-    data = {
-        "message": "Update or create attendance file",
-        "content": encoded_content,
-        "branch": BRANCH,
+    content = json.dumps(df.to_dict(orient="records"), indent=2)
+    encoded = base64.b64encode(content.encode()).decode()
+
+    payload = {
+        "message": f"Update attendance {datetime.now().isoformat()}",
+        "content": encoded,
+        "branch": BRANCH
     }
     if sha:
-        data["sha"] = sha
+        payload["sha"] = sha
 
-    response = requests.put(file_url, headers=headers, data=json.dumps(data))
-    if response.status_code in [200, 201]:
-        st.success(" Data saved to GitHub.")
-    else:
-        st.error(f" Failed to save to GitHub: {response.json()}")
+    r = requests.put(url, headers=headers, data=json.dumps(payload))
+    return r.status_code in [200, 201]
 
-# Streamlit app
-st.set_page_config(page_title="Employee Attendance", layout="wide")
-page = st.sidebar.selectbox("Go to", ["Attendance", "Dashboard"])
+# ==== UI ====
+st.set_page_config(page_title="Employee Attendance", layout="centered")
+menu = st.sidebar.selectbox("Pilih Halaman", ["Clock In / Out", "Dashboard"])
 
-employees = load_employee_data()
-attendance = load_attendance_data()
-today = date.today().strftime('%d/%m/%Y')
+today_date, now_time = get_jakarta_time()
+df, sha = load_json_from_github()
 
-if page == "Attendance":
-    st.title(" Attendance Page")
-    emp_id = st.selectbox("Select Employee ID", employees['EmployeeID'])
-    emp_name = employees.loc[employees['EmployeeID'] == emp_id, 'Name'].values[0]
-    emp_status = employees.loc[employees['EmployeeID'] == emp_id, 'Status'].values[0]
-    st.markdown(f"** Name:** {emp_name}  
-** ID:** {emp_id}  
-** Status:** {emp_status}")
+if menu == "Clock In / Out":
+    st.title("🕘 Employee Attendance")
+    st.markdown(f"**Tanggal (GMT+7):** {today_date}")
+    st.markdown(f"**Waktu (GMT+7):** {now_time}")
+    employee_id = st.text_input("Employee ID")
 
-    existing_today = attendance[
-        (attendance['Date'] == today) &
-        (attendance['EmployeeID'] == emp_id)
-    ]
+    if "submit_state" not in st.session_state:
+        st.session_state.submit_state = ""
 
-    already_clocked_in = not existing_today.empty
-    already_clocked_out = already_clocked_in and pd.notna(existing_today.iloc[0]['ClockOut'])
-
-    today_record = attendance[
-        (attendance['Date'].astype(str) == today) &
-        (attendance['EmployeeID'].astype(str) == str(emp_id))
-    ]
-
-    if today_record.empty:
-        if st.button(" Clock In"):
-            now = get_current_time()
-            new_row = pd.DataFrame([{
-                "Date": today,
-                "EmployeeID": emp_id,
-                "ClockIn": now,
-                "ClockOut": None,
-                "Log": None
-            }])
-            attendance = pd.concat([attendance, new_row], ignore_index=True)
-            save_attendance_data_to_github(attendance)
-            st.success(f" Clocked In at {now}")
-            st.rerun()
-    else:
-        clock_in_time = today_record.iloc[0]['ClockIn']
-        st.info(f" Clock In Hari Ini: {clock_in_time}")
-
-        if pd.isna(today_record.iloc[0]['ClockOut']):
-            with st.form("log_form"):
-                work_log = st.text_area("Work Log (max 150 chars)", max_chars=150)
-                submitted = st.form_submit_button("Submit Clock Out")
-                if submitted and work_log.strip():
-                    idx = today_record.index
-                    if not idx.empty:
-                        attendance.at[idx[0], "ClockOut"] = get_current_time()
-                        attendance.at[idx[0], "Log"] = work_log
-                        save_attendance_data_to_github(attendance)
-                        st.success(" Clock Out berhasil disimpan.")
-                        st.rerun()
-                    else:
-                        st.error(" Tidak ditemukan baris Clock In yang aktif untuk hari ini.")
+    if st.button("✅ Clock In"):
+        if not employee_id:
+            st.warning("Isi Employee ID.")
         else:
-            st.success(f" Anda sudah Clock Out hari ini: {today_record.iloc[0]['ClockOut']}")
+            new_row = pd.DataFrame([{
+                "Date": today_date,
+                "EmployeeID": employee_id,
+                "ClockIn": now_time,
+                "ClockOut": None,
+                "DailyLog": None
+            }])
+            df = pd.concat([df, new_row], ignore_index=True)
+            if save_json_to_github(df, sha):
+                st.success("✅ Anda sudah Clock In hari ini.")
+                st.rerun()
 
-    if already_clocked_out:
-        st.info(" Anda telah menyelesaikan absensi hari ini.")
+    if st.button("🔚 Clock Out"):
+        if not employee_id:
+            st.warning("Isi Employee ID.")
+        else:
+            matched = df[
+                (df["Date"] == today_date) &
+                (df["EmployeeID"] == employee_id)
+            ]
+            if not matched.empty:
+                idx = matched.index[0]
+                if pd.isna(matched.at[idx, "ClockIn"]):
+                    st.session_state.submit_state = "manual"
+                else:
+                    st.session_state.submit_state = "update"
+            else:
+                new_row = pd.DataFrame([{
+                    "Date": today_date,
+                    "EmployeeID": employee_id,
+                    "ClockIn": None,
+                    "ClockOut": now_time,
+                    "DailyLog": None
+                }])
+                df = pd.concat([df, new_row], ignore_index=True)
+                if save_json_to_github(df, sha):
+                    st.session_state.submit_state = "manual"
+                    st.rerun()
 
-elif page == "Dashboard":
-    st.title(" Secure Dashboard")
-    pin = st.text_input("Enter PIN to access dashboard", type="password")
+    if st.session_state.submit_state == "update":
+        st.markdown("---")
+        st.markdown("📝 **Isi Daily Log untuk Clock Out**")
+        daily_log = st.text_area("Daily Log", key="log_update", max_chars=150)
+        if st.button("Submit Clock Out"):
+            matched = df[
+                (df["Date"] == today_date) &
+                (df["EmployeeID"] == employee_id)
+            ]
+            if not matched.empty and daily_log.strip():
+                idx = matched.index[0]
+                df.at[idx, "ClockOut"] = now_time
+                df.at[idx, "DailyLog"] = daily_log
+                if save_json_to_github(df, sha):
+                    st.success("✅ Anda sudah attendance hari ini.")
+                    st.session_state.submit_state = ""
+                    st.rerun()
+
+    elif st.session_state.submit_state == "manual":
+        st.markdown("---")
+        st.markdown("⚠️ **Anda belum Clock In! Isi di bawah ini secara manual:**")
+
+        # Jam 00–23, Menit per 5
+        hours = [f"{h:02d}" for h in range(0, 24)]
+        minutes = [f"{m:02d}" for m in range(0, 60, 5)]
+
+        col1, col2 = st.columns(2)
+        with col1:
+            selected_hour = st.selectbox("Jam", hours, key="manual_hour")
+        with col2:
+            selected_minute = st.selectbox("Menit", minutes, key="manual_minute")
+
+        manual_time = f"{selected_hour}:{selected_minute}"
+        daily_log = st.text_area("Daily Log", key="log_manual", max_chars=150)
+
+        if st.button("Submit Attendance"):
+            matched = df[
+                (df["Date"] == today_date) &
+                (df["EmployeeID"] == employee_id)
+            ]
+            if not matched.empty and daily_log.strip():
+                idx = matched.index[0]
+                df.at[idx, "ClockIn"] = manual_time
+                df.at[idx, "ClockOut"] = now_time
+                df.at[idx, "DailyLog"] = daily_log
+                if save_json_to_github(df, sha):
+                    st.success("✅ Anda sudah attendance hari ini.")
+                    st.session_state.submit_state = ""
+                    st.rerun()
+
+elif menu == "Dashboard":
+    st.title("🔒 Dashboard Attendance")
+    pin = st.text_input("Masukkan PIN untuk akses data:", type="password")
     if pin == "357101":
-        st.dataframe(attendance)
+        st.success("✅ Akses diterima.")
+        st.dataframe(df)
+
+        # Download Excel
+        output = BytesIO()
+        with pd.ExcelWriter(output, engine='xlsxwriter') as writer:
+            df.to_excel(writer, index=False, sheet_name='Attendance')
+        output.seek(0)
+
+        st.download_button(
+            label="📥 Download Excel (.xlsx)",
+            data=output,
+            file_name="EmployeeAttendance.xlsx",
+            mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+        )
     else:
-        st.warning("PIN required to access the dashboard.")
+        st.warning("PIN diperlukan untuk mengakses Dashboard.")
