@@ -40,5 +40,12 @@
     "ClockIn": "00:15:00",
     "ClockOut": "00:15:00",
     "DailyLog": "dsfs"
+  },
+  {
+    "Date": "09/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "00:45:00",
+    "ClockOut": "00:15:00",
+    "DailyLog": "test"
   }
 ]
