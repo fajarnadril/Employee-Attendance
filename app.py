@@ -62,6 +62,7 @@ emp_df = pd.DataFrame(employee_data)
 
 if menu == "Clock In / Out":
     st.title("✨LOGIC Attendance")
+    st.markdown("---")
     st.markdown(f"**Tanggal (GMT+7):** {today_date}")
     st.markdown(f"**Waktu (GMT+7):** {now_time}")
     emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
