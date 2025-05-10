@@ -26,5 +26,12 @@
     "ClockIn": null,
     "ClockOut": "16:25:15",
     "DailyLog": "Clockout only mhs3"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "mh4",
+    "ClockIn": "16:29:18",
+    "ClockOut": null,
+    "DailyLog": "mhs 4 clockin"
   }
 ]
