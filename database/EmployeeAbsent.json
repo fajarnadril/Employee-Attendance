@@ -33,12 +33,5 @@
     "ClockIn": "01:30:00",
     "ClockOut": "00:30:00",
     "DailyLog": "dvdf"
-  },
-  {
-    "Date": "11/05/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "01:20:32",
-    "ClockOut": "01:20:44",
-    "DailyLog": "Mantap"
   }
 ]
