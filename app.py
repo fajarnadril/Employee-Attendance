@@ -44,19 +44,27 @@ def save_attendance_data_to_github(df):
     }
     file_url = f"https://api.github.com/repos/{REPO}/contents/{ABSENT_FILE_PATH}"
 
-    get_resp = requests.get(file_url, headers=headers)
-    sha = get_resp.json().get("sha", "")
+    # Try to get SHA
+    r = requests.get(file_url, headers=headers)
+    if r.status_code == 200:
+        sha = r.json().get("sha", "")
+    elif r.status_code == 404:
+        sha = None  # File not found, will create new
+    else:
+        st.error(f"GitHub error: {r.json()}")
+        return
 
     buffer = BytesIO()
     df.to_excel(buffer, index=False)
     encoded_content = base64.b64encode(buffer.getvalue()).decode()
 
     data = {
-        "message": "Update attendance data",
+        "message": "Update or create attendance file",
         "content": encoded_content,
         "branch": BRANCH,
-        "sha": sha
     }
+    if sha:
+        data["sha"] = sha
 
     response = requests.put(file_url, headers=headers, data=json.dumps(data))
     if response.status_code in [200, 201]:
@@ -78,7 +86,6 @@ if page == "Attendance":
     emp_name = employees.loc[employees['EmployeeID'] == emp_id, 'Name'].values[0]
     st.write(f"👤 Employee: {emp_name} ({emp_id})")
 
-    # Check existing record
     existing_today = attendance[
         (attendance['Date'] == today) &
         (attendance['EmployeeID'] == emp_id)
@@ -119,6 +126,9 @@ if page == "Attendance":
                         attendance.at[idx, "Log"] = work_log
                         save_attendance_data_to_github(attendance)
                         st.rerun()
+
+    if already_clocked_out:
+        st.info("✅ Anda telah menyelesaikan absensi hari ini.")
 
 elif page == "Dashboard":
     st.title("🔒 Secure Dashboard")
