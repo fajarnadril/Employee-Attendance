@@ -37,8 +37,8 @@
   {
     "Date": "11/05/2025",
     "EmployeeID": 2602099863,
-    "ClockIn": null,
-    "ClockOut": "00:13:14",
-    "DailyLog": null
+    "ClockIn": "01:15:00",
+    "ClockOut": "00:13:24",
+    "DailyLog": "apaan"
   }
 ]
