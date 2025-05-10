@@ -73,9 +73,11 @@ if menu == "Clock In / Out":
         st.session_state.submit_state = ""
 
     if st.button("✅ Clock In"):
+        # Paksa string comparison
+        employee_id_str = str(employee_id)
         already_clocked_in = df[
             (df["Date"] == today_date) &
-            (df["EmployeeID"] == employee_id)
+            (df["EmployeeID"].astype(str) == employee_id_str)
         ]
         if not already_clocked_in.empty:
             st.warning("⚠️ Anda sudah Clock In hari ini.")
@@ -89,8 +91,14 @@ if menu == "Clock In / Out":
             }])
             df = pd.concat([df, new_row], ignore_index=True)
             if save_json_to_github(df, attendance_sha):
+                # Reload data untuk memastikan tersimpan
+                attendance_data, attendance_sha = load_json_from_github(ATTENDANCE_PATH)
+                df = pd.DataFrame(attendance_data)
                 st.success("✅ Anda sudah Clock In hari ini.")
                 st.rerun()
+            else:
+                st.error("❌ Gagal menyimpan Clock In ke GitHub.")
+
 
     if st.button("🔚 Clock Out"):
         matched = df[
