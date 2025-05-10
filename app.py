@@ -7,376 +7,425 @@ import base64
 import json
 from io import BytesIO
 
-# GitHub Repo dan File Path
-REPO = "fajarnadril/Employee-Attendance"
+# Configuration Constants
+REPOSITORY = "fajarnadril/Employee-Attendance"
 BRANCH = "main"
-ATTENDANCE_PATH = "database/EmployeeAbsent.json"
-EMPLOYEE_PATH = "database/EmployeeData.json"
+FILE_PATHS = {
+    "attendance": "database/EmployeeAbsent.json",
+    "employee": "database/EmployeeData.json"
+}
+TIMEZONE = 'Asia/Jakarta'
+ADMIN_CREDENTIALS = {"username": "admin", "password": "admin"}
+DASHBOARD_PIN = "357101"
 
-def get_jakarta_time():
-    tz = pytz.timezone('Asia/Jakarta')
-    now = datetime.now(tz)
-    return now.strftime('%d/%m/%Y'), now.strftime('%H:%M:%S')
+def get_current_time():
+    """Get current date and time in Jakarta timezone."""
+    timezone = pytz.timezone(TIMEZONE)
+    current_time = datetime.now(timezone)
+    return current_time.strftime('%d/%m/%Y'), current_time.strftime('%H:%M:%S')
 
-def load_json_from_github(filepath):
+def fetch_github_json(filepath):
+    """Fetch JSON file from GitHub repository."""
     token = st.secrets["GITHUB_TOKEN"]
     headers = {"Authorization": f"token {token}"}
-    url = f"https://api.github.com/repos/{REPO}/contents/{filepath}"
-    r = requests.get(url, headers=headers)
-    if r.status_code == 200:
-        sha = r.json()["sha"]
-        content = base64.b64decode(r.json()["content"]).decode()
-        return json.loads(content), sha
+    url = f"https://api.github.com/repos/{REPOSITORY}/contents/{filepath}"
+    
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        content_sha = response.json()["sha"]
+        content_data = base64.b64decode(response.json()["content"]).decode()
+        return json.loads(content_data), content_sha
     else:
         return [], None
 
-def save_json_to_github(filepath, data, sha):
+def update_github_json(filepath, data, content_sha):
+    """Update JSON file in GitHub repository."""
     token = st.secrets["GITHUB_TOKEN"]
     headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
-    url = f"https://api.github.com/repos/{REPO}/contents/{filepath}"
+    url = f"https://api.github.com/repos/{REPOSITORY}/contents/{filepath}"
+    
     content = json.dumps(data, indent=2)
-    encoded = base64.b64encode(content.encode()).decode()
+    encoded_content = base64.b64encode(content.encode()).decode()
+    
     payload = {
         "message": f"Update {filepath} {datetime.now().isoformat()}",
-        "content": encoded,
+        "content": encoded_content,
         "branch": BRANCH,
-        "sha": sha
+        "sha": content_sha
     }
-    r = requests.put(url, headers=headers, data=json.dumps(payload))
-    return r.status_code in [200, 201]
+    
+    response = requests.put(url, headers=headers, data=json.dumps(payload))
+    return response.status_code in [200, 201]
 
-# === UI ===
-st.set_page_config(page_title="Employee Attendance", layout="centered")
+# === UI Setup ===
+st.set_page_config(page_title="Employee Attendance System", layout="centered")
 
-# Load data
-today_date, now_time = get_jakarta_time()
-attendance_data, attendance_sha = load_json_from_github(ATTENDANCE_PATH)
-df = pd.DataFrame(attendance_data)
-if df.empty:
-    df = pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "DailyLog"])
+# Load application data
+current_date, current_time = get_current_time()
+attendance_data, attendance_sha = fetch_github_json(FILE_PATHS["attendance"])
+attendance_df = pd.DataFrame(attendance_data)
+if attendance_df.empty:
+    attendance_df = pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "DailyLog"])
 
-employee_data, employee_sha = load_json_from_github(EMPLOYEE_PATH)
-emp_df = pd.DataFrame(employee_data)
-emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
+employee_data, employee_sha = fetch_github_json(FILE_PATHS["employee"])
+employee_df = pd.DataFrame(employee_data)
+employee_df["DisplayName"] = employee_df["EmployeeID"].astype(str) + " - " + employee_df["Name"]
 
-# Sidebar menu - selalu tampilkan 3 opsi
-menu = st.sidebar.selectbox("Pilih Halaman", ["Clock In / Out", "Attendance", "Manage User"])
+# Sidebar navigation
+selected_page = st.sidebar.selectbox(
+    "Select Page", 
+    ["Clock In / Out", "Attandances", "Manage User"]
+)
 
-# Clock In/Out Page
-if menu == "Clock In / Out":
-    st.title("✨LOGIC Attendance")
+# === Clock In/Out Page ===
+if selected_page == "Clock In / Out":
+    st.title("✨ LOGIC Attendance System")
     st.markdown("---")
-    st.markdown(f"**Tanggal (GMT+7):** {today_date}")
-    st.markdown(f"**Waktu (GMT+7):** {now_time}")
-    st.markdown("---")
-    selected = st.selectbox("Pilih Karyawan", emp_df["Display"])
-    employee_id = int(selected.split(" - ")[0])
-
-    if "submit_state" not in st.session_state:
-        st.session_state.submit_state = ""
+    st.markdown(f"**Date (GMT+7):** {current_date}")
+    st.markdown(f"**Time (GMT+7):** {current_time}")
     st.markdown("---")
     
+    selected_employee = st.selectbox("Select Employee", employee_df["DisplayName"])
+    employee_id = int(selected_employee.split(" - ")[0])
+    employee_id_str = str(employee_id)
+
+    if "attendance_action_state" not in st.session_state:
+        st.session_state.attendance_action_state = ""
+    
+    st.markdown("---")
+    
+    # Clock In Button
     if st.button("✅ Clock In"):
-        employee_id_str = str(employee_id)
-        already_clocked_in = df[
-            (df["Date"] == today_date) &
-            (df["EmployeeID"].astype(str) == employee_id_str)
+        already_clocked_in = attendance_df[
+            (attendance_df["Date"] == current_date) &
+            (attendance_df["EmployeeID"].astype(str) == employee_id_str)
         ]
+        
         if not already_clocked_in.empty:
-            st.error("⚠️ Anda sudah Clock In hari ini.")
+            st.error("⚠️ You have already clocked in today.")
         else:
-            new_row = pd.DataFrame([{
-                "Date": today_date,
+            new_attendance = pd.DataFrame([{
+                "Date": current_date,
                 "EmployeeID": employee_id,
-                "ClockIn": now_time,
+                "ClockIn": current_time,
                 "ClockOut": None,
                 "DailyLog": None
             }])
-            df = pd.concat([df, new_row], ignore_index=True)
-            if save_json_to_github(ATTENDANCE_PATH, df.to_dict(orient="records"), attendance_sha):
-                attendance_data, attendance_sha = load_json_from_github(ATTENDANCE_PATH)
-                df = pd.DataFrame(attendance_data)
-                st.error("✅ Anda sudah Clock In hari ini.")
+            
+            updated_attendance = pd.concat([attendance_df, new_attendance], ignore_index=True)
+            
+            if update_github_json(FILE_PATHS["attendance"], updated_attendance.to_dict(orient="records"), attendance_sha):
+                attendance_data, attendance_sha = fetch_github_json(FILE_PATHS["attendance"])
+                attendance_df = pd.DataFrame(attendance_data)
+                st.success("✅ Clock in successful.")
                 st.rerun()
             else:
-                st.error("❌ Gagal menyimpan Clock In ke GitHub.")
+                st.error("❌ Failed to save clock in data.")
 
+    # Clock Out Button
     if st.button("🔚 Clock Out"):
-        matched = df[
-            (df["Date"] == today_date) &
-            (df["EmployeeID"].astype(str) == str(employee_id))
+        today_attendance = attendance_df[
+            (attendance_df["Date"] == current_date) &
+            (attendance_df["EmployeeID"].astype(str) == employee_id_str)
         ]
-        if not matched.empty:
-            idx = matched.index[0]
-            if pd.notna(matched.at[idx, "ClockOut"]):
-                st.warning("⚠️ Anda sudah Clock Out hari ini.")
-            elif pd.isna(matched.at[idx, "ClockIn"]):
-                st.session_state.submit_state = "manual"
+        
+        if not today_attendance.empty:
+            idx = today_attendance.index[0]
+            if pd.notna(today_attendance.at[idx, "ClockOut"]):
+                st.warning("⚠️ You have already clocked out today.")
+            elif pd.isna(today_attendance.at[idx, "ClockIn"]):
+                st.session_state.attendance_action_state = "manual_entry"
             else:
-                st.session_state.submit_state = "update"
+                st.session_state.attendance_action_state = "complete_clockout"
         else:
-            new_row = pd.DataFrame([{
-                "Date": today_date,
+            new_attendance = pd.DataFrame([{
+                "Date": current_date,
                 "EmployeeID": employee_id,
                 "ClockIn": None,
-                "ClockOut": now_time,
+                "ClockOut": current_time,
                 "DailyLog": None
             }])
-            df = pd.concat([df, new_row], ignore_index=True)
-            if save_json_to_github(ATTENDANCE_PATH, df.to_dict(orient="records"), attendance_sha):
-                st.session_state.submit_state = "manual"
+            
+            updated_attendance = pd.concat([attendance_df, new_attendance], ignore_index=True)
+            
+            if update_github_json(FILE_PATHS["attendance"], updated_attendance.to_dict(orient="records"), attendance_sha):
+                st.session_state.attendance_action_state = "manual_entry"
                 st.rerun()
 
-    if st.session_state.submit_state == "update":
+    # Handle clock out with daily log
+    if st.session_state.attendance_action_state == "complete_clockout":
         st.markdown("---")
-        st.markdown("📝 **Isi Daily Log untuk Clock Out**")
+        st.markdown("📝 **Enter Daily Log for Clock Out**")
         daily_log = st.text_area("Daily Log", key="log_update", max_chars=150)
+        
         if st.button("Submit Clock Out"):
-            matched = df[
-                (df["Date"] == today_date) &
-                (df["EmployeeID"] == employee_id)
-            ]
-            if not matched.empty and daily_log.strip():
-                idx = matched.index[0]
-                df.at[idx, "ClockOut"] = now_time
-                df.at[idx, "DailyLog"] = daily_log
-                if save_json_to_github(ATTENDANCE_PATH, df.to_dict(orient="records"), attendance_sha):
-                    st.success("✅ Anda sudah attendance hari ini.")
-                    st.session_state.submit_state = ""
-                    st.rerun()
+            if daily_log.strip():
+                today_attendance = attendance_df[
+                    (attendance_df["Date"] == current_date) &
+                    (attendance_df["EmployeeID"] == employee_id)
+                ]
+                
+                if not today_attendance.empty:
+                    idx = today_attendance.index[0]
+                    attendance_df.at[idx, "ClockOut"] = current_time
+                    attendance_df.at[idx, "DailyLog"] = daily_log
+                    
+                    if update_github_json(FILE_PATHS["attendance"], attendance_df.to_dict(orient="records"), attendance_sha):
+                        st.success("✅ Attendance completed successfully.")
+                        st.session_state.attendance_action_state = ""
+                        st.rerun()
+            else:
+                st.error("Daily log cannot be empty.")
 
-    elif st.session_state.submit_state == "manual":
+    # Handle manual clock in entry
+    elif st.session_state.attendance_action_state == "manual_entry":
         st.markdown("---")
-        st.markdown("⚠️ **Anda belum Clock In!**")
-        manual_time_input = st.time_input("Jam Clock In (Isi Manual)", key="manual_clockin")
-        manual_time = manual_time_input.strftime("%H:%M:%S")
+        st.markdown("⚠️ **Clock In record not found!**")
+        manual_clock_in = st.time_input("Clock In Time (Manual Entry)", key="manual_clockin")
+        manual_time = manual_clock_in.strftime("%H:%M:%S")
         daily_log = st.text_area("Daily Log", key="log_manual", max_chars=150)
 
-        if st.button("Submit Attendance"):
-            matched = df[
-                (df["Date"] == today_date) &
-                (df["EmployeeID"] == employee_id)
-            ]
-            if not matched.empty and daily_log.strip():
-                idx = matched.index[0]
-                df.at[idx, "ClockIn"] = manual_time
-                df.at[idx, "ClockOut"] = now_time
-                df.at[idx, "DailyLog"] = daily_log
-                if save_json_to_github(ATTENDANCE_PATH, df.to_dict(orient="records"), attendance_sha):
-                    st.success("✅ Anda sudah attendance hari ini.")
-                    st.session_state.submit_state = ""
-                    st.rerun()
+        if st.button("Submit Full Attendance"):
+            if daily_log.strip():
+                today_attendance = attendance_df[
+                    (attendance_df["Date"] == current_date) &
+                    (attendance_df["EmployeeID"] == employee_id)
+                ]
+                
+                if not today_attendance.empty:
+                    idx = today_attendance.index[0]
+                    attendance_df.at[idx, "ClockIn"] = manual_time
+                    attendance_df.at[idx, "ClockOut"] = current_time
+                    attendance_df.at[idx, "DailyLog"] = daily_log
+                    
+                    if update_github_json(FILE_PATHS["attendance"], attendance_df.to_dict(orient="records"), attendance_sha):
+                        st.success("✅ Attendance completed successfully.")
+                        st.session_state.attendance_action_state = ""
+                        st.rerun()
+            else:
+                st.error("Daily log cannot be empty.")
 
-# Dashboard Page
-elif menu == "Attendance":
-    if "dashboard_pin_authenticated" not in st.session_state:
-        st.session_state.dashboard_pin_authenticated = False
+# === Attandances Page ===
+elif selected_page == "Attandances":
+    if "dashboard_authenticated" not in st.session_state:
+        st.session_state.dashboard_authenticated = False
 
-    if not st.session_state.dashboard_pin_authenticated:
-        st.title("🔒Attendance")
-        pin_input = st.text_input("Masukkan PIN untuk akses Attendance:", type="password")
-        if pin_input == "357101":
-            st.success("✅ Akses diterima.")
-            st.session_state.dashboard_pin_authenticated = True
+    if not st.session_state.dashboard_authenticated:
+        st.title("🔒 Attendance Dashboard")
+        pin_input = st.text_input("Enter PIN to access Attandances:", type="password")
+        
+        if pin_input == DASHBOARD_PIN:
+            st.success("✅ Access granted.")
+            st.session_state.dashboard_authenticated = True
             st.rerun()
         elif pin_input:
-            st.error("❌ PIN salah.")
+            st.error("❌ Incorrect PIN.")
     else:
-        st.title("📋 Attendance")
+        st.title("📋 Attendances")
         
-        # Edit Attendance Data
+        # Attendance Record Editor
         st.markdown("---")
-        st.subheader("🛠 Edit Attendance Data")
+        st.subheader("🛠 Edit Attendance Records")
         
-        with st.form("inject_form"):
-            inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
-            inj_emp_display = st.selectbox("Pilih Karyawan", emp_df["Display"])
-            inj_emp_id = inj_emp_display.split(" - ")[0]
+        with st.form("attendance_editor_form"):
+            edit_date = st.date_input("Date", format="DD/MM/YYYY")
+            edit_employee = st.selectbox("Select Employee", employee_df["DisplayName"])
+            edit_employee_id = edit_employee.split(" - ")[0]
 
             col1, col2 = st.columns(2)
             with col1:
-                inj_clockin = st.time_input("Jam Clock In", value=None)
+                edit_clock_in = st.time_input("Clock In Time", value=None)
             with col2:
-                inj_clockout = st.time_input("Jam Clock Out", value=None)
-            inj_log = st.text_area("Daily Log", max_chars=150)
+                edit_clock_out = st.time_input("Clock Out Time", value=None)
+                
+            edit_daily_log = st.text_area("Daily Log", max_chars=150)
 
-            inject_submit = st.form_submit_button("Add/Edit")
-            delete_submit = st.form_submit_button("Hapus Data")
-            st.markdown("📌Untuk **Hapus Data**, Hanya isi **Tanggal** dan **Pilih Karyawan** yang ingin dihapus")
+            save_button = st.form_submit_button("Save Record")
+            delete_button = st.form_submit_button("Delete Record")
+            st.markdown("📌 To **Delete a Record**, only fill **Date** and **Select Employee** fields")
 
-            inj_date_str = inj_date.strftime("%d/%m/%Y")
+            formatted_date = edit_date.strftime("%d/%m/%Y")
 
-            if inject_submit:
-                existing_index = df[
-                    (df["Date"] == inj_date_str) &
-                    (df["EmployeeID"].astype(str) == inj_emp_id)
+            if save_button:
+                existing_record = attendance_df[
+                    (attendance_df["Date"] == formatted_date) &
+                    (attendance_df["EmployeeID"].astype(str) == edit_employee_id)
                 ].index
 
-                new_row = {
-                    "Date": inj_date_str,
-                    "EmployeeID": inj_emp_id,
-                    "ClockIn": inj_clockin.strftime("%H:%M:%S") if inj_clockin else None,
-                    "ClockOut": inj_clockout.strftime("%H:%M:%S") if inj_clockout else None,
-                    "DailyLog": inj_log
+                new_record = {
+                    "Date": formatted_date,
+                    "EmployeeID": edit_employee_id,
+                    "ClockIn": edit_clock_in.strftime("%H:%M:%S") if edit_clock_in else None,
+                    "ClockOut": edit_clock_out.strftime("%H:%M:%S") if edit_clock_out else None,
+                    "DailyLog": edit_daily_log
                 }
 
-                if not existing_index.empty:
-                    df.loc[existing_index[0]] = new_row
+                if not existing_record.empty:
+                    attendance_df.loc[existing_record[0]] = new_record
                 else:
-                    df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
+                    attendance_df = pd.concat([attendance_df, pd.DataFrame([new_record])], ignore_index=True)
 
-                if save_json_to_github(ATTENDANCE_PATH, df.to_dict(orient="records"), attendance_sha):
-                    st.success("✅ Data berhasil di-inject atau diperbarui.")
+                if update_github_json(FILE_PATHS["attendance"], attendance_df.to_dict(orient="records"), attendance_sha):
+                    st.success("✅ Record successfully saved.")
                     st.rerun()
                 else:
-                    st.error("❌ Gagal menyimpan ke GitHub.")
+                    st.error("❌ Failed to save to GitHub.")
 
-            elif delete_submit:
-                existing_index = df[
-                    (df["Date"] == inj_date_str) &
-                    (df["EmployeeID"].astype(str) == inj_emp_id)
+            elif delete_button:
+                existing_record = attendance_df[
+                    (attendance_df["Date"] == formatted_date) &
+                    (attendance_df["EmployeeID"].astype(str) == edit_employee_id)
                 ].index
-                if not existing_index.empty:
-                    df.drop(existing_index, inplace=True)
-                    if save_json_to_github(ATTENDANCE_PATH, df.to_dict(orient="records"), attendance_sha):
-                        st.success("✅ Data berhasil dihapus.")
+                
+                if not existing_record.empty:
+                    attendance_df.drop(existing_record, inplace=True)
+                    
+                    if update_github_json(FILE_PATHS["attendance"], attendance_df.to_dict(orient="records"), attendance_sha):
+                        st.success("✅ Record successfully deleted.")
                         st.rerun()
                     else:
-                        st.error("❌ Gagal menyimpan ke GitHub.")
+                        st.error("❌ Failed to save to GitHub.")
                 else:
-                    st.warning("⚠️ Data tidak ditemukan.")
+                    st.warning("⚠️ Record not found.")
 
-        # Attendance Log
+        # Attendance Report
         st.markdown("---")
-        st.subheader("📅 Attendance Log")
+        st.subheader("📅 Attendance Report")
 
-        emp_lookup = emp_df.copy()
-        emp_lookup["EmployeeID"] = emp_lookup["EmployeeID"].astype(str)
+        # Create employee lookup table
+        employee_lookup = employee_df.copy()
+        employee_lookup["EmployeeID"] = employee_lookup["EmployeeID"].astype(str)
 
-        df_display = df.copy()
-        df_display["EmployeeID"] = df_display["EmployeeID"].astype(str)
-        df_display = pd.merge(df_display, emp_lookup[["EmployeeID", "Name"]], on="EmployeeID", how="left")
+        # Create display dataframe with employee names
+        report_df = attendance_df.copy()
+        report_df["EmployeeID"] = report_df["EmployeeID"].astype(str)
+        report_df = pd.merge(report_df, employee_lookup[["EmployeeID", "Name"]], on="EmployeeID", how="left")
 
-        # Filters
-        name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(emp_df["Name"].unique()))
-        dept_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(emp_df["Department"].unique()))
+        # Report filters
+        name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(employee_df["Name"].unique()))
+        department_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(employee_df["Department"].unique()))
 
         if name_filter != "(All)":
-            df_display = df_display[df_display["Name"] == name_filter]
-        if dept_filter != "(All)":
-            filtered_emp = emp_df[emp_df["Department"] == dept_filter]
-            allowed_ids = filtered_emp["EmployeeID"].astype(str).unique()
-            df_display = df_display[df_display["EmployeeID"].isin(allowed_ids)]
+            report_df = report_df[report_df["Name"] == name_filter]
+            
+        if department_filter != "(All)":
+            dept_employees = employee_df[employee_df["Department"] == department_filter]
+            dept_employee_ids = dept_employees["EmployeeID"].astype(str).unique()
+            report_df = report_df[report_df["EmployeeID"].isin(dept_employee_ids)]
 
-        df_display = df_display[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
+        report_display_df = report_df[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
 
-        # Download Button
-        output = BytesIO()
-        with pd.ExcelWriter(output, engine='openpyxl') as writer:
-            df_display.to_excel(writer, index=False, sheet_name='Attendance')
-        output.seek(0)
+        # Excel download functionality
+        excel_buffer = BytesIO()
+        with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
+            report_display_df.to_excel(writer, index=False, sheet_name='Attendance')
+        excel_buffer.seek(0)
 
         st.download_button(
-            label="📥 Download Excel (.xlsx)",
-            data=output,
-            file_name="EmployeeAttendance.xlsx",
+            label="📥 Download Excel Report (.xlsx)",
+            data=excel_buffer,
+            file_name="EmployeeAttendanceReport.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
         )
 
-        st.dataframe(df_display)
+        st.dataframe(report_display_df)
 
-# Manage User Page
-elif menu == "Manage User":
-    st.title("👥 Manage User")
+# === Manage User Page ===
+elif selected_page == "Manage User":
+    st.title("👥 User Management")
     
-    # Authentication
+    # Admin authentication
     if "admin_authenticated" not in st.session_state:
         st.session_state.admin_authenticated = False
 
     if not st.session_state.admin_authenticated:
         st.markdown("---")
         st.subheader("🔒 Admin Login")
-        username = st.text_input("Username")
-        password = st.text_input("Password", type="password")
+        username_input = st.text_input("Username")
+        password_input = st.text_input("Password", type="password")
         
         if st.button("Login"):
-            if username == "admin" and password == "admin":
+            if (username_input == ADMIN_CREDENTIALS["username"] and 
+                password_input == ADMIN_CREDENTIALS["password"]):
                 st.session_state.admin_authenticated = True
                 st.rerun()
             else:
                 st.error("Invalid credentials")
     else:
-        st.success("✅ Anda login sebagai Admin")
+        st.success("✅ Logged in as Administrator")
         st.markdown("---")
         
-        # Add Employee
-        st.subheader("➕ Tambah Karyawan Baru")
-        with st.form("add_employee"):
-            new_id = st.text_input("EmployeeID")
-            new_name = st.text_input("Nama Lengkap")
-            new_dept = st.text_input("Department")
-            submitted = st.form_submit_button("Tambah")
+        # Add new employee
+        st.subheader("➕ Add New Employee")
+        with st.form("add_employee_form"):
+            new_employee_id = st.text_input("Employee ID")
+            new_employee_name = st.text_input("Full Name")
+            new_employee_dept = st.text_input("Department")
+            add_button = st.form_submit_button("Add Employee")
 
-            if submitted:
-                if not new_id.isdigit():
-                    st.error("❌ EmployeeID harus berupa angka.")
-                elif new_id in emp_df["EmployeeID"].astype(str).values:
-                    st.error("❌ EmployeeID sudah ada!")
-                elif new_name.strip() == "" or new_dept.strip() == "":
-                    st.error("❌ Semua field harus diisi.")
+            if add_button:
+                if not new_employee_id.isdigit():
+                    st.error("❌ Employee ID must be numeric.")
+                elif new_employee_id in employee_df["EmployeeID"].astype(str).values:
+                    st.error("❌ Employee ID already exists!")
+                elif not new_employee_name.strip() or not new_employee_dept.strip():
+                    st.error("❌ All fields must be filled.")
                 else:
-                    new_row = pd.DataFrame([{
-                        "EmployeeID": new_id,
-                        "Name": new_name.strip().upper(),
-                        "Department": new_dept.strip().upper()
+                    new_employee = pd.DataFrame([{
+                        "EmployeeID": new_employee_id,
+                        "Name": new_employee_name.strip().upper(),
+                        "Department": new_employee_dept.strip().upper()
                     }])
-                    emp_df = pd.concat([emp_df, new_row], ignore_index=True)
-                    if save_json_to_github(EMPLOYEE_PATH, emp_df.to_dict(orient="records"), employee_sha):
-                        st.success("✅ Karyawan berhasil ditambahkan.")
+                    
+                    updated_employee_df = pd.concat([employee_df, new_employee], ignore_index=True)
+                    
+                    if update_github_json(FILE_PATHS["employee"], updated_employee_df.to_dict(orient="records"), employee_sha):
+                        st.success("✅ Employee added successfully.")
                         st.rerun()
                     else:
-                        st.error("❌ Gagal menyimpan ke GitHub.")
+                        st.error("❌ Failed to save to GitHub.")
 
-        # Delete Employee
+        # Delete employee
         st.markdown("---")
-        st.subheader("🗑 Hapus Karyawan")
-        emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
-        selected_display = st.selectbox("Pilih Karyawan untuk dihapus", emp_df["Display"])
-        selected_id = selected_display.split(" - ")[0]
+        st.subheader("🗑 Remove Employee")
+        employee_df["DisplayName"] = employee_df["EmployeeID"].astype(str) + " - " + employee_df["Name"]
+        employee_to_delete = st.selectbox("Select Employee to Remove", employee_df["DisplayName"])
+        employee_id_to_delete = employee_to_delete.split(" - ")[0]
 
-        if st.button("Hapus Karyawan Ini"):
-            selected_name = emp_df[emp_df["EmployeeID"].astype(str) == selected_id]["Name"].values[0]
-            emp_df = emp_df[emp_df["EmployeeID"].astype(str) != selected_id]
-            if save_json_to_github(EMPLOYEE_PATH, emp_df.to_dict(orient="records"), employee_sha):
-                st.success(f"✅ Karyawan '{selected_name}' (ID: {selected_id}) telah dihapus.")
+        if st.button("Remove Selected Employee"):
+            employee_name = employee_df[employee_df["EmployeeID"].astype(str) == employee_id_to_delete]["Name"].values[0]
+            updated_employee_df = employee_df[employee_df["EmployeeID"].astype(str) != employee_id_to_delete]
+            
+            if update_github_json(FILE_PATHS["employee"], updated_employee_df.to_dict(orient="records"), employee_sha):
+                st.success(f"✅ Employee '{employee_name}' (ID: {employee_id_to_delete}) has been removed.")
                 st.rerun()
             else:
-                st.error("❌ Gagal menyimpan ke GitHub.")
+                st.error("❌ Failed to save to GitHub.")
 
-        # Employee List
+        # Employee directory
         st.markdown("---")
-        st.subheader("📋 Employee List")
-        name_filter = st.selectbox("🔎 Filter by Name", ["(All)"] + sorted(emp_df["Name"].unique()))
-        dept_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(emp_df["Department"].unique()))
+        st.subheader("📋 Employee Directory")
+        name_filter = st.selectbox("🔎 Filter by Employee Name", ["(All)"] + sorted(employee_df["Name"].unique()))
+        department_filter = st.selectbox("🏢 Filter by Department", ["(All)"] + sorted(employee_df["Department"].unique()))
 
-        filtered_emp = emp_df.copy()
+        filtered_employees = employee_df.copy()
         if name_filter != "(All)":
-            filtered_emp = filtered_emp[filtered_emp["Name"] == name_filter]
-        if dept_filter != "(All)":
-            filtered_emp = filtered_emp[filtered_emp["Department"] == dept_filter]
+            filtered_employees = filtered_employees[filtered_employees["Name"] == name_filter]
+        if department_filter != "(All)":
+            filtered_employees = filtered_employees[filtered_employees["Department"] == department_filter]
 
-        # Hitung jumlah DailyLog per EmployeeID
-        log_counts = df[df["DailyLog"].notna()].groupby("EmployeeID").size().reset_index(name="DailyLogCount")
-        log_counts["EmployeeID"] = log_counts["EmployeeID"].astype(str)
+        # Calculate attendance statistics
+        attendance_counts = attendance_df[attendance_df["DailyLog"].notna()].groupby("EmployeeID").size().reset_index(name="AttendanceCount")
+        attendance_counts["EmployeeID"] = attendance_counts["EmployeeID"].astype(str)
         
-        # Gabungkan ke filtered_emp
-        filtered_emp_with_logs = pd.merge(
-            filtered_emp, 
-            log_counts, 
+        # Merge statistics with employee data
+        employee_report = pd.merge(
+            filtered_employees, 
+            attendance_counts, 
             left_on="EmployeeID", 
             right_on="EmployeeID", 
             how="left"
-        ).fillna({"DailyLogCount": 0})
+        ).fillna({"AttendanceCount": 0})
         
-        filtered_emp_with_logs["DailyLogCount"] = filtered_emp_with_logs["DailyLogCount"].astype(int)
-        st.dataframe(filtered_emp_with_logs.drop(columns=["Display"]))
+        employee_report["AttendanceCount"] = employee_report["AttendanceCount"].astype(int)
+        st.dataframe(employee_report.drop(columns=["DisplayName"]))
