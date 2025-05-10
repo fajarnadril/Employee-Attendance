@@ -161,25 +161,31 @@ elif menu == "Dashboard":
     if "last_reload" not in st.session_state or st.session_state.last_reload != "dashboard":
         st.session_state.last_reload = "dashboard"
         st.rerun()
+
     st.title("🔒 Dashboard Attendance")
     st.success("✅ Akses diterima.")
 
-        # Merge Name dari EmployeeData
+    # ⬇️ Tambahkan ini untuk menampilkan EmployeeData
+    st.subheader("📋 Employee List")
+    st.dataframe(emp_df)
+
+    # Merge Name dari EmployeeData
     emp_lookup = pd.DataFrame(employee_data)[["EmployeeID", "Name"]]
     df_display = pd.merge(df, emp_lookup, on="EmployeeID", how="left")
     df_display = df_display[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
 
-    st.dataframe(df_display)
-
-        # Download Excel
+    # Download tombol
     output = BytesIO()
     with pd.ExcelWriter(output, engine='openpyxl') as writer:
         df_display.to_excel(writer, index=False, sheet_name='Attendance')
     output.seek(0)
-
     st.download_button(
         label="📥 Download Excel (.xlsx)",
         data=output,
         file_name="EmployeeAttendance.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
+
+    # Tampilkan data absensi
+    st.subheader("📅 Attendance Log")
+    st.dataframe(df_display)
