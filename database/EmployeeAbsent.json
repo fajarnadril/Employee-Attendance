@@ -12,5 +12,12 @@
     "ClockIn": "00:00",
     "ClockOut": "18:43:11",
     "DailyLog": "dicky only clockout"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2702258535,
+    "ClockIn": "18:43:18",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
