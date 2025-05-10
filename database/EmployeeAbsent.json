@@ -166,5 +166,33 @@
     "ClockIn": null,
     "ClockOut": "22:28:49",
     "DailyLog": null
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": null,
+    "ClockOut": "22:36:02",
+    "DailyLog": null
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602105784,
+    "ClockIn": "15:36:00",
+    "ClockOut": "22:37:15",
+    "DailyLog": "ddcdc"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2001550520,
+    "ClockIn": "22:38:10",
+    "ClockOut": "22:38:53",
+    "DailyLog": "fajar clockout after clockin"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2240108974,
+    "ClockIn": "22:42:46",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
