@@ -75,7 +75,7 @@ if page == "Attendance":
             attendance = pd.concat([attendance, new_row], ignore_index=True)
             save_attendance_data(attendance)
             st.success(f"Clocked in at {now}")
-            st.experimental_rerun()
+            st.rerun()
 
     with col2:
         if st.button("🔚 Clock Out", disabled=clock_out_disabled):
@@ -91,7 +91,7 @@ if page == "Attendance":
                         attendance.at[idx, "Log"] = work_log
                         save_attendance_data(attendance)
                         st.success("Clocked out successfully.")
-                        st.experimental_rerun()
+                        st.rerun()
 
     if already_clocked_out:
         st.info("✅ You have completed your attendance for today.")
@@ -122,4 +122,4 @@ elif page == "Dashboard":
                 attendance = pd.concat([attendance, injected_row], ignore_index=True)
                 save_attendance_data(attendance)
                 st.success("Record injected successfully.")
-                st.experimental_rerun()
+                st.rerun()
