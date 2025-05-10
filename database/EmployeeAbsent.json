@@ -138,5 +138,26 @@
     "ClockIn": "01:10",
     "ClockOut": "21:24:37",
     "DailyLog": "clockout only, clock in manual"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "21:48:32",
+    "ClockOut": "21:49:01",
+    "DailyLog": "Stevenobs clock in clock out"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": null,
+    "ClockOut": "21:50:29",
+    "DailyLog": null
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": null,
+    "ClockOut": "21:52:19",
+    "DailyLog": null
   }
 ]
