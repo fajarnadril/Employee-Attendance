@@ -315,7 +315,7 @@ elif menu == "Dashboard":
             inj_log = st.text_area("Daily Log", max_chars=150)
 
 
-            inject_submit = st.form_submit_button("Submit Inject")
+            inject_submit = st.form_submit_button("Edit")
             delete_submit = st.form_submit_button("Hapus Data")
             st.markdown("📌Untuk Hapus data, Hanya isi **Tanggal** dan **Pilih Karyawan** yang ingin dihapus")
 
