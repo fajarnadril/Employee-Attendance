@@ -295,7 +295,7 @@ elif menu == "Dashboard":
         st.dataframe(filtered_emp_with_logs)
 
 
-        
+        st.markdown("---")
         st.subheader("🛠 Inject Attendance Data (Manual)")
 
         with st.form("inject_form"):
