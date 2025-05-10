@@ -145,5 +145,12 @@
     "ClockIn": "17:05:55",
     "ClockOut": "17:06:10",
     "DailyLog": "mhs102 clockin dan clockout"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "Mhs22",
+    "ClockIn": null,
+    "ClockOut": "17:07:37",
+    "DailyLog": null
   }
 ]
