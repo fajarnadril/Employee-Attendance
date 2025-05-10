@@ -84,7 +84,10 @@ if page == "Attendance":
     st.title("🕒 Attendance Page")
     emp_id = st.selectbox("Select Employee ID", employees['EmployeeID'])
     emp_name = employees.loc[employees['EmployeeID'] == emp_id, 'Name'].values[0]
-    st.write(f"👤 Employee: {emp_name} ({emp_id})")
+    emp_status = employees.loc[employees['EmployeeID'] == emp_id, 'Status'].values[0]
+    st.markdown(f"**👤 Name:** {emp_name}  
+**🆔 ID:** {emp_id}  
+**📋 Status:** {emp_status}")
 
     existing_today = attendance[
         (attendance['Date'] == today) &
@@ -94,10 +97,13 @@ if page == "Attendance":
     already_clocked_in = not existing_today.empty
     already_clocked_out = already_clocked_in and pd.notna(existing_today.iloc[0]['ClockOut'])
 
-    col1, col2 = st.columns(2)
+    today_record = attendance[
+        (attendance['Date'].astype(str) == today) &
+        (attendance['EmployeeID'].astype(str) == str(emp_id))
+    ]
 
-    with col1:
-        if st.button("✅ Clock In", disabled=already_clocked_in):
+    if today_record.empty:
+        if st.button("✅ Clock In"):
             now = get_current_time()
             new_row = pd.DataFrame([{
                 "Date": today,
@@ -108,24 +114,28 @@ if page == "Attendance":
             }])
             attendance = pd.concat([attendance, new_row], ignore_index=True)
             save_attendance_data_to_github(attendance)
+            st.success(f"✅ Clocked In at {now}")
             st.rerun()
+    else:
+        clock_in_time = today_record.iloc[0]['ClockIn']
+        st.info(f"🕒 Clock In Hari Ini: {clock_in_time}")
 
-    with col2:
-        if st.button("🔚 Clock Out"):
-            if not already_clocked_in:
-                st.warning("⚠️ Anda belum Clock In hari ini.")
-            elif already_clocked_out:
-                st.info("✅ Anda sudah Clock Out hari ini.")
-            else:
-                with st.form("log_form"):
-                    work_log = st.text_area("Work Log (max 150 chars)", max_chars=150)
-                    submitted = st.form_submit_button("Submit")
-                    if submitted and work_log.strip():
-                        idx = existing_today.index[0]
-                        attendance.at[idx, "ClockOut"] = get_current_time()
-                        attendance.at[idx, "Log"] = work_log
+        if pd.isna(today_record.iloc[0]['ClockOut']):
+            with st.form("log_form"):
+                work_log = st.text_area("Work Log (max 150 chars)", max_chars=150)
+                submitted = st.form_submit_button("Submit Clock Out")
+                if submitted and work_log.strip():
+                    idx = today_record.index
+                    if not idx.empty:
+                        attendance.at[idx[0], "ClockOut"] = get_current_time()
+                        attendance.at[idx[0], "Log"] = work_log
                         save_attendance_data_to_github(attendance)
+                        st.success("✅ Clock Out berhasil disimpan.")
                         st.rerun()
+                    else:
+                        st.error("⚠️ Tidak ditemukan baris Clock In yang aktif untuk hari ini.")
+        else:
+            st.success(f"✅ Anda sudah Clock Out hari ini: {today_record.iloc[0]['ClockOut']}")
 
     if already_clocked_out:
         st.info("✅ Anda telah menyelesaikan absensi hari ini.")
