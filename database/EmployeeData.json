@@ -68,5 +68,10 @@
     "EmployeeID": 2602149691,
     "Name": "Steven Nugroho",
     "Department": "LOGIC-Beta"
+  },
+  {
+    "EmployeeID": "2001550520",
+    "Name": "FAJAR",
+    "Department": "DOSEN"
   }
 ]
