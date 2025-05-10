@@ -10,7 +10,7 @@ import json
 from io import BytesIO
 
 # GitHub configuration
-REPO = "fajarbinus/employee-attendance"
+REPO = "fajarnadril/Employee-Attendance"
 BRANCH = "main"
 EMPLOYEE_FILE_PATH = "database/EmployeeData.xlsx"
 ABSENT_FILE_PATH = "database/EmployeeAbsent.xlsx"
