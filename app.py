@@ -9,23 +9,23 @@ import base64
 import json
 from io import BytesIO
 
-# Konfigurasi GitHub
+# GitHub configuration
 REPO = "fajarbinus/employee-attendance"
 BRANCH = "main"
 EMPLOYEE_FILE_PATH = "database/EmployeeData.xlsx"
 ABSENT_FILE_PATH = "database/EmployeeAbsent.xlsx"
 
-# Helper untuk waktu
+# Timezone
 def get_current_time():
     tz = pytz.timezone('Asia/Jakarta')
     return datetime.now(tz).strftime('%H:%M:%S')
 
-# Load employee data (local read-only)
+# Load employee data
 def load_employee_data():
     df = pd.read_excel(EMPLOYEE_FILE_PATH)
     return df[df['Status'] == 'Active']
 
-# Load attendance data (via local read)
+# Load attendance data
 def load_attendance_data():
     try:
         df = pd.read_excel(ABSENT_FILE_PATH)
@@ -35,7 +35,7 @@ def load_attendance_data():
     except:
         return pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "Log"])
 
-# Save to GitHub
+# Save attendance to GitHub
 def save_attendance_data_to_github(df):
     token = st.secrets["GITHUB_TOKEN"]
     headers = {
@@ -44,11 +44,9 @@ def save_attendance_data_to_github(df):
     }
     file_url = f"https://api.github.com/repos/{REPO}/contents/{ABSENT_FILE_PATH}"
 
-    # Get SHA
     get_resp = requests.get(file_url, headers=headers)
     sha = get_resp.json().get("sha", "")
 
-    # Encode file
     buffer = BytesIO()
     df.to_excel(buffer, index=False)
     encoded_content = base64.b64encode(buffer.getvalue()).decode()
@@ -62,11 +60,11 @@ def save_attendance_data_to_github(df):
 
     response = requests.put(file_url, headers=headers, data=json.dumps(data))
     if response.status_code in [200, 201]:
-        st.success("✅ Data berhasil disimpan ke GitHub.")
+        st.success("✅ Data saved to GitHub.")
     else:
-        st.error(f"❌ Gagal simpan ke GitHub: {response.json()}")
+        st.error(f"❌ Failed to save to GitHub: {response.json()}")
 
-# App utama
+# Streamlit app
 st.set_page_config(page_title="Employee Attendance", layout="wide")
 page = st.sidebar.selectbox("Go to", ["Attendance", "Dashboard"])
 
@@ -78,25 +76,21 @@ if page == "Attendance":
     st.title("🕒 Attendance Page")
     emp_id = st.selectbox("Select Employee ID", employees['EmployeeID'])
     emp_name = employees.loc[employees['EmployeeID'] == emp_id, 'Name'].values[0]
-    today_record = attendance[(attendance['Date'] == today) & (attendance['EmployeeID'] == emp_id)]
-
-    clock_in_disabled = False
-    clock_out_disabled = True
-    already_clocked_out = False
-
-    if not today_record.empty:
-        if pd.notna(today_record.iloc[0]['ClockIn']):
-            clock_out_disabled = False
-        if pd.notna(today_record.iloc[0]['ClockOut']):
-            clock_in_disabled = True
-            clock_out_disabled = True
-            already_clocked_out = True
-
     st.write(f"👤 Employee: {emp_name} ({emp_id})")
 
+    # Check existing record
+    existing_today = attendance[
+        (attendance['Date'] == today) &
+        (attendance['EmployeeID'] == emp_id)
+    ]
+
+    already_clocked_in = not existing_today.empty
+    already_clocked_out = already_clocked_in and pd.notna(existing_today.iloc[0]['ClockOut'])
+
     col1, col2 = st.columns(2)
+
     with col1:
-        if st.button("✅ Clock In", disabled=clock_in_disabled):
+        if st.button("✅ Clock In", disabled=already_clocked_in):
             now = get_current_time()
             new_row = pd.DataFrame([{
                 "Date": today,
@@ -110,26 +104,21 @@ if page == "Attendance":
             st.rerun()
 
     with col2:
-        if st.button("🔚 Clock Out", disabled=clock_out_disabled):
-            with st.form("log_form"):
-                work_log = st.text_area("Work Log (max 150 chars)", max_chars=150)
-                submitted = st.form_submit_button("Submit")
-                if submitted and work_log.strip():
-                    idx = attendance[
-                        (attendance['Date'] == today) &
-                        (attendance['EmployeeID'] == emp_id) &
-                        (attendance['ClockOut'].isna())
-                    ].index
-                    if not idx.empty:
-                        attendance.at[idx[0], "ClockOut"] = get_current_time()
-                        attendance.at[idx[0], "Log"] = work_log
+        if st.button("🔚 Clock Out"):
+            if not already_clocked_in:
+                st.warning("⚠️ Anda belum Clock In hari ini.")
+            elif already_clocked_out:
+                st.info("✅ Anda sudah Clock Out hari ini.")
+            else:
+                with st.form("log_form"):
+                    work_log = st.text_area("Work Log (max 150 chars)", max_chars=150)
+                    submitted = st.form_submit_button("Submit")
+                    if submitted and work_log.strip():
+                        idx = existing_today.index[0]
+                        attendance.at[idx, "ClockOut"] = get_current_time()
+                        attendance.at[idx, "Log"] = work_log
                         save_attendance_data_to_github(attendance)
                         st.rerun()
-                    else:
-                        st.error("No matching Clock In record found.")
-
-    if already_clocked_out:
-        st.info("✅ You have completed your attendance for today.")
 
 elif page == "Dashboard":
     st.title("🔒 Secure Dashboard")
