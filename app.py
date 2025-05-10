@@ -349,8 +349,13 @@ elif menu == "Dashboard":
         st.markdown("---")
         st.subheader("📅 Attendance Log")
 
-        emp_lookup = emp_df[["EmployeeID", "Name"]]
-        df_display = pd.merge(df, emp_lookup, on="EmployeeID", how="left")
+        emp_lookup = emp_df.copy()
+        emp_lookup["EmployeeID"] = emp_lookup["EmployeeID"].astype(str)
+
+        df_display = df.copy()
+        df_display["EmployeeID"] = df_display["EmployeeID"].astype(str)
+
+        df_display = pd.merge(df_display, emp_lookup[["EmployeeID", "Name"]], on="EmployeeID", how="left")
 
         # Jika filter nama aktif → filter juga absensinya
         if name_filter != "(All)":
