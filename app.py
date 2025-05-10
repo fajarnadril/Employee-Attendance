@@ -200,15 +200,17 @@ elif menu == "Dashboard":
             submitted = st.form_submit_button("Tambah")
 
             if submitted:
-                if new_id in emp_df["EmployeeID"].values:
+                if not new_id.isdigit():
+                    st.error("❌ EmployeeID harus berupa angka.")
+                elif new_id in emp_df["EmployeeID"].astype(str).values:
                     st.error("❌ EmployeeID sudah ada!")
                 elif new_name.strip() == "" or new_dept.strip() == "":
                     st.error("❌ Semua field harus diisi.")
                 else:
                     new_row = pd.DataFrame([{
                         "EmployeeID": new_id,
-                        "Name": new_name.strip(),
-                        "Department": new_dept.strip()
+                        "Name": new_name.strip().upper(),
+                        "Department": new_dept.strip().upper()
                     }])
                     emp_df = pd.concat([emp_df, new_row], ignore_index=True)
                     # Save ke GitHub
