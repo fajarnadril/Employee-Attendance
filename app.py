@@ -241,9 +241,15 @@ elif menu == "Dashboard":
         st.markdown("---")
         st.subheader("🗑 Hapus Karyawan")
         employee_ids = emp_df["EmployeeID"].tolist()
-        selected_id = st.selectbox("Pilih EmployeeID untuk dihapus", employee_ids)
+        emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
+        selected_display = st.selectbox("Pilih Karyawan untuk dihapus", emp_df["Display"])
+        selected_id = selected_display.split(" - ")[0]
+
         if st.button("Hapus Karyawan Ini"):
-            emp_df = emp_df[emp_df["EmployeeID"] != selected_id]
+            selected_name = emp_df[emp_df["EmployeeID"].astype(str) == selected_id]["Name"].values[0]
+            emp_df = emp_df[emp_df["EmployeeID"].astype(str) != selected_id]
+            st.success(f"✅ Karyawan '{selected_name}' (ID: {selected_id}) telah dihapus.")
+            
             # Save ke GitHub
             token = st.secrets["GITHUB_TOKEN"]
             headers = {"Authorization": f"token {token}", "Accept": "application/vnd.github+json"}
