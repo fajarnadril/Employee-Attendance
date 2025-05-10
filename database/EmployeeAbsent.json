@@ -8,10 +8,10 @@
   },
   {
     "Date": "10/05/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "16:42:00",
-    "ClockOut": "23:42:18",
-    "DailyLog": "Test"
+    "EmployeeID": "2602069620",
+    "ClockIn": "00:15:00",
+    "ClockOut": "00:30:00",
+    "DailyLog": ""
   },
   {
     "Date": "10/05/2025",
