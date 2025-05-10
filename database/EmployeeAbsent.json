@@ -152,5 +152,26 @@
     "ClockIn": null,
     "ClockOut": "17:07:37",
     "DailyLog": null
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "mhs5",
+    "ClockIn": "17:41:55",
+    "ClockOut": null,
+    "DailyLog": null
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "Mhs77",
+    "ClockIn": "17:43:06",
+    "ClockOut": "17:43:34",
+    "DailyLog": "ngobrol sm cw"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "mhs91",
+    "ClockIn": "08:40",
+    "ClockOut": "17:44:58",
+    "DailyLog": "sorry telat isi"
   }
 ]
