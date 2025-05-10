@@ -138,5 +138,12 @@
     "ClockIn": "01:10",
     "ClockOut": "21:24:37",
     "DailyLog": "clockout only, clock in manual"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "21:48:32",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
