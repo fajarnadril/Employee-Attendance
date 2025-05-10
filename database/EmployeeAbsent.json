@@ -33,5 +33,12 @@
     "ClockIn": "16:29:18",
     "ClockOut": null,
     "DailyLog": "mhs 4 clockin"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": "mhs4",
+    "ClockIn": null,
+    "ClockOut": "16:29:51",
+    "DailyLog": "mhs 4 clockin clockout"
   }
 ]
