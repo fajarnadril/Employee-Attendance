@@ -142,7 +142,7 @@ if menu == "Clock In / Out":
                 df.at[idx, "ClockOut"] = now_time
                 df.at[idx, "DailyLog"] = daily_log
                 if save_json_to_github(df, attendance_sha):
-                    st.success("✅ Anda sudah attendance hari ini.")
+                    st.error("✅ Anda sudah attendance hari ini.")
                     st.session_state.submit_state = ""
                     st.rerun()
 
@@ -164,7 +164,7 @@ if menu == "Clock In / Out":
                 df.at[idx, "ClockOut"] = now_time
                 df.at[idx, "DailyLog"] = daily_log
                 if save_json_to_github(df, attendance_sha):
-                    st.success("✅ Anda sudah attendance hari ini.")
+                    st.error("✅ Anda sudah attendance hari ini.")
                     st.session_state.submit_state = ""
                     st.rerun()
 
@@ -176,7 +176,7 @@ elif menu == "Dashboard":
         st.title("🔒 Dashboard Attendance")
         pin_input = st.text_input("Masukkan PIN untuk akses Dashboard:", type="password")
         if pin_input == "357101":
-            st.success("✅ Akses diterima.")
+            st.error("✅ Akses diterima.")
             st.session_state.dashboard_pin_authenticated = True
             st.rerun()
         elif pin_input:
@@ -230,7 +230,7 @@ elif menu == "Dashboard":
                     }
                     put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
                     if put_resp.status_code in [200, 201]:
-                        st.success("✅ Karyawan berhasil ditambahkan.")
+                        st.error("✅ Karyawan berhasil ditambahkan.")
                         st.rerun()
                     else:
                         st.error("❌ Gagal menyimpan ke GitHub.")
@@ -248,7 +248,7 @@ elif menu == "Dashboard":
         if st.button("Hapus Karyawan Ini"):
             selected_name = emp_df[emp_df["EmployeeID"].astype(str) == selected_id]["Name"].values[0]
             emp_df = emp_df[emp_df["EmployeeID"].astype(str) != selected_id]
-            st.success(f"✅ Karyawan '{selected_name}' (ID: {selected_id}) telah dihapus.")
+            st.error(f"✅ Karyawan '{selected_name}' (ID: {selected_id}) telah dihapus.")
             
             # Save ke GitHub
             token = st.secrets["GITHUB_TOKEN"]
@@ -267,7 +267,7 @@ elif menu == "Dashboard":
             }
             put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
             if put_resp.status_code in [200, 201]:
-                st.success("✅ Karyawan berhasil dihapus.")
+                st.error("✅ Karyawan berhasil dihapus.")
                 st.rerun()
             else:
                 st.error("❌ Gagal menyimpan ke GitHub.")
@@ -348,7 +348,7 @@ elif menu == "Dashboard":
                 }
                 put_resp = requests.put(url, headers=headers, data=json.dumps(payload))
                 if put_resp.status_code in [200, 201]:
-                    st.success("✅ Data berhasil di-inject atau diperbarui.")
+                    st.error("✅ Data berhasil di-inject atau diperbarui.")
                     st.rerun()
                 else:
                     st.error("❌ Gagal menyimpan ke GitHub.")
