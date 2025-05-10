@@ -51,7 +51,7 @@ def save_json_to_github(df, sha=None):
     return r.status_code in [200, 201]
 
 # ==== UI ====
-st.set_page_config(page_title="Employee Attendance", layout="centered")
+st.set_page_config(page_title="✨LOGIC Attendance", layout="centered")
 menu = st.sidebar.selectbox("Pilih Halaman", ["Clock In / Out", "Dashboard"])
 
 today_date, now_time = get_jakarta_time()
