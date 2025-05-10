@@ -317,7 +317,7 @@ elif menu == "Dashboard":
 
             inject_submit = st.form_submit_button("Submit Inject")
             delete_submit = st.form_submit_button("Hapus Data")
-            st.markdown("📌Untuk Hapus data, silakan isi tanggal dan pilih karyawan yang ingin dihapus.")
+            st.markdown("📌Untuk Hapus data, Hanya isi **Tanggal** dan **Pilih Karyawan** yang ingin dihapus")
 
             inj_date_str = inj_date.strftime("%d/%m/%Y")
 
