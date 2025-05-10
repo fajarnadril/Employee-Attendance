@@ -299,7 +299,9 @@ elif menu == "Dashboard":
 
         with st.form("inject_form"):
             inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
-            inj_emp_id = st.selectbox("EmployeeID", emp_df["EmployeeID"].astype(str))
+            emp_df["Label"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
+            inj_selection = st.selectbox("Pilih Karyawan", emp_df["Label"])
+            inj_emp_id = inj_selection.split(" - ")[0] # Ambil EmployeeID dari label    
             col1, col2 = st.columns(2)
             with col1:
                 inj_clockin = st.time_input("Jam Clock In", value=None)
