@@ -60,7 +60,7 @@ emp_df = pd.DataFrame(employee_data)
 emp_df["Display"] = emp_df["EmployeeID"].astype(str) + " - " + emp_df["Name"]
 
 # Sidebar menu - selalu tampilkan 3 opsi
-menu = st.sidebar.selectbox("Pilih Halaman", ["Clock In / Out", "Dashboard", "Manage User"])
+menu = st.sidebar.selectbox("Pilih Halaman", ["Clock In / Out", "Attendance", "Manage User"])
 
 # Clock In/Out Page
 if menu == "Clock In / Out":
@@ -168,12 +168,12 @@ if menu == "Clock In / Out":
                     st.rerun()
 
 # Dashboard Page
-elif menu == "Dashboard":
+elif menu == "Attendance":
     if "dashboard_pin_authenticated" not in st.session_state:
         st.session_state.dashboard_pin_authenticated = False
 
     if not st.session_state.dashboard_pin_authenticated:
-        st.title("🔒 Dashboard Attendance")
+        st.title("🔒Attendance")
         pin_input = st.text_input("Masukkan PIN untuk akses Dashboard:", type="password")
         if pin_input == "357101":
             st.success("✅ Akses diterima.")
