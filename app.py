@@ -174,7 +174,7 @@ elif menu == "Attendance":
 
     if not st.session_state.dashboard_pin_authenticated:
         st.title("🔒Attendance")
-        pin_input = st.text_input("Masukkan PIN untuk akses Dashboard:", type="password")
+        pin_input = st.text_input("Masukkan PIN untuk akses Attendance:", type="password")
         if pin_input == "357101":
             st.success("✅ Akses diterima.")
             st.session_state.dashboard_pin_authenticated = True
@@ -182,7 +182,7 @@ elif menu == "Attendance":
         elif pin_input:
             st.error("❌ PIN salah.")
     else:
-        st.title("📋 Dashboard Attendance")
+        st.title("📋 Attendance")
         
         # Edit Attendance Data
         st.markdown("---")
