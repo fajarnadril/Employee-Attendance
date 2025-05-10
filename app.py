@@ -298,7 +298,7 @@ elif menu == "Dashboard":
         # =====================
         # Edit Attandance Data
         st.markdown("---")
-        st.subheader("🛠 Edit Attendance Data")
+        st.subheader("🛠 Add/Edit Attendance Data")
         
         with st.form("inject_form"):
             inj_date = st.date_input("Tanggal", format="DD/MM/YYYY")
@@ -315,9 +315,9 @@ elif menu == "Dashboard":
             inj_log = st.text_area("Daily Log", max_chars=150)
 
 
-            inject_submit = st.form_submit_button("Edit")
+            inject_submit = st.form_submit_button("Add/Edit")
             delete_submit = st.form_submit_button("Hapus Data")
-            st.markdown("📌Untuk *Hapus*, Hanya isi **Tanggal** dan **Pilih Karyawan** yang ingin dihapus")
+            st.markdown("📌Untuk *Hapus Data*, Hanya isi **Tanggal** dan **Pilih Karyawan** yang ingin dihapus")
 
             inj_date_str = inj_date.strftime("%d/%m/%Y")
 
