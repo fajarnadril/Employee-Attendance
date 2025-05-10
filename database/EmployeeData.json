@@ -46,7 +46,7 @@
   },
   {
     "EmployeeID": 2702288651,
-    "Name": "George Mercedes junior suitela",
+    "Name": "George Mercedes",
     "Department": "LOGIC-Alpha"
   },
   {
@@ -68,10 +68,5 @@
     "EmployeeID": 2602149691,
     "Name": "Steven Nugroho",
     "Department": "LOGIC-Beta"
-  },
-  {
-    "EmployeeID": "2001550520",
-    "Name": "FAJAR",
-    "Department": "DOSEN"
   }
 ]
