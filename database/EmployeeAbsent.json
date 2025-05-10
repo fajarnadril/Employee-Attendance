@@ -5,5 +5,26 @@
     "ClockIn": "23:14:30",
     "ClockOut": "23:14:45",
     "DailyLog": "Sudah Log"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602069620,
+    "ClockIn": "16:42:00",
+    "ClockOut": "23:42:18",
+    "DailyLog": "Test"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602099863,
+    "ClockIn": null,
+    "ClockOut": "23:41:45",
+    "DailyLog": null
+  },
+  {
+    "Date": "11/05/2025",
+    "EmployeeID": 2602069620,
+    "ClockIn": null,
+    "ClockOut": "00:02:07",
+    "DailyLog": null
   }
 ]
