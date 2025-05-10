@@ -26,5 +26,12 @@
     "ClockIn": "19:12:26",
     "ClockOut": "19:12:31",
     "DailyLog": "fdgfdg"
+  },
+  {
+    "Date": "14/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "00:15:00",
+    "ClockOut": "00:45:00",
+    "DailyLog": "inject manuall"
   }
 ]
