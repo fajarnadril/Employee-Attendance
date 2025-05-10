@@ -131,5 +131,12 @@
     "ClockIn": "21:17:41",
     "ClockOut": "21:19:33",
     "DailyLog": "ryanclockout doang"
+  },
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2602076840,
+    "ClockIn": "01:10",
+    "ClockOut": "21:24:37",
+    "DailyLog": "clockout only, clock in manual"
   }
 ]
