@@ -135,8 +135,8 @@
   {
     "Date": "10/05/2025",
     "EmployeeID": 2602076840,
-    "ClockIn": null,
-    "ClockOut": "21:24:11",
-    "DailyLog": null
+    "ClockIn": "01:10",
+    "ClockOut": "21:24:37",
+    "DailyLog": "clockout only, clock in manual"
   }
 ]
