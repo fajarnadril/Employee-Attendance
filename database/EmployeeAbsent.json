@@ -1,1 +1,9 @@
-[]
+[
+  {
+    "Date": "10/05/2025",
+    "EmployeeID": 2001550520,
+    "ClockIn": "23:14:30",
+    "ClockOut": "23:14:45",
+    "DailyLog": "Sudah Log"
+  }
+]
