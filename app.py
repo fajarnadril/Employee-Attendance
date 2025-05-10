@@ -314,11 +314,10 @@ elif menu == "Dashboard":
                 inj_clockout = st.time_input("Jam Clock Out", value=None)
             inj_log = st.text_area("Daily Log", max_chars=150)
 
-            col1, col2 = st.columns(2)
-            with col1:
-                inject_submit = st.form_submit_button("Submit Inject")
-            with col2:
-                delete_submit = st.form_submit_button("Hapus Data")
+
+            inject_submit = st.form_submit_button("Submit Inject")
+            delete_submit = st.form_submit_button("Hapus Data")
+            st.markdown("📌Untuk Hapus data, silakan isi tanggal dan pilih karyawan yang ingin dihapus.")
 
             inj_date_str = inj_date.strftime("%d/%m/%Y")
 
