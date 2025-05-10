@@ -60,13 +60,14 @@ if page == "Attendance":
     with col1:
         if st.button("✅ Clock In", disabled=clock_in_disabled):
             now = datetime.now().strftime('%H:%M:%S')
-            attendance = attendance.append({
+            new_row = pd.DataFrame([{
                 "Date": today,
                 "EmployeeID": emp_id,
                 "ClockIn": now,
                 "ClockOut": None,
                 "Log": None
-            }, ignore_index=True)
+            }])
+            attendance = pd.concat([attendance, new_row], ignore_index=True)
             save_attendance_data(attendance)
             st.success(f"Clocked in at {now}")
             st.experimental_rerun()
@@ -106,13 +107,14 @@ elif page == "Dashboard":
             submit = st.form_submit_button("Submit")
 
             if submit:
-                attendance = attendance.append({
+                injected_row = pd.DataFrame([{
                     "Date": new_date,
                     "EmployeeID": new_emp,
                     "ClockIn": new_in,
                     "ClockOut": new_out,
                     "Log": new_log
-                }, ignore_index=True)
+                }])
+                attendance = pd.concat([attendance, injected_row], ignore_index=True)
                 save_attendance_data(attendance)
                 st.success("Record injected successfully.")
                 st.experimental_rerun()
