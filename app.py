@@ -58,7 +58,7 @@ today_date, now_time = get_jakarta_time()
 df, sha = load_json_from_github()
 
 if menu == "Clock In / Out":
-    st.title("🕘 Employee Attendance")
+    st.title("✨LOGIC Attendance")
     st.markdown(f"**Tanggal (GMT+7):** {today_date}")
     st.markdown(f"**Waktu (GMT+7):** {now_time}")
     employee_id = st.text_input("Employee ID")
