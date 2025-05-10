@@ -53,9 +53,12 @@ today_date, now_time = get_jakarta_time()
 
 attendance_data, attendance_sha = load_json_from_github(ATTENDANCE_PATH)
 df = pd.DataFrame(attendance_data)
+if df.empty:
+    df = pd.DataFrame(columns=["Date", "EmployeeID", "ClockIn", "ClockOut", "DailyLog"])
 
 employee_data, _ = load_json_from_github(EMPLOYEE_PATH)
 emp_df = pd.DataFrame(employee_data)
+
 
 if menu == "Clock In / Out":
     st.title("🕘 Employee Attendance")
