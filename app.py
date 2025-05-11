@@ -44,13 +44,13 @@ def fetch_github_json(filepath):
             content_data = base64.b64decode(response.json()["content"]).decode()
             
             # Debug print
-            st.write(f"Raw content from GitHub: {content_data}")
+            #st.write(f"Raw content from GitHub: {content_data}")
             
             return json.loads(content_data), content_sha
         else:
             st.error(f"❌ Failed to fetch data from GitHub: {response.status_code}")
             # Debug print
-            st.write(f"Response: {response.text}")
+            #st.write(f"Response: {response.text}")
             st.stop()
     except json.JSONDecodeError as e:
         st.error(f"❌ Invalid JSON data received from GitHub: {str(e)}")
