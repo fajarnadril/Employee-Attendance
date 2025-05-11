@@ -413,10 +413,21 @@ elif selected_page == "Manage User":
             filtered_employees = filtered_employees[filtered_employees["Department"] == department_filter]
 
         # Calculate attendance statistics
-        attendance_counts = attendance_df[attendance_df["DailyLog"].notna()].groupby("EmployeeID").size().reset_index(name="AttendanceCount")
-        attendance_counts["EmployeeID"] = attendance_counts["EmployeeID"].astype(str)
-        
-        # Merge statistics with employee data
+attendance_counts = attendance_df[attendance_df["DailyLog"].notna()].groupby("EmployeeID").size().reset_index(name="AttendanceCount")
+
+# Ensure matching types for merging
+attendance_counts["EmployeeID"] = attendance_counts["EmployeeID"].astype(str)
+filtered_employees["EmployeeID"] = filtered_employees["EmployeeID"].astype(str)
+
+# Merge statistics with employee data
+employee_report = pd.merge(
+    filtered_employees,
+    attendance_counts,
+    on="EmployeeID",
+    how="left"
+).fillna({"AttendanceCount": 0})
+
+employee_report["AttendanceCount"] = employee_report["AttendanceCount"].astype(int)
         employee_report = pd.merge(
             filtered_employees, 
             attendance_counts, 
