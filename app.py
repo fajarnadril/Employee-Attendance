@@ -9,7 +9,11 @@ from io import BytesIO
 
 # Configuration Constants
 REPOSITORY = "fajarnadril/Employee-Attendance"
+<<<<<<< HEAD
 BRANCH = "Main"
+=======
+BRANCH = "main"
+>>>>>>> origin/main
 FILE_PATHS = {
     "attendance": "database/EmployeeAbsent.json",
     "employee": "database/EmployeeData.json"
