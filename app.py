@@ -79,7 +79,7 @@ selected_page = st.sidebar.selectbox(
 
 # === Clock In/Out Page ===
 if selected_page == "Clock In / Out":
-    st.title("✨ LOGIC Attendance System")
+    st.title("✨ LOGIC Attendance")
     st.markdown("---")
     st.markdown(f"**Date (GMT+7):** {current_date}")
     st.markdown(f"**Time (GMT+7):** {current_time}")
