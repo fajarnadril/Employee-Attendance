@@ -7,7 +7,6 @@ import base64
 import json
 from io import BytesIO
 
-# Work in Remote
 REPOSITORY = "fajarnadril/Employee-Attendance"
 BRANCH = "main"
 FILE_PATHS = {
@@ -18,6 +17,14 @@ TIMEZONE = 'Asia/Jakarta'
 DASHBOARD_PIN = "357101"
 ADMIN_PIN = "357101"  # Using the same PIN for both Dashboard and Admin access
 
+def get_github_token():
+    """Get GitHub token from environment with fallback"""
+    try:
+        return st.secrets["GITHUB_TOKEN"]
+    except:
+        st.error("❌ GitHub token not found. Please set up secrets in Streamlit Cloud or .streamlit/secrets.toml")
+        st.stop()
+
 def get_current_time():
     """Get current date and time in Jakarta timezone."""
     timezone = pytz.timezone(TIMEZONE)
@@ -25,18 +32,26 @@ def get_current_time():
     return current_time.strftime('%d/%m/%Y'), current_time.strftime('%H:%M:%S')
 
 def fetch_github_json(filepath):
-    """Fetch JSON file from GitHub repository."""
-    token = st.secrets["GITHUB_TOKEN"]
-    headers = {"Authorization": f"token {token}"}
-    url = f"https://api.github.com/repos/{REPOSITORY}/contents/{filepath}"
-    
-    response = requests.get(url, headers=headers)
-    if response.status_code == 200:
-        content_sha = response.json()["sha"]
-        content_data = base64.b64decode(response.json()["content"]).decode()
-        return json.loads(content_data), content_sha
-    else:
-        return [], None
+    """Fetch JSON file from GitHub repository with better error handling"""
+    try:
+        token = get_github_token()
+        headers = {"Authorization": f"token {token}"}
+        url = f"https://api.github.com/repos/{REPOSITORY}/contents/{filepath}"
+        
+        response = requests.get(url, headers=headers)
+        if response.status_code == 200:
+            content_sha = response.json()["sha"]
+            content_data = base64.b64decode(response.json()["content"]).decode()
+            return json.loads(content_data), content_sha
+        else:
+            st.error(f"❌ Failed to fetch data from GitHub: {response.status_code}")
+            st.stop()
+    except json.JSONDecodeError:
+        st.error("❌ Invalid JSON data received from GitHub")
+        st.stop()
+    except Exception as e:
+        st.error(f"❌ Error accessing GitHub: {str(e)}")
+        st.stop()
 
 def update_github_json(filepath, data, content_sha):
     """Update JSON file in GitHub repository."""
@@ -221,8 +236,6 @@ elif selected_page == "Dashboard":
         elif pin_input:
             st.error("❌ Incorrect PIN.")
     else:
-        if "signatures" not in st.session_state:
-            st.session_state.signatures = {}
         st.title("📋 Attendance Dashboard")
         
         # Attendance Record Editor
@@ -317,9 +330,6 @@ elif selected_page == "Dashboard":
 
         report_display_df = report_df[["Date", "EmployeeID", "Name", "ClockIn", "ClockOut", "DailyLog"]]
 
-        # Add Sign column
-        report_display_df["Sign"] = report_display_df.apply(lambda x: "Disetujui & Ditandatangi elektronik oleh : Site Supervisor via Sistem clockin.streamlit.app" if x["EmployeeID"] in st.session_state.signatures else "", axis=1)
-
         # Excel download functionality
         excel_buffer = BytesIO()
         with pd.ExcelWriter(excel_buffer, engine='openpyxl') as writer:
@@ -334,131 +344,6 @@ elif selected_page == "Dashboard":
         )
 
         st.dataframe(report_display_df)
-
-        # Batch Signature Section
-        st.markdown("---")
-        st.subheader("📝 Batch Signature")
-
-        col1, col2 = st.columns(2)
-        with col1:
-            period_type = st.selectbox(
-                "Select Period Type",
-                ["Last Week", "Last Month", "Custom Date Range"]
-            )
-
-        with col2:
-            if period_type == "Custom Date Range":
-                start_date = st.date_input("Start Date")
-                end_date = st.date_input("End Date")
-        
-        if st.button("Add Signatures for Selected Period"):
-            # Convert dates to the format used in attendance records (DD/MM/YYYY)
-            if period_type == "Last Week":
-                end_date = datetime.now(pytz.timezone(TIMEZONE))
-                start_date = end_date - pd.Timedelta(days=7)
-            elif period_type == "Last Month":
-                end_date = datetime.now(pytz.timezone(TIMEZONE))
-                start_date = end_date - pd.Timedelta(days=30)
-            
-            # Convert to string format
-            start_date_str = start_date.strftime("%d/%m/%Y")
-            end_date_str = end_date.strftime("%d/%m/%Y")
-            
-            # Filter records by date range
-            mask = pd.to_datetime(report_df["Date"], format="%d/%m/%Y").between(
-                pd.to_datetime(start_date_str, format="%d/%m/%Y"),
-                pd.to_datetime(end_date_str, format="%d/%m/%Y")
-            )
-            
-            period_records = report_df[mask]
-            
-            # Add signatures for all records in range
-            for emp_id in period_records["EmployeeID"].unique():
-                st.session_state.signatures[emp_id] = True
-            
-            total_signed = len(period_records["EmployeeID"].unique())
-            st.success(f"✅ Added signatures for {total_signed} employees in selected period")
-            st.rerun()
-
-        if st.button("Remove Signatures for Selected Period"):
-            # Convert dates to the format used in attendance records (DD/MM/YYYY)
-            if period_type == "Last Week":
-                end_date = datetime.now(pytz.timezone(TIMEZONE))
-                start_date = end_date - pd.Timedelta(days=7)
-            elif period_type == "Last Month":
-                end_date = datetime.now(pytz.timezone(TIMEZONE))
-                start_date = end_date - pd.Timedelta(days=30)
-            
-            # Convert to string format
-            start_date_str = start_date.strftime("%d/%m/%Y")
-            end_date_str = end_date.strftime("%d/%m/%Y")
-            
-            # Filter records by date range
-            mask = pd.to_datetime(report_df["Date"], format="%d/%m/%Y").between(
-                pd.to_datetime(start_date_str, format="%d/%m/%Y"),
-                pd.to_datetime(end_date_str, format="%d/%m/%Y")
-            )
-            
-            period_records = report_df[mask]
-            
-            # Remove signatures for all records in range
-            removed_count = 0
-            for emp_id in period_records["EmployeeID"].unique():
-                if emp_id in st.session_state.signatures:
-                    st.session_state.signatures.pop(emp_id)
-                    removed_count += 1
-            
-            if removed_count > 0:
-                st.success(f"✅ Removed signatures for {removed_count} employees in selected period")
-            else:
-                st.info("ℹ️ No signatures found for the selected period")
-            st.rerun()
-
-
-        # Display current signature status
-        signed_employees = pd.DataFrame([
-            {"EmployeeID": emp_id, "Status": "Signed"} 
-            for emp_id in st.session_state.signatures.keys()
-        ])
-
-        # Add/Remove Signature Section
-        st.markdown("---")
-        st.subheader("✍️ Add/Remove Signature")
-
-        # Date selection
-        sign_date = st.date_input("Select Date", format="DD/MM/YYYY")
-        formatted_sign_date = sign_date.strftime("%d/%m/%Y")
-
-        # Get employees for selected date
-        date_records = report_df[report_df["Date"] == formatted_sign_date]
-        if not date_records.empty:
-            # Employee selection
-            employees_on_date = date_records.copy()
-            employees_on_date["Status"] = employees_on_date["EmployeeID"].apply(
-                lambda x: "✅ Signed" if x in st.session_state.signatures else "❌ Not Signed"
-            )
-            
-            st.markdown("### Employees Present on Selected Date")
-            # Display employees with signature status
-            for _, row in employees_on_date.iterrows():
-                col1, col2, col3 = st.columns([2, 1, 1])
-                with col1:
-                    st.text(f"{row['EmployeeID']} - {row['Name']}")
-                with col2:
-                    st.text(row['Status'])
-                with col3:
-                    if row["EmployeeID"] in st.session_state.signatures:
-                        if st.button("Remove Sign", key=f"remove_{row['EmployeeID']}"):
-                            st.session_state.signatures.pop(row["EmployeeID"])
-                            st.success(f"✅ Removed signature for {row['Name']}")
-                            st.rerun()
-                    else:
-                        if st.button("Add Sign", key=f"add_{row['EmployeeID']}"):
-                            st.session_state.signatures[row["EmployeeID"]] = True
-                            st.success(f"✅ Added signature for {row['Name']}")
-                            st.rerun()
-        else:
-            st.info("No attendance records found for selected date")
 
 # === Manage User Page ===
 elif selected_page == "Manage User":
