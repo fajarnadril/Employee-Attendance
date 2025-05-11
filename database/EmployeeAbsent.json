@@ -1,14 +1,4 @@
-<<<<<<< HEAD
-[]
-=======
 [
-  {
-    "Date": "10/05/2025",
-    "EmployeeID": 2001550520,
-    "ClockIn": "23:14:30",
-    "ClockOut": "23:14:45",
-    "DailyLog": "Sudah Log"
-  },
   {
     "Date": "10/05/2025",
     "EmployeeID": "2602069620",
@@ -29,13 +19,5 @@
     "ClockIn": "01:15:00",
     "ClockOut": "00:13:24",
     "DailyLog": "apaan"
-  },
-  {
-    "Date": "10/05/2025",
-    "EmployeeID": "20015505201",
-    "ClockIn": "01:30:00",
-    "ClockOut": "00:30:00",
-    "DailyLog": "dvdf"
   }
 ]
->>>>>>> origin/main
