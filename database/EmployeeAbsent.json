@@ -65,9 +65,9 @@
   {
     "Date": "09/05/2025",
     "EmployeeID": "2702285933",
-    "ClockIn": "00:15:00",
-    "ClockOut": "00:30:00",
-    "DailyLog": "aaa"
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": ""
   },
   {
     "Date": "09/05/2025",
