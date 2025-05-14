@@ -577,8 +577,8 @@
     "Date": "14/05/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:56:22",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:16:28",
+    "DailyLog": "Bug movement msh banyak, anim udh masuk semua"
   },
   {
     "Date": "14/05/2025",
