@@ -89,5 +89,12 @@
     "ClockIn": "09:02:51",
     "ClockOut": "18:51:30",
     "DailyLog": "Melanjutkan Paper Research utk ICCSCI"
+  },
+  {
+    "Date": "01/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": ""
   }
 ]
