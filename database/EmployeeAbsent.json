@@ -703,8 +703,8 @@
     "Date": "15/05/2025",
     "EmployeeID": 2702258535,
     "ClockIn": "09:24:06",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:11:29",
+    "DailyLog": "- Perihal submit IGW\n- Perihal publish google play store"
   },
   {
     "Date": "15/05/2025",
