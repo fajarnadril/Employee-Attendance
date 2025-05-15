@@ -754,5 +754,12 @@
     "ClockIn": "12:56:54",
     "ClockOut": "23:51:21",
     "DailyLog": "Lanjut progress bikin indoor\n(Clock out jam 10 an tadi lupa clockout)"
+  },
+  {
+    "Date": "16/05/2025",
+    "EmployeeID": 2702288651,
+    "ClockIn": null,
+    "ClockOut": "03:53:28",
+    "DailyLog": null
   }
 ]
