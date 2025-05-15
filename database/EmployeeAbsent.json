@@ -738,8 +738,8 @@
     "Date": "15/05/2025",
     "EmployeeID": 2702326744,
     "ClockIn": "12:16:00",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:54:07",
+    "DailyLog": "Work on some ui assets and fixes on old sprites"
   },
   {
     "Date": "15/05/2025",
