@@ -675,8 +675,8 @@
     "Date": "15/05/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:00:17",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:23:48",
+    "DailyLog": "koreksi PKM KC"
   },
   {
     "Date": "15/05/2025",
