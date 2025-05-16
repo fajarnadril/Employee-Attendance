@@ -831,5 +831,12 @@
     "ClockIn": "11:30:00",
     "ClockOut": "20:30:00",
     "DailyLog": "memasukan asset yang sudah dibuat kedalam dside scroll\n"
+  },
+  {
+    "Date": "16/05/2025",
+    "EmployeeID": 2702285933,
+    "ClockIn": "12:52:01",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
