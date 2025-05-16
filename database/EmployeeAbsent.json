@@ -845,5 +845,12 @@
     "ClockIn": "09:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Urus publishing Google Play, Project magang"
+  },
+  {
+    "Date": "17/05/2025",
+    "EmployeeID": 2702258535,
+    "ClockIn": null,
+    "ClockOut": "04:48:09",
+    "DailyLog": null
   }
 ]
