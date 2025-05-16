@@ -589,10 +589,10 @@
   },
   {
     "Date": "14/05/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "08:58:53",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602099863",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "siapin dataga game utyk surat orisinalitas ke igw"
   },
   {
     "Date": "14/05/2025",
