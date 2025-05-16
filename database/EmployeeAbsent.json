@@ -736,10 +736,10 @@
   },
   {
     "Date": "15/05/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "12:36:34",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "12:30:00",
+    "ClockOut": "22:00:00",
+    "DailyLog": "membuat mechanic lanjutan untuk dekorasi aquarium"
   },
   {
     "Date": "15/05/2025",
