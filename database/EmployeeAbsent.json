@@ -394,9 +394,9 @@
   {
     "Date": "05/05/2025",
     "EmployeeID": "2702285933",
-    "ClockIn": "09:00:00",
-    "ClockOut": "17:00:00",
-    "DailyLog": ""
+    "ClockIn": "11:30:00",
+    "ClockOut": "20:15:00",
+    "DailyLog": "membuat placeholder untuk indoor map"
   },
   {
     "Date": "06/05/2025",
