@@ -750,10 +750,10 @@
   },
   {
     "Date": "16/05/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": null,
-    "ClockOut": "03:53:28",
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "12:45:00",
+    "ClockOut": "21:00:00",
+    "DailyLog": "membuat mechanic layer pada dekorasi aquarium"
   },
   {
     "Date": "16/05/2025",
