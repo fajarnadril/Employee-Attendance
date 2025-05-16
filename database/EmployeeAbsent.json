@@ -745,8 +745,8 @@
     "Date": "16/05/2025",
     "EmployeeID": 2602076336,
     "ClockIn": "08:55:25",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:42:27",
+    "DailyLog": "Push github dan merge github"
   },
   {
     "Date": "16/05/2025",
