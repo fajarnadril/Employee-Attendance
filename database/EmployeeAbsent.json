@@ -810,5 +810,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Pembahasan pengerjaan sprint 3\nEvaluasi sprint 2 \nmerge github"
+  },
+  {
+    "Date": "16/05/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "09:11:20",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
