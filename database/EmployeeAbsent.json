@@ -527,9 +527,9 @@
   {
     "Date": "05/05/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "09:00:00",
-    "ClockOut": "17:00:00",
-    "DailyLog": ""
+    "ClockIn": "11:30:00",
+    "ClockOut": "20:30:00",
+    "DailyLog": "memasukan asset yang sudah dibuat kedalam dside scroll\n"
   },
   {
     "Date": "06/05/2025",
