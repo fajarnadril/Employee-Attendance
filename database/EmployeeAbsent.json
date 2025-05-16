@@ -773,8 +773,8 @@
     "Date": "16/05/2025",
     "EmployeeID": 2702326744,
     "ClockIn": "09:07:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "22:11:24",
+    "DailyLog": "Percobaan bone di dalam unity"
   },
   {
     "Date": "16/05/2025",
