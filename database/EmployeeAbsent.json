@@ -859,5 +859,12 @@
     "ClockIn": "11:45:00",
     "ClockOut": "22:15:00",
     "DailyLog": "Mendetailing map indoor"
+  },
+  {
+    "Date": "03/05/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "16:15:00",
+    "DailyLog": "Urus publishing Google Play, Project magang"
   }
 ]
