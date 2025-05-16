@@ -743,10 +743,10 @@
   },
   {
     "Date": "15/05/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "12:56:54",
-    "ClockOut": "23:51:21",
-    "DailyLog": "Lanjut progress bikin indoor\n(Clock out jam 10 an tadi lupa clockout)"
+    "EmployeeID": "2702285933",
+    "ClockIn": "11:45:00",
+    "ClockOut": "19:30:00",
+    "DailyLog": "Mendetailing map indoor"
   },
   {
     "Date": "16/05/2025",
