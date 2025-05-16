@@ -659,10 +659,10 @@
   },
   {
     "Date": "15/05/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:52:31",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat sketch asset untuk charging station bertema fantasi."
   },
   {
     "Date": "15/05/2025",
