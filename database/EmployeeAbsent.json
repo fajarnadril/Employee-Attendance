@@ -801,8 +801,8 @@
     "Date": "16/05/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "09:49:26",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "16:59:07",
+    "DailyLog": "Adjust Project Impact Unity Assets, mainly UI & making each skin more unique in multiplayers"
   },
   {
     "Date": "03/05/2025",
