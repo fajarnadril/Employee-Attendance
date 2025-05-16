@@ -845,5 +845,12 @@
     "ClockIn": "14:30:05",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "03/05/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "11:30:00",
+    "ClockOut": "20:15:00",
+    "DailyLog": "membuat placeholder untuk indoor map"
   }
 ]
