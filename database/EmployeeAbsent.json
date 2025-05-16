@@ -520,9 +520,9 @@
   {
     "Date": "02/05/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "09:00:00",
-    "ClockOut": "17:00:00",
-    "DailyLog": ""
+    "ClockIn": "12:00:00",
+    "ClockOut": "19:45:00",
+    "DailyLog": "membuat mechanic basic side scroll"
   },
   {
     "Date": "05/05/2025",
