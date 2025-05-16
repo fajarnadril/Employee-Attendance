@@ -324,9 +324,9 @@
   {
     "Date": "08/05/2025",
     "EmployeeID": "2602076336",
-    "ClockIn": "09:00:00",
-    "ClockOut": "17:00:00",
-    "DailyLog": ""
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan level design, penyesuaian animasi dan VFX serta shader"
   },
   {
     "Date": "09/05/2025",
