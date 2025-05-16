@@ -694,10 +694,10 @@
   },
   {
     "Date": "15/05/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "09:24:06",
-    "ClockOut": "19:11:29",
-    "DailyLog": "- Perihal submit IGW\n- Perihal publish google play store"
+    "EmployeeID": "2702258535",
+    "ClockIn": "10:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Urus publishing Google Play, Project magang"
   },
   {
     "Date": "15/05/2025",
