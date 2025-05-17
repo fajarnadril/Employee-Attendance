@@ -820,10 +820,10 @@
   },
   {
     "Date": "16/05/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "14:30:05",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "11:15:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "Urus publishing Google Play, Project magang"
   },
   {
     "Date": "15/05/2025",
