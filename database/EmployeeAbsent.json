@@ -871,8 +871,8 @@
     "Date": "19/05/2025",
     "EmployeeID": 2602076840,
     "ClockIn": "09:01:06",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:03:13",
+    "DailyLog": "Mengimplementasi behaviour boss dari game yang sedang dikembangkan"
   },
   {
     "Date": "19/05/2025",
