@@ -904,10 +904,10 @@
   },
   {
     "Date": "19/05/2025",
-    "EmployeeID": 2702326744,
-    "ClockIn": "09:31:51",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702326744",
+    "ClockIn": "09:00:00",
+    "ClockOut": "05:45:00",
+    "DailyLog": "Pembuatan Background untuk fase dekorasi aquarium"
   },
   {
     "Date": "19/05/2025",
