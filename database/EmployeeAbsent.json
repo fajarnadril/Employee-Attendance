@@ -943,5 +943,12 @@
     "ClockIn": "11:45:59",
     "ClockOut": "22:11:58",
     "DailyLog": "Perancangan map"
+  },
+  {
+    "Date": "20/05/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:45:56",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
