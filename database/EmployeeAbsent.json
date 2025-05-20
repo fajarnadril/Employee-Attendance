@@ -1004,8 +1004,8 @@
     "Date": "20/05/2025",
     "EmployeeID": 2702258535,
     "ClockIn": "09:01:03",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:31:27",
+    "DailyLog": "- Project Magang\n- Proposal PKM"
   },
   {
     "Date": "20/05/2025",
