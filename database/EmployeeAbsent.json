@@ -1011,8 +1011,8 @@
     "Date": "20/05/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "09:19:29",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "23:38:51",
+    "DailyLog": "- Attack still bugged\n- Fix dash bug\n- added follow cursor angle"
   },
   {
     "Date": "20/05/2025",
