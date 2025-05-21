@@ -974,10 +974,10 @@
   },
   {
     "Date": "20/05/2025",
-    "EmployeeID": 2602076336,
-    "ClockIn": "09:00:40",
-    "ClockOut": "18:46:37",
-    "DailyLog": "Mengerjakan asset trap dan VFX"
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "mengerjakan UI \n"
   },
   {
     "Date": "20/05/2025",
