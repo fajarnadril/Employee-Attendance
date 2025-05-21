@@ -1086,10 +1086,10 @@
   },
   {
     "Date": "21/05/2025",
-    "EmployeeID": 2602076336,
-    "ClockIn": "13:58:36",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "menyelesaikan VFX fixing \n"
   },
   {
     "Date": "21/05/2025",
