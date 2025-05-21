@@ -869,10 +869,10 @@
   },
   {
     "Date": "19/05/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "09:11:44",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "revisi game lore"
   },
   {
     "Date": "19/05/2025",
