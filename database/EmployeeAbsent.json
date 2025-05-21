@@ -862,10 +862,10 @@
   },
   {
     "Date": "19/05/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "09:02:28",
-    "ClockOut": "17:04:36",
-    "DailyLog": "Penjelasan Traps\nNew Player Mechanics "
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "revisi game lore"
   },
   {
     "Date": "19/05/2025",
