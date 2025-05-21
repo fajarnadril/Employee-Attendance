@@ -967,10 +967,10 @@
   },
   {
     "Date": "20/05/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "09:00:31",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "07:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "new player mechanics system\nHUB Base System\nBoss Behavior Revision"
   },
   {
     "Date": "20/05/2025",
