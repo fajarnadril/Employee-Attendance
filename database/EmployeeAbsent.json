@@ -429,9 +429,9 @@
   {
     "Date": "07/05/2025",
     "EmployeeID": "2602076840",
-    "ClockIn": "09:00:00",
-    "ClockOut": "17:00:00",
-    "DailyLog": ""
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "implementasi animasi"
   },
   {
     "Date": "08/05/2025",
