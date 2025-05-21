@@ -1090,5 +1090,12 @@
     "ClockIn": "13:58:36",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "21/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "07:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "boss behavior,\nweapon system\nasset listing "
   }
 ]
