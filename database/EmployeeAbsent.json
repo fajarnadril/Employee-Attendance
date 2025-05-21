@@ -1027,5 +1027,12 @@
     "ClockIn": "12:17:46",
     "ClockOut": "19:21:16",
     "DailyLog": "main screen bg prosess\n"
+  },
+  {
+    "Date": "21/05/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:56:31",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
