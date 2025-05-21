@@ -967,10 +967,10 @@
   },
   {
     "Date": "20/05/2025",
-    "EmployeeID": 2602076840,
-    "ClockIn": "09:00:45",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Boss level dan stage level"
   },
   {
     "Date": "20/05/2025",
