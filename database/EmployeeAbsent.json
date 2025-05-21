@@ -939,10 +939,10 @@
   },
   {
     "Date": "20/05/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "09:00:56",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "Fix mechanic memutar dan menggerakan dekorasi dengan input keyboard"
   },
   {
     "Date": "20/05/2025",
