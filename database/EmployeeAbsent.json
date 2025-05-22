@@ -1102,8 +1102,8 @@
     "Date": "22/05/2025",
     "EmployeeID": 2702258535,
     "ClockIn": "09:24:54",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:01:02",
+    "DailyLog": "- Proposal PKM-KC"
   },
   {
     "Date": "22/05/2025",
