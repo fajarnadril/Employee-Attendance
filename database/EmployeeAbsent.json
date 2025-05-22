@@ -1041,5 +1041,12 @@
     "ClockIn": "14:58:59",
     "ClockOut": "21:38:07",
     "DailyLog": "Membuat map selanjutnya"
+  },
+  {
+    "Date": "22/05/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:44:55",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
