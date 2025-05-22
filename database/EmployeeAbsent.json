@@ -1118,5 +1118,12 @@
     "ClockIn": "16:44:12",
     "ClockOut": "16:54:50",
     "DailyLog": "Edit Void Map "
+  },
+  {
+    "Date": "22/05/2025",
+    "EmployeeID": 2602069620,
+    "ClockIn": null,
+    "ClockOut": "17:07:26",
+    "DailyLog": null
   }
 ]
