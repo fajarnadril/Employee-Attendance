@@ -1223,5 +1223,12 @@
     "ClockIn": "09:30:00",
     "ClockOut": "19:00:00",
     "DailyLog": "planning UI dan Setup pada aquarium"
+  },
+  {
+    "Date": "23/05/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": null,
+    "ClockOut": "20:43:49",
+    "DailyLog": null
   }
 ]
