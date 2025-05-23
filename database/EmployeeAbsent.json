@@ -1216,5 +1216,12 @@
     "ClockIn": "10:00:00",
     "ClockOut": "19:15:00",
     "DailyLog": "menambahkan UI pada fase dekor"
+  },
+  {
+    "Date": "21/05/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:30:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "planning UI dan Setup pada aquarium"
   }
 ]
