@@ -1158,8 +1158,8 @@
     "Date": "23/05/2025",
     "EmployeeID": 2602099863,
     "ClockIn": "09:05:36",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:06:09",
+    "DailyLog": "bikin UI"
   },
   {
     "Date": "23/05/2025",
