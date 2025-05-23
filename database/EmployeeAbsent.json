@@ -1209,5 +1209,12 @@
     "ClockIn": "15:32:32",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "22/05/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "10:00:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "menambahkan UI pada fase dekor"
   }
 ]
