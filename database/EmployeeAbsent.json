@@ -1291,8 +1291,8 @@
     "Date": "26/05/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "09:24:20",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "16:53:27",
+    "DailyLog": "Continue assets creation for project impact"
   },
   {
     "Date": "26/05/2025",
