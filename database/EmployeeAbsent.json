@@ -1277,8 +1277,8 @@
     "Date": "26/05/2025",
     "EmployeeID": 2602099863,
     "ClockIn": "09:11:04",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:08:09",
+    "DailyLog": "Cari asset untuk ui"
   },
   {
     "Date": "26/05/2025",
