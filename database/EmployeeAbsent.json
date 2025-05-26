@@ -1251,5 +1251,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Mengerjakan Weapon Upgrade, Weapon Variation, Weapon skill / combat style"
+  },
+  {
+    "Date": "26/05/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:59:54",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
