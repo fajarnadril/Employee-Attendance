@@ -1244,5 +1244,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Internal logic meeting, Validasi buff buat MVP, Ngerjain player permanent upgrade untuk di HUB,"
+  },
+  {
+    "Date": "26/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "07:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Mengerjakan Weapon Upgrade, Weapon Variation, Weapon skill / combat style"
   }
 ]
