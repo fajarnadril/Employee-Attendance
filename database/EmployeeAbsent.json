@@ -1237,5 +1237,12 @@
     "ClockIn": "08:44:03",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "23/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Internal logic meeting, Validasi buff buat MVP, Ngerjain player permanent upgrade untuk di HUB,"
   }
 ]
