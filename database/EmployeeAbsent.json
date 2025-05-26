@@ -1121,10 +1121,10 @@
   },
   {
     "Date": "22/05/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": null,
-    "ClockOut": "17:07:26",
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "BUFF revision [90%] Generalisasi buff, Buff level progression update"
   },
   {
     "Date": "22/05/2025",
