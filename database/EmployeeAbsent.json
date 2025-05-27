@@ -1184,10 +1184,10 @@
   },
   {
     "Date": "23/05/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "11:14:07",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "10:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "laporan PKM"
   },
   {
     "Date": "23/05/2025",
