@@ -1296,10 +1296,10 @@
   },
   {
     "Date": "26/05/2025",
-    "EmployeeID": 2702326744,
-    "ClockIn": "09:58:07",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702326744",
+    "ClockIn": "09:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "background coloring"
   },
   {
     "Date": "26/05/2025",
