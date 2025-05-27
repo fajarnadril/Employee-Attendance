@@ -1361,8 +1361,8 @@
     "Date": "27/05/2025",
     "EmployeeID": 2602100114,
     "ClockIn": "09:16:10",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:13:57",
+    "DailyLog": "Membuat karakter npc baru untuk diinteraksi player."
   },
   {
     "Date": "27/05/2025",
