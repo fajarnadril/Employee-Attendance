@@ -1317,10 +1317,10 @@
   },
   {
     "Date": "26/05/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "11:37:26",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "10:00:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "Finishing mechanic decor"
   },
   {
     "Date": "27/05/2025",
