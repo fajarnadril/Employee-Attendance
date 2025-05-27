@@ -1440,5 +1440,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Boss(100%)\nLevel (80%)\nBuff Dasar (40%)\nVFX Dasar(30%)\n\nUntuk boss ini udah selesai. "
+  },
+  {
+    "Date": "28/05/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": null,
+    "ClockOut": "00:54:36",
+    "DailyLog": null
   }
 ]
