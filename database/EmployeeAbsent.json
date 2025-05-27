@@ -1340,8 +1340,8 @@
     "Date": "27/05/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:59:35",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:11:43",
+    "DailyLog": "Project Cozy height map creation"
   },
   {
     "Date": "27/05/2025",
