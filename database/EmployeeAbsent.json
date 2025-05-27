@@ -1431,8 +1431,8 @@
     "Date": "27/05/2025",
     "EmployeeID": 2702288651,
     "ClockIn": "14:39:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "20:09:05",
+    "DailyLog": "Menambah mechanic spawner untuk aquarium"
   },
   {
     "Date": "23/05/2025",
