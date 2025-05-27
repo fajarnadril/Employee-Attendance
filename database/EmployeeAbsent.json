@@ -1375,8 +1375,8 @@
     "Date": "27/05/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "09:30:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:04:29",
+    "DailyLog": "Roblox Studio texture check"
   },
   {
     "Date": "27/05/2025",
