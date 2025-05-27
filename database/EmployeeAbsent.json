@@ -1398,5 +1398,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "texturing baju karakter"
+  },
+  {
+    "Date": "26/05/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "21:00:00",
+    "DailyLog": "pembuatan karakter dan animasi "
   }
 ]
