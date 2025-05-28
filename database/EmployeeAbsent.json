@@ -1508,7 +1508,7 @@
     "Date": "28/05/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "14:10:25",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:36:47",
+    "DailyLog": "- Enemy 60% done (Hitbox missing, still few bugs, enemy damaged state bugged)\n- Player 95% done (Hitbox missing, climbing missing)"
   }
 ]
