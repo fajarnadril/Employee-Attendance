@@ -1524,5 +1524,12 @@
     "ClockIn": "09:31:02",
     "ClockOut": "17:44:55",
     "DailyLog": "make a content for social media binusgat"
+  },
+  {
+    "Date": "28/05/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Revisi GDD dan meeting"
   }
 ]
