@@ -1538,5 +1538,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "mengatur shader dan karakter"
+  },
+  {
+    "Date": "28/05/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Kerjain BUFF karakter"
   }
 ]
