@@ -1422,10 +1422,10 @@
   },
   {
     "Date": "28/05/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "09:07:19",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Aseprite progress"
   },
   {
     "Date": "28/05/2025",
