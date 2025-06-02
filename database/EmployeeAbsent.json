@@ -1177,10 +1177,10 @@
   },
   {
     "Date": "23/05/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": null,
-    "ClockOut": "20:43:49",
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Unity progress animation enemy"
   },
   {
     "Date": "26/05/2025",
