@@ -1184,10 +1184,10 @@
   },
   {
     "Date": "26/05/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:44:03",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Karakter dan npc ke 2"
   },
   {
     "Date": "23/05/2025",
