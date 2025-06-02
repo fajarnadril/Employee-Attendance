@@ -1016,10 +1016,10 @@
   },
   {
     "Date": "22/05/2025",
-    "EmployeeID": 2602076840,
-    "ClockIn": "09:02:23",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602076840",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Unity progress "
   },
   {
     "Date": "22/05/2025",
