@@ -1571,8 +1571,8 @@
     "Date": "02/06/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "10:44:30",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:38:55",
+    "DailyLog": "- Added Climbing Mechanic\n- Fix UI bug where Dialogue continues when paused\n- Fix Climbing Bug where player can attack while climbing"
   },
   {
     "Date": "02/06/2025",
