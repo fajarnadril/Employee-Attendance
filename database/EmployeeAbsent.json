@@ -1550,8 +1550,8 @@
     "Date": "02/06/2025",
     "EmployeeID": 2702258535,
     "ClockIn": "09:26:00",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "20:13:08",
+    "DailyLog": "- Project magang"
   },
   {
     "Date": "02/06/2025",
