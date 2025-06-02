@@ -1122,9 +1122,9 @@
   {
     "Date": "23/05/2025",
     "EmployeeID": "2602076336",
-    "ClockIn": null,
-    "ClockOut": "18:00:00",
-    "DailyLog": "pembuatan karakter awal"
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "mengerjakan karakter"
   },
   {
     "Date": "23/05/2025",
