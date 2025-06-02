@@ -953,10 +953,10 @@
   },
   {
     "Date": "21/05/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "09:05:41",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602099863",
+    "ClockIn": null,
+    "ClockOut": "17:00:00",
+    "DailyLog": "UI asset"
   },
   {
     "Date": "21/05/2025",
