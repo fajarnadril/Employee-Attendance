@@ -1422,10 +1422,10 @@
   },
   {
     "Date": "28/05/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "09:16:53",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602099863",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "ui karakter selek"
   },
   {
     "Date": "28/05/2025",
