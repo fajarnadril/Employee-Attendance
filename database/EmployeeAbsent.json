@@ -1545,5 +1545,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Kerjain BUFF karakter"
+  },
+  {
+    "Date": "02/06/2025",
+    "EmployeeID": 2602069620,
+    "ClockIn": "08:39:09",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
