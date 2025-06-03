@@ -1580,5 +1580,12 @@
     "ClockIn": "11:52:53",
     "ClockOut": "19:45:47",
     "DailyLog": "Membuat sisten dasar inventory dan crafting"
+  },
+  {
+    "Date": "03/06/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:58:03",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
