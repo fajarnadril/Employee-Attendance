@@ -1613,8 +1613,8 @@
     "Date": "03/06/2025",
     "EmployeeID": 2702288651,
     "ClockIn": "09:23:41",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "21:24:09",
+    "DailyLog": "Membuat mechanic lanjutan crafting dan inventory"
   },
   {
     "Date": "03/06/2025",
