@@ -1620,8 +1620,8 @@
     "Date": "03/06/2025",
     "EmployeeID": 2602099863,
     "ClockIn": "09:41:46",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "21:06:42",
+    "DailyLog": "check progress"
   },
   {
     "Date": "03/06/2025",
