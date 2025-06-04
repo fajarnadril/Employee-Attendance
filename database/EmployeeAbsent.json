@@ -1738,8 +1738,8 @@
   {
     "Date": "04/06/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "09:15:00",
-    "ClockOut": "18:15:00",
+    "ClockIn": "09:30:00",
+    "ClockOut": "19:00:00",
     "DailyLog": "setup decor unity dan masukin aset"
   }
 ]
