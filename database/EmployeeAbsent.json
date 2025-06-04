@@ -1730,9 +1730,9 @@
   },
   {
     "Date": "04/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "16:47:34",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "- Project Magang"
   }
 ]
