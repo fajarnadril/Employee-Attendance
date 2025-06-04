@@ -1697,8 +1697,8 @@
     "Date": "04/06/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "09:30:45",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:18:08",
+    "DailyLog": "- Enemy arena done\n- dialogue update 50% done\n- bug fix"
   },
   {
     "Date": "04/06/2025",
