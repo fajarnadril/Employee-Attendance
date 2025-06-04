@@ -1657,5 +1657,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:35:38",
     "DailyLog": "Import new enemies assets"
+  },
+  {
+    "Date": "04/06/2025",
+    "EmployeeID": 2602105784,
+    "ClockIn": "08:31:26",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
