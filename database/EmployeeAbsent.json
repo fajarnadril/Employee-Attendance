@@ -1676,8 +1676,8 @@
     "Date": "04/06/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:58:04",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "16:59:40",
+    "DailyLog": "Buat UI Placeholder untuk New game dan loadgame"
   },
   {
     "Date": "04/06/2025",
