@@ -1711,8 +1711,8 @@
     "Date": "04/06/2025",
     "EmployeeID": 2602100114,
     "ClockIn": "09:45:28",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:59",
+    "DailyLog": "Membuat animasi karakter NPC\n"
   },
   {
     "Date": "04/06/2025",
