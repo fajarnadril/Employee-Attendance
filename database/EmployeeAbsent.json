@@ -1807,10 +1807,10 @@
   },
   {
     "Date": "05/06/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "10:30:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "lanjutan UI"
   },
   {
     "Date": "05/06/2025",
