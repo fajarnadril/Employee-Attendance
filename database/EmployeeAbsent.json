@@ -1818,5 +1818,12 @@
     "ClockIn": "10:39:28",
     "ClockOut": "16:33:28",
     "DailyLog": "Continue with the Nature Map creation, now planned to be Futuristic Post Apocalyptic themed \n"
+  },
+  {
+    "Date": "09/06/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:53:21",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
