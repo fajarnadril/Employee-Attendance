@@ -1872,7 +1872,7 @@
     "Date": "09/06/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "13:16:08",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:19:22",
+    "DailyLog": "- Added Fan Anim\n- Merging with Main\n- Attack done\n- Fix alot of bug\n- player can now die from enemy\n- Added NPC anim"
   }
 ]
