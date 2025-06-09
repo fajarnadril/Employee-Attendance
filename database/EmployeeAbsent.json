@@ -1851,8 +1851,8 @@
     "Date": "09/06/2025",
     "EmployeeID": 2602100114,
     "ClockIn": "09:23:11",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:08:44",
+    "DailyLog": "Membuat objek-objek untuk scene game"
   },
   {
     "Date": "09/06/2025",
