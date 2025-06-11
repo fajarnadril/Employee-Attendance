@@ -2014,5 +2014,12 @@
     "ClockIn": "09:45:00",
     "ClockOut": "19:00:00",
     "DailyLog": "General UI"
+  },
+  {
+    "Date": "12/06/2025",
+    "EmployeeID": 2602105784,
+    "ClockIn": null,
+    "ClockOut": "00:28:31",
+    "DailyLog": null
   }
 ]
