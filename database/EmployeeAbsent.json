@@ -2021,5 +2021,12 @@
     "ClockIn": "17:28:00",
     "ClockOut": "00:28:53",
     "DailyLog": "forgor to checkout"
+  },
+  {
+    "Date": "12/06/2025",
+    "EmployeeID": 2702285933,
+    "ClockIn": null,
+    "ClockOut": "01:10:20",
+    "DailyLog": null
   }
 ]
