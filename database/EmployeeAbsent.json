@@ -2000,5 +2000,12 @@
     "ClockIn": "13:40:48",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "11/06/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "dialog system"
   }
 ]
