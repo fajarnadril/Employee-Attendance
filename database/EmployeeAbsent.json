@@ -1970,8 +1970,8 @@
     "Date": "11/06/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:18:57",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:13:51",
+    "DailyLog": "project cozy multiplayer menu ui creation"
   },
   {
     "Date": "11/06/2025",
