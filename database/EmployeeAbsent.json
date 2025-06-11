@@ -2007,5 +2007,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:30:00",
     "DailyLog": "dialog system"
+  },
+  {
+    "Date": "10/06/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:45:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "General UI"
   }
 ]
