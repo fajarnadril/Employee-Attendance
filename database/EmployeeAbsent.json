@@ -1937,5 +1937,12 @@
     "ClockIn": "12:51:31",
     "ClockOut": "18:39:54",
     "DailyLog": "Follow up apa yang perlu ditambahkan"
+  },
+  {
+    "Date": "11/06/2025",
+    "EmployeeID": 2702326744,
+    "ClockIn": "07:55:28",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
