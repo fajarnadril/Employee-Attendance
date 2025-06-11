@@ -1951,5 +1951,12 @@
     "ClockIn": "09:15:00",
     "ClockOut": "19:00:00",
     "DailyLog": "finishing title dan pembuatan cutscene"
+  },
+  {
+    "Date": "11/06/2025",
+    "EmployeeID": 2602105784,
+    "ClockIn": "09:00:09",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
