@@ -2110,7 +2110,7 @@
     "Date": "13/06/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "13:30:21",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:05:17",
+    "DailyLog": "- Improved Player Indicator added\n- Improved Dialogue\n- SFX added\n- Fix Respawn bug\n- Added Custom font\n- Added UI sprite"
   }
 ]
