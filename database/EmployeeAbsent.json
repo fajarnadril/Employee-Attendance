@@ -2187,7 +2187,7 @@
     "Date": "16/06/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "22:24:02",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "22:24:18",
+    "DailyLog": "Beres semua"
   }
 ]
