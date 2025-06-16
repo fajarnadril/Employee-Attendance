@@ -2112,5 +2112,12 @@
     "ClockIn": "13:30:21",
     "ClockOut": "17:05:17",
     "DailyLog": "- Improved Player Indicator added\n- Improved Dialogue\n- SFX added\n- Fix Respawn bug\n- Added Custom font\n- Added UI sprite"
+  },
+  {
+    "Date": "12/06/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "Pembuatan sisa asset ui"
   }
 ]
