@@ -2126,5 +2126,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Pembuatan scene intro dan perbaikan scene lain"
+  },
+  {
+    "Date": "16/06/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:50:38",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
