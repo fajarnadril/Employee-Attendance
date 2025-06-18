@@ -2245,5 +2245,12 @@
     "ClockIn": "21:44:42",
     "ClockOut": "21:44:56",
     "DailyLog": "- final polishing for BIC"
+  },
+  {
+    "Date": "18/06/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:45:26",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
