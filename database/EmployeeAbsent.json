@@ -1625,10 +1625,10 @@
   },
   {
     "Date": "03/06/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "09:52:14",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengerjakan UI Font dan UI Stats After Run"
   },
   {
     "Date": "03/06/2025",
