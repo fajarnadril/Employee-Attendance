@@ -2427,5 +2427,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Progress penambahan layout untuk MainMenu\nProgress penambahan shoot cinematic"
+  },
+  {
+    "Date": "16/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "[Main Menu] 90%\nScene PostProcessing\nLightmap Baking buat optimisasi\n[Trailer] 70%\nUdah record cinematic dan dikasih ke GD"
   }
 ]
