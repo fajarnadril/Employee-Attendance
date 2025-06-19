@@ -2476,5 +2476,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Review hasil dan planning"
+  },
+  {
+    "Date": "19/06/2025",
+    "EmployeeID": 2702258535,
+    "ClockIn": "10:31:20",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
