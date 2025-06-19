@@ -2371,5 +2371,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Mempelajari Save system dan koordinasi extra task"
+  },
+  {
+    "Date": "20/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Menentukan Save System dan listing  apa saja yang akan save dalam run in game"
   }
 ]
