@@ -2329,5 +2329,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "GDD - Update & Reorganize dan Extra task mengerjakan SFX"
+  },
+  {
+    "Date": "11/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "07:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Game Seed dan Concepting Trailer"
   }
 ]
