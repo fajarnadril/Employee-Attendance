@@ -2378,5 +2378,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Menentukan Save System dan listing  apa saja yang akan save dalam run in game"
+  },
+  {
+    "Date": "02/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "[Import Fix New Poison VFX] 30%\n[Import New Monster Assets and Animations] 20%"
   }
 ]
