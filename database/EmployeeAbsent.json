@@ -1499,10 +1499,10 @@
   },
   {
     "Date": "02/06/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "08:39:09",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengerjakan UI Power Up Blessing dan UI Button"
   },
   {
     "Date": "02/06/2025",
