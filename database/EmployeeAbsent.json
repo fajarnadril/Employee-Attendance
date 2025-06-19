@@ -1877,10 +1877,10 @@
   },
   {
     "Date": "10/06/2025",
-    "EmployeeID": 2602076336,
-    "ClockIn": "08:36:07",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:30:00",
+    "DailyLog": "[RE-Level Design Map setelah Miniboss (1.8-1.9)] 50%\nLevel design awal, mulai gedein terrain dan nambah foliage\n[Extra Task - SFX]  - [25%]"
   },
   {
     "Date": "10/06/2025",
