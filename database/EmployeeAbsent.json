@@ -2315,5 +2315,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Mengerjakan UI Mockup secara keseluruhan "
+  },
+  {
+    "Date": "09/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "GDD - Update & Reorganize dan mengerjakan UI Background"
   }
 ]
