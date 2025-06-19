@@ -2322,5 +2322,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:00:00",
     "DailyLog": "GDD - Update & Reorganize dan mengerjakan UI Background"
+  },
+  {
+    "Date": "10/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "GDD - Update & Reorganize dan Extra task mengerjakan SFX"
   }
 ]
