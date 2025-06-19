@@ -2399,5 +2399,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "19:00:00",
     "DailyLog": "[Import New Monster Assets and Animation] 100% \n[Import Fix New Poison VFX]  100% \n[Belajar Unity Decals] 100% "
+  },
+  {
+    "Date": "09/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "[Bikin Karakter Kakek Blessings] 100%\nUdah selesai base mesh, texturing, rigging, dan Idle Animation\nMulai level design awal"
   }
 ]
