@@ -2234,10 +2234,10 @@
   },
   {
     "Date": "17/06/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": null,
-    "ClockOut": "17:11:24",
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "09:00:00",
+    "ClockOut": "21:30:00",
+    "DailyLog": "Melakukan Balancing dan Polishing "
   },
   {
     "Date": "17/06/2025",
