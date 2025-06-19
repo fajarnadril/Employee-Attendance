@@ -1653,10 +1653,10 @@
   },
   {
     "Date": "03/06/2025",
-    "EmployeeID": 2602076336,
+    "EmployeeID": "2602076336",
     "ClockIn": "09:00:00",
-    "ClockOut": "17:35:38",
-    "DailyLog": "Import new enemies assets"
+    "ClockOut": "17:45:00",
+    "DailyLog": "[Import New Monster Assets and Animation] 85%\nAdjust animasi dan animator controller Normal Enemies\n[Import Fix New Poison VFX] 80% "
   },
   {
     "Date": "04/06/2025",
