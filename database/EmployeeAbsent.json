@@ -2385,5 +2385,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:45:00",
     "DailyLog": "[Import Fix New Poison VFX] 30%\n[Import New Monster Assets and Animations] 20%"
+  },
+  {
+    "Date": "04/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "[Import New Monster Assets and Animation] 99%\n[Import Fix New Poison VFX] 99%\nBelajar Unity Decals] 80% Bikin layer agar tidak kena lighting"
   }
 ]
