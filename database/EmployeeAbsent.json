@@ -2441,5 +2441,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "21:30:00",
     "DailyLog": "[Main Menu] 99%\nUdah ada Game Title\nButton udah interactive pindah scene\n\n[Visual Polishing] 70%\nPosisi boons fix\nPosisi portal fix\nCollider fix"
+  },
+  {
+    "Date": "18/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "[Main Menu] 100%\nPost Processing done\n[Trailer] 100%\nrecord gameplay done\n[Visual Polishing] 90%\nOptimisasi Render Pipeline biar batch render kecil"
   }
 ]
