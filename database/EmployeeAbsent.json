@@ -2434,5 +2434,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:30:00",
     "DailyLog": "[Main Menu] 90%\nScene PostProcessing\nLightmap Baking buat optimisasi\n[Trailer] 70%\nUdah record cinematic dan dikasih ke GD"
+  },
+  {
+    "Date": "17/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "09:00:00",
+    "ClockOut": "21:30:00",
+    "DailyLog": "[Main Menu] 99%\nUdah ada Game Title\nButton udah interactive pindah scene\n\n[Visual Polishing] 70%\nPosisi boons fix\nPosisi portal fix\nCollider fix"
   }
 ]
