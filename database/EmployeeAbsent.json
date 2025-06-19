@@ -2448,5 +2448,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "[Main Menu] 100%\nPost Processing done\n[Trailer] 100%\nrecord gameplay done\n[Visual Polishing] 90%\nOptimisasi Render Pipeline biar batch render kecil"
+  },
+  {
+    "Date": "19/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Visual Polishing & mengatur lightmap"
   }
 ]
