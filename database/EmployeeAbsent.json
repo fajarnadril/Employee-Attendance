@@ -1688,10 +1688,10 @@
   },
   {
     "Date": "04/06/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "09:30:37",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengerjakan UI Keybind dan UI Mockup"
   },
   {
     "Date": "04/06/2025",
