@@ -2364,5 +2364,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan Balancing dan Record Trailer gameplay serta submisi BIC"
+  },
+  {
+    "Date": "19/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mempelajari Save system dan koordinasi extra task"
   }
 ]
