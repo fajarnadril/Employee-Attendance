@@ -2537,8 +2537,8 @@
     "Date": "20/06/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "09:00:47",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "21:34:18",
+    "DailyLog": "Learning Unity 6"
   },
   {
     "Date": "20/06/2025",
