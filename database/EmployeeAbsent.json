@@ -2586,8 +2586,8 @@
     "Date": "23/06/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "11:14:05",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:03:11",
+    "DailyLog": "Mengisi Placeholder"
   },
   {
     "Date": "23/06/2025",
