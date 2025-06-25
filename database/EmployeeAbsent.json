@@ -2656,8 +2656,8 @@
     "Date": "25/06/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "09:41:36",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "16:49:19",
+    "DailyLog": "Placeholder 100% done"
   },
   {
     "Date": "25/06/2025",
