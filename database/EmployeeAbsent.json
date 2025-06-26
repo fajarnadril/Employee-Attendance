@@ -2714,5 +2714,12 @@
     "ClockIn": "12:59:42",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "26/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Game Evaluation dan Revision\nada pembahasan beberapa aspek yang perlu ditambahkan polishing"
   }
 ]
