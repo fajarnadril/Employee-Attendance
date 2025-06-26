@@ -2700,5 +2700,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Shop Item Listing] 80%\nlisting beberapa shop items dan effect & cost\ntesting dan minta feedback ada di channel feedback\n"
+  },
+  {
+    "Date": "25/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "ada pembahasan beberapa aspek yang perlu ditambahkan seperti vfx, animation tambahan. lebih ke polishing"
   }
 ]
