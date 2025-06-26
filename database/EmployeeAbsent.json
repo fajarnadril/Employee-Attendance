@@ -2781,8 +2781,8 @@
   {
     "Date": "26/06/2025",
     "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "16:59:37",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:21",
+    "DailyLog": "Fix project cozy ui and fix load game menu ui"
   }
 ]
