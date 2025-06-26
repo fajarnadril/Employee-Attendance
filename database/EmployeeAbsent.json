@@ -2721,5 +2721,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Game Evaluation dan Revision\nada pembahasan beberapa aspek yang perlu ditambahkan polishing"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Pembuatan Itch.io dan req CSS / HTML melalui email admin itch io"
   }
 ]
