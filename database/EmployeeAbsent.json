@@ -2770,5 +2770,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "[Impelement SFX for VFX] 100%\n-Adjust Long Dash SFX \nShort Dash SFX\n[Animation Polishing] 100%\nDash udah masuk Anim Controller"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Setup animation\nSetup animator controller"
   }
 ]
