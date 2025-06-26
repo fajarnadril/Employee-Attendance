@@ -2742,5 +2742,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:45:00",
     "DailyLog": "[Animation Polishing] 80%\nmenambahkan animasi dash animation baru\nCoba bikin animator baru yang ada upper dan lower layer"
+  },
+  {
+    "Date": "25/06/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "[Implement SFX Buat VFX] 60%\nTrim audio di audacity\nunity implementation"
   }
 ]
