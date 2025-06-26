@@ -2693,5 +2693,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "[Save Data Structure] Menentukan kompenen apa saja yang harus di save\nMengerjakan tugas Logic seperti pendaftaran lomba dan pendaftaran Steam dll\n"
+  },
+  {
+    "Date": "24/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Shop Item Listing] 80%\nlisting beberapa shop items dan effect & cost\ntesting dan minta feedback ada di channel feedback\n"
   }
 ]
