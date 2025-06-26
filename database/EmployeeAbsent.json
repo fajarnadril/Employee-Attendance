@@ -2686,5 +2686,12 @@
     "ClockIn": "09:18:06",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "23/06/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "[Save Data Structure] Menentukan kompenen apa saja yang harus di save\nMengerjakan tugas Logic seperti pendaftaran lomba dan pendaftaran Steam dll\n"
   }
 ]
