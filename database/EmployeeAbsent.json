@@ -2777,5 +2777,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Setup animation\nSetup animator controller"
+  },
+  {
+    "Date": "26/06/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": null,
+    "ClockOut": "16:59:37",
+    "DailyLog": null
   }
 ]
