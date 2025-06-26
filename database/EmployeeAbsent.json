@@ -2707,5 +2707,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:15:00",
     "DailyLog": "ada pembahasan beberapa aspek yang perlu ditambahkan seperti vfx, animation tambahan. lebih ke polishing"
+  },
+  {
+    "Date": "26/06/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": "12:59:42",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
