@@ -3106,5 +3106,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Re-edit beberapa asset"
+  },
+  {
+    "Date": "23/06/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Penambahan beberapa asset ikan"
   }
 ]
