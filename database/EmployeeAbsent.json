@@ -3232,5 +3232,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Menyusun dan publish game project ke itch.io dan membuat video trailer"
+  },
+  {
+    "Date": "25/06/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Mengumpulkan semua produk game ke LevelUp-KL. Mulai melakukan riset untuk referensi core mechanic \"Crafting Key\" untuk update demo selanjutnya"
   }
 ]
