@@ -1527,10 +1527,10 @@
   },
   {
     "Date": "02/06/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "09:13:08",
-    "ClockOut": "19:45:27",
-    "DailyLog": "Membuat assets minigame "
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:15:00",
+    "ClockOut": "20:30:00",
+    "DailyLog": "Membuat Indoor map bagian base rumah"
   },
   {
     "Date": "02/06/2025",
