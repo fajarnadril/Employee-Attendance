@@ -2528,10 +2528,10 @@
   },
   {
     "Date": "20/06/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "08:59:59",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "memperbaiki bug pada animasi"
   },
   {
     "Date": "20/06/2025",
