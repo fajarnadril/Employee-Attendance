@@ -3022,5 +3022,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Bikin character selection buttons"
+  },
+  {
+    "Date": "09/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Bug fixing main ui menu buttons"
   }
 ]
