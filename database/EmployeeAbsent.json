@@ -1849,9 +1849,9 @@
   },
   {
     "Date": "09/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:23:11",
-    "ClockOut": "17:08:44",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:40:00",
+    "ClockOut": "17:08:00",
     "DailyLog": "Membuat objek-objek untuk scene game"
   },
   {
