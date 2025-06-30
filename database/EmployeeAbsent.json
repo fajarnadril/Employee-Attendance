@@ -3246,5 +3246,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Menyusun dokumentasi untuk membuat isi dari Pitchdeck"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Menyusun dokumentasi dan mengumpulkan game project ke kompetisi international Tokyo Game Show"
   }
 ]
