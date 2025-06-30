@@ -2185,10 +2185,10 @@
   },
   {
     "Date": "16/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "22:24:02",
-    "ClockOut": "22:24:18",
-    "DailyLog": "Beres semua"
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:46:00",
+    "ClockOut": "22:21:00",
+    "DailyLog": "- Final polishing\n- only missing audio"
   },
   {
     "Date": "17/06/2025",
