@@ -2812,5 +2812,12 @@
     "ClockIn": "09:37:10",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "02/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "buff dasar 90%\n final untuk logic buff nya dan sisanya cuma nyambungin front ke backend."
   }
 ]
