@@ -3204,5 +3204,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "menambah sistem filter pada inventory"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "menambah asset inventory"
   }
 ]
