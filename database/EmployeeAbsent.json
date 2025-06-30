@@ -1808,9 +1808,9 @@
   {
     "Date": "05/06/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "09:45:00",
-    "ClockOut": "18:00:00",
-    "DailyLog": "lanjutan UI"
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "menambah asset pada side scroll"
   },
   {
     "Date": "05/06/2025",
