@@ -2801,10 +2801,10 @@
   },
   {
     "Date": "30/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "09:19:49",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:52:00",
+    "ClockOut": "17:03:00",
+    "DailyLog": "added extra player feature like:\n- interact, crouching, walking, sprinting"
   },
   {
     "Date": "30/06/2025",
