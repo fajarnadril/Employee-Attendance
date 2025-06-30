@@ -3043,5 +3043,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Check Progress, bug fix bagian ui main menu sama edit sfx skill release"
+  },
+  {
+    "Date": "18/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Meeting bahas event yang akan diikuti, Lanjutin progress gdd bagian character kedua \"Cybermancer\""
   }
 ]
