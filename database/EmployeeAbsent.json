@@ -2875,5 +2875,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "19:45:00",
     "DailyLog": "Enemy Boss sudah selesai 80% dimana sudah ada animasinya"
+  },
+  {
+    "Date": "16/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:00:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Animation sudah diduplikat untuk beberapa animator yang menggunakan animation yang sama. Audio Implementation."
   }
 ]
