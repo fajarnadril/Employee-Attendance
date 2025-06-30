@@ -2094,10 +2094,10 @@
   },
   {
     "Date": "13/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "10:35:44",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "Menentukan game-flow untuk demo prototype pertama"
   },
   {
     "Date": "13/06/2025",
