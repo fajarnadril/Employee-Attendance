@@ -1905,10 +1905,10 @@
   },
   {
     "Date": "10/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:11:12",
-    "ClockOut": "17:29:01",
-    "DailyLog": "Membuat karakter NPC dalam 4 arah yang lain\n"
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:52:00",
+    "ClockOut": "17:33:00",
+    "DailyLog": "Membuat karakter NPC dalam 4 sudut pandang yang lain"
   },
   {
     "Date": "10/06/2025",
