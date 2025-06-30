@@ -2150,10 +2150,10 @@
   },
   {
     "Date": "16/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "09:23:29",
-    "ClockOut": "22:26:37",
-    "DailyLog": "- project magang"
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "Mendesain cutscene awal demo, dan mengumpulkan bgm dan sfx yang dibutuhkan"
   },
   {
     "Date": "16/06/2025",
