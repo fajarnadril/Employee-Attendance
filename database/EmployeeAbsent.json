@@ -2276,10 +2276,10 @@
   },
   {
     "Date": "18/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "11:23:45",
-    "ClockOut": "14:05:55",
-    "DailyLog": "Final polishing for BIC"
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:58:00",
+    "ClockOut": "18:24:00",
+    "DailyLog": "final polishing for BIC"
   },
   {
     "Date": "18/06/2025",
