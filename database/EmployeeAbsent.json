@@ -3092,5 +3092,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:30:00",
     "DailyLog": "Masih ada bug di bagian character selection menu buttonnya"
+  },
+  {
+    "Date": "26/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Check progress dan bikin ikon untuk studio game"
   }
 ]
