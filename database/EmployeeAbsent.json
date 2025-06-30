@@ -1534,10 +1534,10 @@
   },
   {
     "Date": "02/06/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "09:14:03",
-    "ClockOut": "18:27:28",
-    "DailyLog": "Check progress"
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mencari BGM dan SFX untuk main menu dan skill release"
   },
   {
     "Date": "02/06/2025",
