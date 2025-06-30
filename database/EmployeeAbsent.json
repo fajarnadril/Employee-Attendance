@@ -2847,5 +2847,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "20:00:00",
     "DailyLog": "Enemy monster & Boss 80%,\nSudah selesai mengerjalan boss dan melakukan revisi player mechanic"
+  },
+  {
+    "Date": "10/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:15:00",
+    "ClockOut": "20:00:00",
+    "DailyLog": "Sudah selesai mengerjakan cast, sedangkan calculation stats masih belum selesai beberapa"
   }
 ]
