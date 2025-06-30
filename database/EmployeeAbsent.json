@@ -2987,5 +2987,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "20:45:00",
     "DailyLog": "Membuat map bagian luar depan goa untuk progress game demo 25%"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mencari BGM dan SFX untuk main menu dan skill release"
   }
 ]
