@@ -3057,5 +3057,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Meeting bahas event lebih detail, lanjutin progress GDD dan bkin timeline baru pengerjaan"
+  },
+  {
+    "Date": "20/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Edit ulang SFX untuk skill release dan Button interaction, masih besar kecil suaranhya"
   }
 ]
