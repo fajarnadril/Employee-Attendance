@@ -2668,10 +2668,10 @@
   },
   {
     "Date": "25/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "13:05:53",
-    "ClockOut": "20:37:04",
-    "DailyLog": "- enemy detection mechanic\n- player interact bug fix"
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:33:00",
+    "ClockOut": "18:02:00",
+    "DailyLog": "- Enemy Detection added with state\n- Player when interacting fixed"
   },
   {
     "Date": "26/06/2025",
