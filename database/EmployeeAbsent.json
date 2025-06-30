@@ -3001,5 +3001,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "20:15:00",
     "DailyLog": "Finishing semua bagian prototype yang masih ada bug atau kurang untuk disubmit ke BIC"
+  },
+  {
+    "Date": "16/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:00:00",
+    "ClockOut": "20:15:00",
+    "DailyLog": "Bug Fixing character selection buttons, masih blum bisa looping ke awal"
   }
 ]
