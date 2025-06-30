@@ -2784,5 +2784,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:21",
     "DailyLog": "Fix project cozy ui and fix load game menu ui"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:12:38",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
