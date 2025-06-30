@@ -2080,10 +2080,10 @@
   },
   {
     "Date": "13/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:05:48",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "09:15:00",
+    "ClockOut": "05:15:00",
+    "DailyLog": "Membuat death animation untuk enemy"
   },
   {
     "Date": "13/06/2025",
