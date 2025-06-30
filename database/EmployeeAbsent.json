@@ -2931,5 +2931,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Hub base System & Feature (60%),\nMengerjakan HUB sistem dan implementasi UI yang ada pada Hub System"
+  },
+  {
+    "Date": "26/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Hub base System & feature (100%)\nMengerjakan fitur skill tree pada UI canvas Unity "
   }
 ]
