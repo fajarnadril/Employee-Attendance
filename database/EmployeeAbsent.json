@@ -2938,5 +2938,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Hub base System & feature (100%)\nMengerjakan fitur skill tree pada UI canvas Unity "
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "Mengerjakan Boss 2 (10%)\nMulai melakukan implementasi animasi dengan membuat animator controller yang berisi semua animasi yang dijalankan"
   }
 ]
