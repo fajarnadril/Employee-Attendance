@@ -2994,5 +2994,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Fixing bug di bagian character selection"
+  },
+  {
+    "Date": "17/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:00:00",
+    "ClockOut": "20:15:00",
+    "DailyLog": "Finishing semua bagian prototype yang masih ada bug atau kurang untuk disubmit ke BIC"
   }
 ]
