@@ -2833,5 +2833,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Buff dasar 100%,\nUntuk buff dasarnya sudah selesai semua mekanik yang diperlukan, selain itu untuk logic buffnya sendiri belum diimplementasi"
+  },
+  {
+    "Date": "05/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Rename script di enemy dan penamaan enemy formal"
   }
 ]
