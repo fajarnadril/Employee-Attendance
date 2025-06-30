@@ -1800,9 +1800,9 @@
   },
   {
     "Date": "05/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "10:26:01",
-    "ClockOut": "17:18:01",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:26:00",
+    "ClockOut": "17:15:00",
     "DailyLog": "- Dialogue optimized (now can just add scriptable object to NPC for dialogue)\n- Respawn mechanic done"
   },
   {
