@@ -3197,5 +3197,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "memperbaiki script untuk inventory"
+  },
+  {
+    "Date": "26/06/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "menambah sistem filter pada inventory"
   }
 ]
