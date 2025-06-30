@@ -1758,10 +1758,10 @@
   },
   {
     "Date": "05/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:45:33",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:45:00",
+    "ClockOut": "05:15:00",
+    "DailyLog": "Melanjutkan pembuatan animasi idle NPC Famera Fan"
   },
   {
     "Date": "05/06/2025",
