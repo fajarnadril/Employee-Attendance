@@ -1975,10 +1975,10 @@
   },
   {
     "Date": "11/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "09:33:11",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "Membuat dan menulis backstory seorang nenek customer"
   },
   {
     "Date": "11/06/2025",
