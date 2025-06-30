@@ -1604,10 +1604,10 @@
   },
   {
     "Date": "03/06/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "09:22:50",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:15:00",
+    "ClockOut": "20:30:00",
+    "DailyLog": "Membuat Indoor map bagian base rumah"
   },
   {
     "Date": "03/06/2025",
