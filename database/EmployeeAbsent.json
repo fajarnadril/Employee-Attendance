@@ -1926,9 +1926,9 @@
   },
   {
     "Date": "10/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "12:30:53",
-    "ClockOut": "20:08:06",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:30:00",
+    "ClockOut": "19:20:00",
     "DailyLog": "- UI done\n- Respawn fixed"
   },
   {
