@@ -2794,10 +2794,10 @@
   },
   {
     "Date": "30/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:53:12",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat contoh portrait karakter-karakter untuk redgamesjam"
   },
   {
     "Date": "30/06/2025",
