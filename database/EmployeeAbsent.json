@@ -2830,8 +2830,8 @@
   {
     "Date": "04/06/2025",
     "EmployeeID": "2602076840",
-    "ClockIn": "08:45:00",
-    "ClockOut": "17:30:00",
-    "DailyLog": "buff dasar 100%,\nUntuk buff dasarnya sudah selesai semua mekanik yang diperlukan, selain itu untuk logic buffnya sendiri belum diimplementasi"
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Buff dasar 100%,\nUntuk buff dasarnya sudah selesai semua mekanik yang diperlukan, selain itu untuk logic buffnya sendiri belum diimplementasi"
   }
 ]
