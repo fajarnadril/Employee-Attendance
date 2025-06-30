@@ -3155,5 +3155,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "polishing untuk build terakhir"
+  },
+  {
+    "Date": "17/06/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "menambah mechanic rythm baru"
   }
 ]
