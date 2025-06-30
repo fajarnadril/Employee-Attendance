@@ -2826,5 +2826,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "buff dasar 95%\nbuff sudah hampir selesai sistem backend dan frontendnya, cuma masalah sisa pada interactablenya"
+  },
+  {
+    "Date": "04/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "buff dasar 100%,\nUntuk buff dasarnya sudah selesai semua mekanik yang diperlukan, selain itu untuk logic buffnya sendiri belum diimplementasi"
   }
 ]
