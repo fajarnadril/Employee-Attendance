@@ -3099,5 +3099,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:30:00",
     "DailyLog": "Check progress dan bikin ikon untuk studio game"
+  },
+  {
+    "Date": "20/06/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Re-edit beberapa asset"
   }
 ]
