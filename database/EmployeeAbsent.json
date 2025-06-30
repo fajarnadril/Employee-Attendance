@@ -2612,9 +2612,9 @@
   },
   {
     "Date": "24/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "09:20:06",
-    "ClockOut": "17:20:07",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:55:00",
+    "ClockOut": "17:20:00",
     "DailyLog": "- Player Interact added\n- Player Movement added\n- Interact with object mechanic added"
   },
   {
