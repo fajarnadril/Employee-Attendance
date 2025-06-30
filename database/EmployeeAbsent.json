@@ -2810,8 +2810,8 @@
     "Date": "30/06/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "09:37:10",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "16:46:11",
+    "DailyLog": "Starts With Forest Map creation for Project Impact"
   },
   {
     "Date": "02/06/2025",
