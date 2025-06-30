@@ -3071,5 +3071,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Finishing live2d"
+  },
+  {
+    "Date": "23/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "20:30:00",
+    "DailyLog": "Rewrite dialogue sama masukin audio ulang"
   }
 ]
