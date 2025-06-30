@@ -2619,9 +2619,9 @@
   },
   {
     "Date": "24/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:35:22",
-    "ClockOut": "16:56:57",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:14:00",
+    "ClockOut": "17:22:00",
     "DailyLog": "Membuat design untuk karakter-karakter project baru"
   },
   {
