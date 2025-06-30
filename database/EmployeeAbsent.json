@@ -3064,5 +3064,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Edit ulang SFX untuk skill release dan Button interaction, masih besar kecil suaranhya"
+  },
+  {
+    "Date": "03/06/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Finishing live2d"
   }
 ]
