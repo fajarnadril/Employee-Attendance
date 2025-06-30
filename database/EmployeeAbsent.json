@@ -2479,10 +2479,10 @@
   },
   {
     "Date": "19/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "10:31:20",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Playtesting internal dengan teman dan tim lain untuk mencari feedback"
   },
   {
     "Date": "19/06/2025",
