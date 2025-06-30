@@ -2011,9 +2011,9 @@
   {
     "Date": "10/06/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "09:45:00",
-    "ClockOut": "19:00:00",
-    "DailyLog": "General UI"
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "membuat sfx pada scene intro"
   },
   {
     "Date": "12/06/2025",
