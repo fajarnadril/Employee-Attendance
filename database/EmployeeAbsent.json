@@ -2647,9 +2647,9 @@
   },
   {
     "Date": "25/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:10:23",
-    "ClockOut": "17:38:10",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:26:00",
+    "ClockOut": "17:12:00",
     "DailyLog": "Melanjutkan membuat design enemy dan variasinya"
   },
   {
