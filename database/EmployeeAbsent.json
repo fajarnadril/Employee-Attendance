@@ -3225,5 +3225,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Mendiskusikan ide konsep untuk update demo selanjutnya. Mempersiapkan segala dokumen untuk kepentingan submisi kompetisi international LevelUp-KL"
+  },
+  {
+    "Date": "24/06/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Menyusun dan publish game project ke itch.io dan membuat video trailer"
   }
 ]
