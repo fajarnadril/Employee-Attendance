@@ -3120,5 +3120,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Fixing beberapa asset untuk unity "
+  },
+  {
+    "Date": "25/06/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Beberapa tambahan UI"
   }
 ]
