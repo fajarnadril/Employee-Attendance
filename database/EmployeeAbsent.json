@@ -3211,5 +3211,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:15:00",
     "DailyLog": "menambah asset inventory"
+  },
+  {
+    "Date": "20/06/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Mencatat list feedback yang berguna untuk update selanjutnya, dan buatkan konsep desain di figma"
   }
 ]
