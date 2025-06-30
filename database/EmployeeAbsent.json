@@ -1702,10 +1702,10 @@
   },
   {
     "Date": "04/06/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "09:41:39",
-    "ClockOut": "23:28:18",
-    "DailyLog": "Minigame ke3"
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:00:00",
+    "ClockOut": "20:45:00",
+    "DailyLog": "Membuat Indoor map bagian base rumah dan Ngehias serta Lighting"
   },
   {
     "Date": "04/06/2025",
