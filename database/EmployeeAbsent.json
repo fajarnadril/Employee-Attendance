@@ -2052,10 +2052,10 @@
   },
   {
     "Date": "12/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "11:19:30",
-    "ClockOut": "21:54:13",
-    "DailyLog": "- Project magang"
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Menulis dialog percakapan antara mc dengan nenek customer"
   },
   {
     "Date": "12/06/2025",
