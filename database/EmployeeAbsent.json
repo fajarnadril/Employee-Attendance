@@ -2896,5 +2896,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:30:00",
     "DailyLog": "Mengerjakan implementasi Audio untuk enemy monster  dan implementasi UI healthbar dengan canvas di unity"
+  },
+  {
+    "Date": "19/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:00:00",
+    "ClockOut": "20:00:00",
+    "DailyLog": "Main menu dan Setting sudah selesai dikembangkan dan bisa diinteraksi"
   }
 ]
