@@ -1548,10 +1548,10 @@
   },
   {
     "Date": "02/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "09:26:00",
-    "ClockOut": "20:13:08",
-    "DailyLog": "- Project magang"
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Riset game sejenis untuk referensi core mechanics lockpick"
   },
   {
     "Date": "02/06/2025",
