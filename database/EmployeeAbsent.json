@@ -3295,5 +3295,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "20:45:00",
     "DailyLog": "Mempolish bagian outdoor map serta membuat normalmap"
+  },
+  {
+    "Date": "30/06/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": null,
+    "ClockOut": "16:56:19",
+    "DailyLog": null
   }
 ]
