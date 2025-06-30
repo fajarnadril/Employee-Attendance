@@ -3085,5 +3085,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "20:30:00",
     "DailyLog": "Mencari bug yang ada di intro demo"
+  },
+  {
+    "Date": "25/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Masih ada bug di bagian character selection menu buttonnya"
   }
 ]
