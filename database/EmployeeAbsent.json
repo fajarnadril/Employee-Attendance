@@ -3267,5 +3267,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "20:45:00",
     "DailyLog": "Membuat map bagian luar depan goa untuk progress game demo 75%"
+  },
+  {
+    "Date": "24/06/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "21:00:00",
+    "DailyLog": "Membuat map bagian luar depan goa untuk progress game demo "
   }
 ]
