@@ -2283,10 +2283,10 @@
   },
   {
     "Date": "18/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "12:44:52",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Playtesting, mencari bug dan kekurangan pada demo prototype, lalu submit BIC"
   },
   {
     "Date": "19/06/2025",
