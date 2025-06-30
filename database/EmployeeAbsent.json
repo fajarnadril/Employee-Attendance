@@ -2682,9 +2682,9 @@
   },
   {
     "Date": "26/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:18:06",
-    "ClockOut": "18:27:48",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:34:00",
+    "ClockOut": "17:13:00",
     "DailyLog": "Membuat contoh karakter redgamesjam"
   },
   {
