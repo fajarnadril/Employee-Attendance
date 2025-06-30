@@ -1709,10 +1709,10 @@
   },
   {
     "Date": "04/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:45:28",
-    "ClockOut": "17:00:59",
-    "DailyLog": "Membuat animasi karakter NPC\n"
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:47:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mulai membuat animasi idle karakter NPC"
   },
   {
     "Date": "04/06/2025",
