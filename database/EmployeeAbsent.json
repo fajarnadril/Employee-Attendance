@@ -1681,10 +1681,10 @@
   },
   {
     "Date": "04/06/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "09:00:01",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Editing SFX untuk skill release, movement, dan basic attack"
   },
   {
     "Date": "04/06/2025",
