@@ -1863,10 +1863,10 @@
   },
   {
     "Date": "09/06/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "10:13:17",
-    "ClockOut": "22:20:03",
-    "DailyLog": "Map indoor"
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:00:00",
+    "ClockOut": "20:45:00",
+    "DailyLog": "Membuat Indoor map bagian base rumah dan Ngehias serta Lighting"
   },
   {
     "Date": "09/06/2025",
