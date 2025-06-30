@@ -2101,10 +2101,10 @@
   },
   {
     "Date": "13/06/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "10:38:01",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "16:45:00",
+    "DailyLog": "memperbaiki bug bug minor"
   },
   {
     "Date": "13/06/2025",
