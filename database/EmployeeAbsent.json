@@ -1912,10 +1912,10 @@
   },
   {
     "Date": "10/06/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "11:03:45",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Memikirkan backstory main character yang berhubungan dengan ending game"
   },
   {
     "Date": "10/06/2025",
