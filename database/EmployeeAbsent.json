@@ -3152,8 +3152,8 @@
   {
     "Date": "12/06/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "09:00:00",
-    "ClockOut": "17:45:00",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
     "DailyLog": "polishing untuk build terakhir"
   }
 ]
