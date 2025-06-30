@@ -3029,5 +3029,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Bug fixing main ui menu buttons"
+  },
+  {
+    "Date": "10/06/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Edit SFX untuk skill release, masih blum bagus"
   }
 ]
