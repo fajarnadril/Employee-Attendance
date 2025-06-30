@@ -2486,10 +2486,10 @@
   },
   {
     "Date": "19/06/2025",
-    "EmployeeID": 2702326744,
-    "ClockIn": "10:32:10",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Penyiapan beberapa asset untuk tahap lanjut"
   },
   {
     "Date": "19/06/2025",
