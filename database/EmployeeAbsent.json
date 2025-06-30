@@ -1856,10 +1856,10 @@
   },
   {
     "Date": "09/06/2025",
-    "EmployeeID": 2702288651,
-    "ClockIn": "09:46:28",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "menambah music dan sfx"
   },
   {
     "Date": "09/06/2025",
