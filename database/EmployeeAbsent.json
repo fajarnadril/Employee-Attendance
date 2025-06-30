@@ -2192,10 +2192,10 @@
   },
   {
     "Date": "17/06/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "09:01:11",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:46:00",
+    "ClockOut": "17:42:00",
+    "DailyLog": "Mencari referensi dan membuat design awal karakter project baru"
   },
   {
     "Date": "17/06/2025",
