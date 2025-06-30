@@ -2903,5 +2903,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "20:00:00",
     "DailyLog": "Main menu dan Setting sudah selesai dikembangkan dan bisa diinteraksi"
+  },
+  {
+    "Date": "20/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Import semua file untuk HUB systems. Memperbaiki physics player agar tidak rusak saat melewati bridge pada level design"
   }
 ]
