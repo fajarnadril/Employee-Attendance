@@ -2910,5 +2910,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Import semua file untuk HUB systems. Memperbaiki physics player agar tidak rusak saat melewati bridge pada level design"
+  },
+  {
+    "Date": "23/06/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Hub base System & feature (40%)\nDummy di HUB sudah bisa diakses. MockUp UI sudah diimplementasikan dan navigasinya sudah didesain untuk controller"
   }
 ]
