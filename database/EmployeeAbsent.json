@@ -1632,9 +1632,9 @@
   },
   {
     "Date": "03/06/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "09:52:32",
-    "ClockOut": "17:59:51",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:38:00",
     "DailyLog": "- Fix Bug Player clipping\n- Added character details\n- Fixed enemy chase bug with climbing\n- Added player prefab"
   },
   {
