@@ -1772,10 +1772,10 @@
   },
   {
     "Date": "05/06/2025",
-    "EmployeeID": 2602099863,
-    "ClockIn": "09:12:25",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Mencari BGM ulang untuk bagian main menu dan ingame, ditambah SFX untuk interaction button; Editing SFX untuk skill release dan interaction button"
   },
   {
     "Date": "05/06/2025",
