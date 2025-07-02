@@ -3358,5 +3358,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Meeting untuk upcoming events"
+  },
+  {
+    "Date": "02/07/2025",
+    "EmployeeID": 2702326744,
+    "ClockIn": "08:08:26",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
