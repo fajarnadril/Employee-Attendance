@@ -1282,10 +1282,10 @@
   },
   {
     "Date": "27/05/2025",
-    "EmployeeID": 2602089824,
-    "ClockIn": "08:43:39",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602089824",
+    "ClockIn": "08:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "content untuk socmed"
   },
   {
     "Date": "27/05/2025",
