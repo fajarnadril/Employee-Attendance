@@ -3405,8 +3405,8 @@
     "Date": "02/07/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "10:57:45",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:35:45",
+    "DailyLog": "Revamp Void Map for Project Impact\n"
   },
   {
     "Date": "02/07/2025",
