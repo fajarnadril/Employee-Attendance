@@ -2514,10 +2514,10 @@
   },
   {
     "Date": "20/06/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "08:46:25",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Finish Unity Post Apocalyptic Nature Map for Project Impact"
   },
   {
     "Date": "20/06/2025",
