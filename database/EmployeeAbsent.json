@@ -2290,10 +2290,10 @@
   },
   {
     "Date": "19/06/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "03:33:07",
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue working on terrain on project clunkers "
   },
   {
     "Date": "19/06/2025",
