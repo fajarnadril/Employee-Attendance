@@ -2220,10 +2220,10 @@
   },
   {
     "Date": "17/06/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:59:51",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Continue with the creation of the new Post Apocalyptic Nature Map in Unity"
   },
   {
     "Date": "17/06/2025",
