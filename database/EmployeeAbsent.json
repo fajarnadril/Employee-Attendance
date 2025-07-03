@@ -3491,5 +3491,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Continue research in game design, game development, and game assets development"
+  },
+  {
+    "Date": "13/06/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "16:45:00",
+    "DailyLog": "Continue with the creation of the new Post Apocalyptic Nature Map in Unity"
   }
 ]
