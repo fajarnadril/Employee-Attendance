@@ -3447,8 +3447,8 @@
     "Date": "03/07/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:51:41",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "22:55:41",
+    "DailyLog": "- add more feature to Lockdown Phase and Realization phase\n- added door mechanic \n- added escape mechanic"
   },
   {
     "Date": "03/07/2025",
