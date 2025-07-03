@@ -1520,10 +1520,10 @@
   },
   {
     "Date": "02/06/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:08:10",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue working on research paper"
   },
   {
     "Date": "02/06/2025",
