@@ -2661,10 +2661,10 @@
   },
   {
     "Date": "25/06/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:32:51",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Continue with the creation and adjustment of the new Post Eldritch Apocalypse Nature Map in Unity and continue to fix the post process bleed problem"
   },
   {
     "Date": "25/06/2025",
