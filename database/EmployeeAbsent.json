@@ -3498,5 +3498,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "16:45:00",
     "DailyLog": "Continue with the creation of the new Post Apocalyptic Nature Map in Unity"
+  },
+  {
+    "Date": "24/06/2025",
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melanjutkan mengisi placeholder asset"
   }
 ]
