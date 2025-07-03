@@ -3512,5 +3512,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Design Project Cozy menu ui"
+  },
+  {
+    "Date": "04/07/2025",
+    "EmployeeID": 2702258535,
+    "ClockIn": null,
+    "ClockOut": "02:59:41",
+    "DailyLog": null
   }
 ]
