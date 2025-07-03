@@ -2605,10 +2605,10 @@
   },
   {
     "Date": "24/06/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:02:47",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Initiate painting tree prefabs pada scene project"
   },
   {
     "Date": "24/06/2025",
