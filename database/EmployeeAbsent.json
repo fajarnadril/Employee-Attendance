@@ -2143,10 +2143,10 @@
   },
   {
     "Date": "16/06/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:18:03",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Refine continue project cozy menu ui multiplayer"
   },
   {
     "Date": "16/06/2025",
