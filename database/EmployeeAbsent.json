@@ -2031,10 +2031,10 @@
   },
   {
     "Date": "12/06/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:03:18",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue project cozy multiplayer menu ui creation"
   },
   {
     "Date": "12/06/2025",
