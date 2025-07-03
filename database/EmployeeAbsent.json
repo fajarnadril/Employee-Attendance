@@ -2710,10 +2710,10 @@
   },
   {
     "Date": "26/06/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "12:59:42",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Finish the adjustments for Project Impact Post Eldritch Apocalypse Nature Map"
   },
   {
     "Date": "26/06/2025",
