@@ -2752,10 +2752,10 @@
   },
   {
     "Date": "26/06/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "13:10:04",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Bake asset 3D di Blender"
   },
   {
     "Date": "26/06/2025",
