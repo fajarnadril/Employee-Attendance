@@ -3477,5 +3477,12 @@
     "ClockIn": "10:22:33",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "09/06/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue research in game design and development"
   }
 ]
