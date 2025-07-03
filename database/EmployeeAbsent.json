@@ -3505,5 +3505,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Melanjutkan mengisi placeholder asset"
+  },
+  {
+    "Date": "09/06/2025",
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Design Project Cozy menu ui"
   }
 ]
