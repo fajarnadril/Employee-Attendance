@@ -3538,8 +3538,8 @@
     "Date": "04/07/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:55:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:47:51",
+    "DailyLog": "Fixing bug on project Heist"
   },
   {
     "Date": "04/07/2025",
