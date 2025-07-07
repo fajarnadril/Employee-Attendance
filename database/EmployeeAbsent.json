@@ -3587,8 +3587,8 @@
     "Date": "07/07/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:02:57",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:16",
+    "DailyLog": "Project stir map selection ui and coding"
   },
   {
     "Date": "07/07/2025",
