@@ -3566,8 +3566,8 @@
     "Date": "07/07/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:30:42",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "20:03:41",
+    "DailyLog": "- added menu for Game jam"
   },
   {
     "Date": "07/07/2025",
