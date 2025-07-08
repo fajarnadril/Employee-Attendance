@@ -3603,5 +3603,12 @@
     "ClockIn": "09:46:47",
     "ClockOut": "16:53:45",
     "DailyLog": "Retexturing Floor 1F Binus Anggrek"
+  },
+  {
+    "Date": "08/07/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:10:28",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
