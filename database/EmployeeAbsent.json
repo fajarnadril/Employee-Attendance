@@ -3645,5 +3645,12 @@
     "ClockIn": "13:00:54",
     "ClockOut": "23:05:38",
     "DailyLog": "VFX research & asset creation, 3D asset creation. bug fix attempt"
+  },
+  {
+    "Date": "09/07/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:12:51",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
