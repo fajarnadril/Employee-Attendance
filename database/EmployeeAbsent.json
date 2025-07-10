@@ -3713,8 +3713,8 @@
     "Date": "10/07/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:59:56",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:02:16",
+    "DailyLog": "project stir map 3 pathing and fixing bugs and errors"
   },
   {
     "Date": "10/07/2025",
