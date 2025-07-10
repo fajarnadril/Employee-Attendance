@@ -3740,8 +3740,8 @@
   {
     "Date": "10/07/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:32:25",
-    "DailyLog": null
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:33:22",
+    "DailyLog": "Melanjutkan pembuatan karakter variasi enemy untuk project baru (Project Heist)"
   }
 ]
