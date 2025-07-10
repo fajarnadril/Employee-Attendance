@@ -3706,8 +3706,8 @@
     "Date": "10/07/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:57:10",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:18:06",
+    "DailyLog": "- Added leaderboard UI\n- Added Fruit for adding score\n- added player dying mechanic\n- added way to save score data into an object"
   },
   {
     "Date": "10/07/2025",
