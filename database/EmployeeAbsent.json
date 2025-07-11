@@ -3743,5 +3743,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:33:22",
     "DailyLog": "Melanjutkan pembuatan karakter variasi enemy untuk project baru (Project Heist)"
+  },
+  {
+    "Date": "11/07/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:41:12",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
