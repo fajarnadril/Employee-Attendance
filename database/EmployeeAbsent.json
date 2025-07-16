@@ -3841,5 +3841,12 @@
     "ClockIn": "09:31:46",
     "ClockOut": "17:03:07",
     "DailyLog": "Lighting for Roblox Studio\n"
+  },
+  {
+    "Date": "16/07/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "09:01:03",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
