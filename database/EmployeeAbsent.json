@@ -3846,8 +3846,8 @@
     "Date": "16/07/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:01:03",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:12:12",
+    "DailyLog": "project cozy main menu map changes, ui change planning, ai debugging"
   },
   {
     "Date": "16/07/2025",
