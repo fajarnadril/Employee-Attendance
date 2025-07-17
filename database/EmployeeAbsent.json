@@ -3862,5 +3862,12 @@
     "ClockIn": "10:02:02",
     "ClockOut": "16:55:34",
     "DailyLog": "Vfx research and development, project impact main menu update "
+  },
+  {
+    "Date": "17/07/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:10:34",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
