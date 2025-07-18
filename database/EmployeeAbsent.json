@@ -3897,5 +3897,12 @@
     "ClockIn": "10:10:07",
     "ClockOut": "17:33:54",
     "DailyLog": "Continue with VFX research and development & developing binus themed main menu for project impact"
+  },
+  {
+    "Date": "18/07/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:16:50",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
