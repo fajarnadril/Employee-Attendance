@@ -3902,8 +3902,8 @@
     "Date": "18/07/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:16:50",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:01:07",
+    "DailyLog": "- Added Inventory\n- Revamp the sound detection system\n- added cards scriptable object"
   },
   {
     "Date": "18/07/2025",
