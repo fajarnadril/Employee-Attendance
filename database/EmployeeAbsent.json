@@ -3992,8 +3992,8 @@
   {
     "Date": "22/07/2025",
     "EmployeeID": 2602105784,
-    "ClockIn": null,
-    "ClockOut": "16:31:09",
-    "DailyLog": null
+    "ClockIn": "09:31:00",
+    "ClockOut": "16:31:27",
+    "DailyLog": "Interior Starbucks modeling"
   }
 ]
