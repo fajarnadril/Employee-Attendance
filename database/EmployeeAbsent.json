@@ -4028,7 +4028,7 @@
     "Date": "23/07/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "09:24:09",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:31:05",
+    "DailyLog": "Project impact updates for version 0.7"
   }
 ]
