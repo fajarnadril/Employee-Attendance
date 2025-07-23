@@ -3995,5 +3995,12 @@
     "ClockIn": "09:31:00",
     "ClockOut": "16:31:27",
     "DailyLog": "Interior Starbucks modeling"
+  },
+  {
+    "Date": "23/07/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:41:26",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
