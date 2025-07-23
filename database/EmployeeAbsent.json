@@ -4014,8 +4014,8 @@
     "Date": "23/07/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:01:13",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:17",
+    "DailyLog": "project stir polishing UI and Assets"
   },
   {
     "Date": "23/07/2025",
