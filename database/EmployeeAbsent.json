@@ -4042,8 +4042,8 @@
     "Date": "24/07/2025",
     "EmployeeID": 2602100114,
     "ClockIn": "08:51:37",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:00:06",
+    "DailyLog": "Membuat aset tambahan untuk scene game gemastik seperti pencahayaan, UI, dan menambahkan detail pada objek."
   },
   {
     "Date": "24/07/2025",
