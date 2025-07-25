@@ -4072,5 +4072,12 @@
     "ClockIn": "16:42:33",
     "ClockOut": "16:43:05",
     "DailyLog": "Retexturing Hokben and Starbucks"
+  },
+  {
+    "Date": "25/07/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:54:19",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
