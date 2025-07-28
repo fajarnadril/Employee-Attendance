@@ -4268,5 +4268,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Menguji dan mengecek setiap bug, bagian yang tidak pas, dan hal yang perlu diperbaiki di game utama \"The Reverist\""
+  },
+  {
+    "Date": "15/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Menyesuaikan timeline pengerjaan game utama, dan lanjut playtesting prototype game utama"
   }
 ]
