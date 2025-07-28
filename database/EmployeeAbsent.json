@@ -4149,5 +4149,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "initial design game buat RedGames Jam 2025 (RGJ)"
+  },
+  {
+    "Date": "02/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "mendesign ulang buat lomba RGJ "
   }
 ]
