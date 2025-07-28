@@ -4177,5 +4177,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Manage timeline pengerjaan untuk RGJ, dan merubah design lagi"
+  },
+  {
+    "Date": "08/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "membuat gif gameplay dari game utama The reverist, dan lanjut design rgj"
   }
 ]
