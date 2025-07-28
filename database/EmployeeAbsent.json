@@ -4240,5 +4240,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Membuat proposal gemastik untuk seleksi internal"
+  },
+  {
+    "Date": "24/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Lanjut menyelesaikan proposal gemastik untuk seleksi internal"
   }
 ]
