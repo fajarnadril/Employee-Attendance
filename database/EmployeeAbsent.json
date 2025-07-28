@@ -4254,5 +4254,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Level design dan flow game gemastik \"Watts and Homes\""
+  },
+  {
+    "Date": "28/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Lanjut design game flow, nambahin puzzle, dan sesuain story game gemastik"
   }
 ]
