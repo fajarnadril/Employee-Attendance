@@ -4282,5 +4282,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Redesign core mekanik skill untuk game utama"
+  },
+  {
+    "Date": "28/07/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": "12:32:02",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
