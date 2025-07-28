@@ -4205,5 +4205,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "19:45:00",
     "DailyLog": "Lomba RGJ"
+  },
+  {
+    "Date": "18/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Research ulang isu dan topik untuk Gemastik 2025"
   }
 ]
