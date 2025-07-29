@@ -4352,5 +4352,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Setup Github baru dan asset baru"
+  },
+  {
+    "Date": "11/07/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Mulai red gamejam"
   }
 ]
