@@ -5143,5 +5143,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Mengajar kegiatan mentoring game designer pertemuan 1 dengan topik \"Pengantar Game Design + Game Deconstruct Analysis\""
+  },
+  {
+    "Date": "10/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mempersiapkan dokumentasi persiapan ke BIC Exhibitor"
   }
 ]
