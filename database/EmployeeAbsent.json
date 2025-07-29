@@ -4005,10 +4005,10 @@
   },
   {
     "Date": "23/07/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:45:40",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat objek-objek lingkungan untuk konsep game baru gemastik2025."
   },
   {
     "Date": "23/07/2025",
