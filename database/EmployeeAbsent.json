@@ -3326,10 +3326,10 @@
   },
   {
     "Date": "01/07/2025",
-    "EmployeeID": 2702326744,
-    "ClockIn": "08:38:02",
-    "ClockOut": "18:29:17",
-    "DailyLog": "Rapat untuk upcoming events"
+    "EmployeeID": "2702326744",
+    "ClockIn": null,
+    "ClockOut": null,
+    "DailyLog": "Perbaikan beberapa asset dan meeting game lain"
   },
   {
     "Date": "01/07/2025",
