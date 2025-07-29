@@ -4583,5 +4583,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "05:00:00",
     "DailyLog": "Melakukan coloring untuk karakter NPC\n"
+  },
+  {
+    "Date": "30/07/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "07:45:00",
+    "ClockOut": "06:00:00",
+    "DailyLog": "Mempersiapan bahan video trailer yang dibutuhkan"
   }
 ]
