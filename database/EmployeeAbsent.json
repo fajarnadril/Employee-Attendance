@@ -5259,8 +5259,8 @@
   {
     "Date": "30/07/2025",
     "EmployeeID": 2602089824,
-    "ClockIn": null,
-    "ClockOut": "01:18:49",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "01:19:31",
+    "DailyLog": "Make a content for socmed binusgat"
   }
 ]
