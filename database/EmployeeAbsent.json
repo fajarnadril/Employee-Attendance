@@ -4660,5 +4660,12 @@
     "ClockIn": null,
     "ClockOut": "12:23:55",
     "DailyLog": null
+  },
+  {
+    "Date": "01/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan persiapan animasi untuk asset boss 2 sebagai musuh di dalam game"
   }
 ]
