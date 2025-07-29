@@ -5115,5 +5115,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengatur lighting untuk level gemastik"
+  },
+  {
+    "Date": "29/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat assets untuk gameseed\n"
   }
 ]
