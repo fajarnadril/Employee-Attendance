@@ -4975,5 +4975,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Melakukan setup select level di unity"
+  },
+  {
+    "Date": "01/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:15:00",
+    "ClockOut": "16:45:00",
+    "DailyLog": "Melakukan persiapan Kick off  untuk logic seed sebagai mentor 2D game artist bersama david drago dengan menyusun materi "
   }
 ]
