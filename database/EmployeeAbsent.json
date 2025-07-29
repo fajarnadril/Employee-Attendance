@@ -5010,5 +5010,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Melakukan mentoring 2D mengenai pembuatan assets Item untuk Logic seed"
+  },
+  {
+    "Date": "08/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mempersiapankan Game untuk red game jam "
   }
 ]
