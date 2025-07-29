@@ -4751,5 +4751,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "melakukan pekerjaan pada Scene boss 2 di unity (coding, scene design, dll)"
+  },
+  {
+    "Date": "16/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat desain VFX baru dan polishing"
   }
 ]
