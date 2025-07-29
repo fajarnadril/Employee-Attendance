@@ -4681,5 +4681,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Melakukan perbaikan particle system untuk karakter utama"
+  },
+  {
+    "Date": "04/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Mengerjakan SFX dan VFX "
   }
 ]
