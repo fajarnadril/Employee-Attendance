@@ -3424,10 +3424,10 @@
   },
   {
     "Date": "03/07/2025",
-    "EmployeeID": 2702326744,
-    "ClockIn": "08:27:02",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Revamp beberapa asset luminote"
   },
   {
     "Date": "03/07/2025",
