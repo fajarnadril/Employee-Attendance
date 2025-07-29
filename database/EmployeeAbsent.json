@@ -4716,5 +4716,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Mempelajari animasi transform scale di unity"
+  },
+  {
+    "Date": "11/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Mengikuti kompetisi pembuatan game selama 48 jam REDGAMESJAM hari 1"
   }
 ]
