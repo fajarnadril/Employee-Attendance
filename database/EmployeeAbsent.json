@@ -4968,5 +4968,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membuat main menu level select di blender"
+  },
+  {
+    "Date": "31/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Melakukan setup select level di unity"
   }
 ]
