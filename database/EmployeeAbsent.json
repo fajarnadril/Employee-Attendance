@@ -5164,5 +5164,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Mengajar sesi mentoring game designer pertemuan ke 2 dengan materi \"Game Concept & Ideation\""
+  },
+  {
+    "Date": "15/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Menyusun dan memberikan tugas untuk anak-anak mentor terkait materi pertemuan ke 2"
   }
 ]
