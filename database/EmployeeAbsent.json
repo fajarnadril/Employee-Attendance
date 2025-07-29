@@ -4989,5 +4989,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "16:45:00",
     "DailyLog": "Melakukan  Kick off  untuk logic seed sebagai mentor 2D game artist bersama david drago "
+  },
+  {
+    "Date": "03/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melakukan  Evaluasi Kick off  logic seed Serta persiapan lomba Live2Dev"
   }
 ]
