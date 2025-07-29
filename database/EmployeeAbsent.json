@@ -4429,5 +4429,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Lanjut asset untuk Gemastik"
+  },
+  {
+    "Date": "28/07/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "pindah pengerjaan untuk game Sea Games awards"
   }
 ]
