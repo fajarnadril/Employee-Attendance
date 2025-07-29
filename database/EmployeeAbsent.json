@@ -5199,5 +5199,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Mengajar sesi mentoring pertemuan minggu ke 3 dengan materi \"Core Gameplay & Mechanics\""
+  },
+  {
+    "Date": "22/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat dan memberikan tugas program mentoring game designer untuk pertemuan ke 3"
   }
 ]
