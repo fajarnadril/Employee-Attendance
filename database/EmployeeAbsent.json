@@ -3466,10 +3466,10 @@
   },
   {
     "Date": "03/07/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "09:16:34",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengurus segala dokumen terkait registrasi kompetisi RedGame Jam - AirAsia"
   },
   {
     "Date": "03/07/2025",
