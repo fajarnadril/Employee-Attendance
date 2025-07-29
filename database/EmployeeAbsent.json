@@ -4800,5 +4800,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Melanjutkan pengerjaan untuk beberapa mechanic kecil seperti powerup choice, stats upgrade, interaction"
+  },
+  {
+    "Date": "09/07/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melanjutkan pengerjaan untuk beberapa mechanic kecil seperti powerup choice, stats upgrade, interaction(2)"
   }
 ]
