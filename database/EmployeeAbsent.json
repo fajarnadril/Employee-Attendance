@@ -4702,5 +4702,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Melakukan rigging dan import file PSB character di Unity2D"
+  },
+  {
+    "Date": "09/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Mempelajari 2D art dengan aplikasi procreate"
   }
 ]
