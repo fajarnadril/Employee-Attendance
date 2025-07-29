@@ -5227,5 +5227,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Menyempurnakan laporan proposal gemastik dan menyusun video demo (phasing) untuk seleksi internal"
+  },
+  {
+    "Date": "28/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengajar program sesi mentoring pertemuan ke 4 dengan materi \"Progression System & Balancing\""
   }
 ]
