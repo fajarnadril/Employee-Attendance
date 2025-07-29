@@ -4842,5 +4842,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "mulai melakukan persiapan gemastik(1)"
+  },
+  {
+    "Date": "23/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Mulai mengerjakan asset untuk game yang dikerjakan untuk GEMASTIK. "
   }
 ]
