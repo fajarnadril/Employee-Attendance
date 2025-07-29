@@ -5178,5 +5178,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Mengikuti acara kickoff persiapan lomba dan membagikan pengalaman ke anak LOGIC Seed terkait kompetisi"
+  },
+  {
+    "Date": "17/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mencari referensi dan merancang ide konsep awal untuk kompetisi Gemastik 2025"
   }
 ]
