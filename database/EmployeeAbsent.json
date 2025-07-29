@@ -4124,10 +4124,10 @@
   },
   {
     "Date": "28/07/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:52:26",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat scene transisi kecil untuk game gemastik2025 (FrameGuard)."
   },
   {
     "Date": "28/07/2025",
