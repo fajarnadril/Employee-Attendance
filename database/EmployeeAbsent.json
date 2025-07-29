@@ -5241,5 +5241,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Membuat dan memberikan tugas untuk program mentoring sesi ke 4"
+  },
+  {
+    "Date": "30/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Melanjutkan design game mechanic untuk kompetisi Gemastik 2025"
   }
 ]
