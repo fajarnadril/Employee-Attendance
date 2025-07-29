@@ -5108,5 +5108,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mentoring 2D game art kepada logic seed mengenai Tilemap"
+  },
+  {
+    "Date": "28/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengatur lighting untuk level gemastik"
   }
 ]
