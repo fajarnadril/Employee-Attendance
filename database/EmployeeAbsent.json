@@ -5234,5 +5234,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Mengajar program sesi mentoring pertemuan ke 4 dengan materi \"Progression System & Balancing\""
+  },
+  {
+    "Date": "29/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat dan memberikan tugas untuk program mentoring sesi ke 4"
   }
 ]
