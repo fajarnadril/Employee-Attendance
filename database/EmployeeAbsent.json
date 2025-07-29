@@ -3676,10 +3676,10 @@
   },
   {
     "Date": "09/07/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "09:11:47",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengerjakan dokumentasi lanjutan untuk BIC Exhibitor"
   },
   {
     "Date": "09/07/2025",
