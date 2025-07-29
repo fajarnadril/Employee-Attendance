@@ -4667,5 +4667,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan persiapan animasi untuk asset boss 2 sebagai musuh di dalam game"
+  },
+  {
+    "Date": "02/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Belajar animasi di Unity2D "
   }
 ]
