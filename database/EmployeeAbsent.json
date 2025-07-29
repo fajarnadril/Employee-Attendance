@@ -5150,5 +5150,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Mengurus pendaftaran tim untuk mengikuti kompetisi RedGame Jam - AirAsia 2025"
+  },
+  {
+    "Date": "11/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Mempersiapkan ide konsep awal untuk kompetisi RedGame Jam dan mendiskusikannya bersama tim"
   }
 ]
