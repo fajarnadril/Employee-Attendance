@@ -4408,5 +4408,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Pembuatan design MC"
+  },
+  {
+    "Date": "23/07/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "pembuatan background untuk gemastik"
   }
 ]
