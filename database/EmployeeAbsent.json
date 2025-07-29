@@ -4656,10 +4656,10 @@
   },
   {
     "Date": "29/07/2025",
-    "EmployeeID": 2602076336,
-    "ClockIn": null,
-    "ClockOut": "12:23:55",
-    "DailyLog": null
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat asset baru, yaitu placement drone untuk tempat pendaratan drone di dalam game"
   },
   {
     "Date": "01/07/2025",
