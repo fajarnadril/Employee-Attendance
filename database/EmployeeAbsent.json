@@ -4632,5 +4632,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Menyesuaikan timeline pengerjaan untuk gemastik dan game utama, melanjutkan redesign mekanik untuk game utama"
+  },
+  {
+    "Date": "18/07/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:56:00",
+    "ClockOut": null,
+    "DailyLog": "Membuat aset (tileset dan karakter) untuk game gemastik2025."
   }
 ]
