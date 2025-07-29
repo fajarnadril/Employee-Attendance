@@ -4611,5 +4611,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "19:00:00",
     "DailyLog": "Melanjutkan level puzzle design untuk gemastik"
+  },
+  {
+    "Date": "30/07/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Melanjutkan membuat game flow dan dialogue untuk game gemastik"
   }
 ]
