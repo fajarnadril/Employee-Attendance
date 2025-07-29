@@ -4926,5 +4926,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "mulai melakukan pengerjaan game untuk gemastik(6). Melakukan pengerjaan untuk UI In Game(3)"
+  },
+  {
+    "Date": "25/07/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "mulai melakukan pengerjaan game untuk gemastik(6). Melakukan pengerjaan untuk UI In Game beserta interaction didalam UI nya (1)"
   }
 ]
