@@ -3312,10 +3312,10 @@
   },
   {
     "Date": "01/07/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "08:33:58",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Persiapan materi bagian game designer untuk meeting kickoff LOGIC Seed "
   },
   {
     "Date": "01/07/2025",
