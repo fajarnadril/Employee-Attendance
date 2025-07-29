@@ -4730,5 +4730,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membahas next step untuk level design game"
+  },
+  {
+    "Date": "01/07/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "persiapan untuk scene boss 2 di unity (coding, scene design, dll)"
   }
 ]
