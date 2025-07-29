@@ -4912,5 +4912,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "mulai melakukan pengerjaan game untuk gemastik(5). Melakukan pengerjaan untuk UI In Game(2)"
+  },
+  {
+    "Date": "28/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Melakukan setup asset di unity 3D yaitu setup pivot dan membuat scene baru"
   }
 ]
