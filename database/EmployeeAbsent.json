@@ -3634,10 +3634,10 @@
   },
   {
     "Date": "08/07/2025",
-    "EmployeeID": 2702258535,
-    "ClockIn": "11:01:35",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat tugas mentoring terkait materi pertemuan 1 dan mempersiapkan materi pertemuan ke 2 untuk minggu depan"
   },
   {
     "Date": "08/07/2025",
