@@ -5059,5 +5059,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Rapat membahas Persiapan untuk Gemastik "
+  },
+  {
+    "Date": "17/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Persiapan pembuatan assets gemastik "
   }
 ]
