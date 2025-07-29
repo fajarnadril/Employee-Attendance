@@ -4436,5 +4436,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "pindah pengerjaan untuk game Sea Games awards"
+  },
+  {
+    "Date": "29/07/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": "09:55:00",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
