@@ -5129,5 +5129,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengatur lighting untuk gameseed"
+  },
+  {
+    "Date": "31/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat npc untuk gameseed"
   }
 ]
