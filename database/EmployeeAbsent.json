@@ -5206,5 +5206,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membuat dan memberikan tugas program mentoring game designer untuk pertemuan ke 3"
+  },
+  {
+    "Date": "23/07/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Menentukan core gameplay mechanics untuk kompetisi Gemastik 2025"
   }
 ]
