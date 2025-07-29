@@ -4828,5 +4828,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Mengerjakan RedGamesJames yang berdurasi 48 jam"
+  },
+  {
+    "Date": "22/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membantu persiapan proposal untuk GEMASTIK dengan mempersiapkan asset-asset yang dibutuhkan"
   }
 ]
