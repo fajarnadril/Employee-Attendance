@@ -5052,5 +5052,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Rapat membahas Rencana untuk lomba kedepannya"
+  },
+  {
+    "Date": "16/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Rapat membahas Persiapan untuk Gemastik "
   }
 ]
