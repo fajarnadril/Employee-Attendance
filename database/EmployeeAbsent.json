@@ -4597,5 +4597,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "05:15:00",
     "DailyLog": "Mulai mengerjakan template video trailer"
+  },
+  {
+    "Date": "29/07/2025",
+    "EmployeeID": 2602105784,
+    "ClockIn": "10:04:55",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
