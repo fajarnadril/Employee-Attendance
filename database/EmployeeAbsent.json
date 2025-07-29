@@ -4618,5 +4618,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Melanjutkan membuat game flow dan dialogue untuk game gemastik"
+  },
+  {
+    "Date": "16/07/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:44:00",
+    "ClockOut": "17:23:00",
+    "DailyLog": "Menambahkan detail untuk design objek lingkungan (tembok belakang)  untuk Project Heist"
   }
 ]
