@@ -4688,5 +4688,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Mengerjakan SFX dan VFX "
+  },
+  {
+    "Date": "07/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Mengerjakan VFX untuk dash lightning player"
   }
 ]
