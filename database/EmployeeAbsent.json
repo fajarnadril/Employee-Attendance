@@ -5066,5 +5066,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Persiapan pembuatan assets gemastik "
+  },
+  {
+    "Date": "18/07/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mentoring 2D Artist Untuk logic seed, mengajarkan bagian Character"
   }
 ]
