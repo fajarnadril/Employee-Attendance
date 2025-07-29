@@ -4520,5 +4520,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "05:15:00",
     "DailyLog": "Membuat template proposal untuk GEMASTIK\n"
+  },
+  {
+    "Date": "17/07/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "05:30:00",
+    "DailyLog": "Menulis proposal GEMASTIK untuk kurasi internal\n"
   }
 ]
