@@ -3417,10 +3417,10 @@
   },
   {
     "Date": "03/07/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "08:26:56",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "05:15:00",
+    "DailyLog": "Mempersiapkan data - data yang diperlukan untuk pendaftaran lomba\n"
   },
   {
     "Date": "03/07/2025",
