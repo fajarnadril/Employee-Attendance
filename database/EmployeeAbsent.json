@@ -3697,10 +3697,10 @@
   },
   {
     "Date": "09/07/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "20:17:34",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "05:30:00",
+    "DailyLog": "Membuat / merancang mini games baru dengan genre hyper casual yang simple\n"
   },
   {
     "Date": "10/07/2025",
