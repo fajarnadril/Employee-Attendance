@@ -4636,7 +4636,7 @@
   {
     "Date": "18/07/2025",
     "EmployeeID": "2602100114",
-    "ClockIn": null,
+    "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membuat aset (tileset dan karakter) untuk game gemastik2025."
   }
