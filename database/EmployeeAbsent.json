@@ -4877,5 +4877,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Mengerjakan game asset untuk GEMASTIK, yaitu mesin, bangunan, dan fasilitas lainnya. "
+  },
+  {
+    "Date": "18/07/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "mulai melakukan pengerjaan game untuk gemastik(2). Membuat main menu beserta level select untuk bagian awal(greybox)"
   }
 ]
