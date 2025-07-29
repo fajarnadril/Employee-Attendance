@@ -3327,9 +3327,9 @@
   {
     "Date": "01/07/2025",
     "EmployeeID": "2702326744",
-    "ClockIn": null,
-    "ClockOut": null,
-    "DailyLog": "Perbaikan beberapa asset dan meeting game lain"
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "persiapan game baru"
   },
   {
     "Date": "01/07/2025",
