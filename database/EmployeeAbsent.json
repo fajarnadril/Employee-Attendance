@@ -4898,5 +4898,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Import semua asset ke dalam unity dan membuat sketch 2D untuk konsep asset dalam proposal"
+  },
+  {
+    "Date": "22/07/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "mulai melakukan pengerjaan game untuk gemastik(3). Membuat concepting untuk UI (1)"
   }
 ]
