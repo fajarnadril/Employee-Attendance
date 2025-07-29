@@ -4737,5 +4737,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "persiapan untuk scene boss 2 di unity (coding, scene design, dll)"
+  },
+  {
+    "Date": "15/07/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mempelajari animasi 3D di unity untuk character"
   }
 ]
