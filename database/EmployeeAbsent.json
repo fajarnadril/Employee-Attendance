@@ -5437,5 +5437,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "memasukan asset pada base game"
+  },
+  {
+    "Date": "18/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "20:00:00",
+    "DailyLog": "membuat basic ai npc pada game"
   }
 ]
