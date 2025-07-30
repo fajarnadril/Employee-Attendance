@@ -5381,5 +5381,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:30:00",
     "DailyLog": "memperbaiki bug bug yang ada"
+  },
+  {
+    "Date": "08/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "memasukan asset asset ui"
   }
 ]
