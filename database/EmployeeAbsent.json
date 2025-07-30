@@ -5395,5 +5395,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "menambah mechanic mechanic baru"
+  },
+  {
+    "Date": "10/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "mulai menggabugkan asset asset dan mechanic game redgamejam"
   }
 ]
