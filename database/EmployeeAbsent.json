@@ -5267,8 +5267,8 @@
     "Date": "30/07/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:13:53",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:40:40",
+    "DailyLog": "- Enemy can now attack paintings in a interval\n- paintings can now take more than 1 hit per enemy"
   },
   {
     "Date": "30/07/2025",
