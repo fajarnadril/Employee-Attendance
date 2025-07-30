@@ -5507,5 +5507,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:45:00",
     "DailyLog": "mulai memperbaiki bug pada LSM"
+  },
+  {
+    "Date": "31/07/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": null,
+    "ClockOut": "00:00:57",
+    "DailyLog": null
   }
 ]
