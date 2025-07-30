@@ -5402,5 +5402,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "mulai menggabugkan asset asset dan mechanic game redgamejam"
+  },
+  {
+    "Date": "11/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "finishing game dan polishing"
   }
 ]
