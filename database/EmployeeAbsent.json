@@ -5332,5 +5332,12 @@
     "ClockIn": "08:55:00",
     "ClockOut": "17:02:00",
     "DailyLog": "- Added choosing map mechanic & combined it with the card inventory mechanic\n- Fixed enemy Chasing mechanic when alerted"
+  },
+  {
+    "Date": "22/07/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:55:00",
+    "ClockOut": "17:02:00",
+    "DailyLog": "- Added Navmesh AI navigation\n- Added cinemachine camera to both test stage\n- split the test stage for clarity"
   }
 ]
