@@ -3355,9 +3355,9 @@
   {
     "Date": "01/07/2025",
     "EmployeeID": "2702288651",
-    "ClockIn": "08:45:00",
-    "ClockOut": "18:00:00",
-    "DailyLog": "Meeting untuk upcoming events"
+    "ClockIn": "08:30:00",
+    "ClockOut": "05:30:00",
+    "DailyLog": "membuat basic mechanic untuk red gamejam"
   },
   {
     "Date": "02/07/2025",
