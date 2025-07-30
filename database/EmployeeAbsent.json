@@ -5311,5 +5311,12 @@
     "ClockIn": "08:21:00",
     "ClockOut": "17:11:00",
     "DailyLog": "- Fixed the Detection issue\n- finally given the each detection range different rate of increase"
+  },
+  {
+    "Date": "16/07/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:36:00",
+    "ClockOut": "17:18:00",
+    "DailyLog": "- Added Chase function in alert script\n- Added cinemachine & navmesh package"
   }
 ]
