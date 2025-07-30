@@ -5346,5 +5346,12 @@
     "ClockIn": "08:33:00",
     "ClockOut": "17:08:00",
     "DailyLog": "FRAMEGUARD:\n- Added Player Switch weapon\n- Added both hammer and gun mechanic to the game\n- Added Menu\n- Added Menu related scripts"
+  },
+  {
+    "Date": "30/07/2025",
+    "EmployeeID": 2602105784,
+    "ClockIn": "13:08:41",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
