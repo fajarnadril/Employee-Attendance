@@ -5451,5 +5451,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "19:30:00",
     "DailyLog": "membuat state state npc ai"
+  },
+  {
+    "Date": "22/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "memperbaiki banyak bug yang ada pada ai"
   }
 ]
