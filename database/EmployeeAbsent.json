@@ -5458,5 +5458,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:45:00",
     "DailyLog": "memperbaiki banyak bug yang ada pada ai"
+  },
+  {
+    "Date": "23/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "memperbanyak hal hal yang bisa dilakukan ai"
   }
 ]
