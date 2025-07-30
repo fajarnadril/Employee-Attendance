@@ -5444,5 +5444,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "20:00:00",
     "DailyLog": "membuat basic ai npc pada game"
+  },
+  {
+    "Date": "21/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "19:30:00",
+    "DailyLog": "membuat state state npc ai"
   }
 ]
