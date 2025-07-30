@@ -5290,5 +5290,12 @@
     "ClockIn": "09:09:09",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "08/07/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "- Preparation for red gamejam"
   }
 ]
