@@ -5339,5 +5339,12 @@
     "ClockIn": "08:55:00",
     "ClockOut": "17:02:00",
     "DailyLog": "- Added Navmesh AI navigation\n- Added cinemachine camera to both test stage\n- split the test stage for clarity"
+  },
+  {
+    "Date": "23/07/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:33:00",
+    "ClockOut": "17:08:00",
+    "DailyLog": "FRAMEGUARD:\n- Added Player Switch weapon\n- Added both hammer and gun mechanic to the game\n- Added Menu\n- Added Menu related scripts"
   }
 ]
