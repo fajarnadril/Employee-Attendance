@@ -5493,5 +5493,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "membuat lantern system dan spawner lantern"
+  },
+  {
+    "Date": "30/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "memperbaiki dan finishing luminote mio"
   }
 ]
