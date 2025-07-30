@@ -5367,5 +5367,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "memperbanyak scene yang dipakai untuk red gamejam"
+  },
+  {
+    "Date": "04/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "memasukan asset asset yang sudah dibuat"
   }
 ]
