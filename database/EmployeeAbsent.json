@@ -5360,5 +5360,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "- Added Enemy can damage frame"
+  },
+  {
+    "Date": "03/07/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "05:30:00",
+    "DailyLog": "memperbaiki bug untuk red gamejam"
   }
 ]
