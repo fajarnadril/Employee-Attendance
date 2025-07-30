@@ -3753,10 +3753,10 @@
   },
   {
     "Date": "11/07/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:53:31",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "- Testing build WebGL"
   },
   {
     "Date": "11/07/2025",
