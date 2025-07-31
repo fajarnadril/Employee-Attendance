@@ -5533,7 +5533,7 @@
     "Date": "31/07/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "10:53:44",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:36:17",
+    "DailyLog": "Importing models"
   }
 ]
