@@ -5540,8 +5540,8 @@
     "Date": "01/08/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:43:35",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:10:03",
+    "DailyLog": "- fixed player gun bug\n- added score manager that saves score and display them\n- added more to game events"
   },
   {
     "Date": "01/08/2025",
