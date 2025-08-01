@@ -5535,5 +5535,12 @@
     "ClockIn": "10:53:44",
     "ClockOut": "19:36:17",
     "DailyLog": "Importing models"
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:43:35",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
