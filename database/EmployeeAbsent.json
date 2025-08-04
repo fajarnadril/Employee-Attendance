@@ -5570,5 +5570,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:37:06",
     "DailyLog": "Researching game and game assets development\n"
+  },
+  {
+    "Date": "04/08/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:55:08",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
