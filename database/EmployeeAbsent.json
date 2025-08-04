@@ -5603,8 +5603,8 @@
     "Date": "04/08/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "10:04:15",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "20:25:25",
+    "DailyLog": "Modelling banner nama lulusan"
   },
   {
     "Date": "04/08/2025",
