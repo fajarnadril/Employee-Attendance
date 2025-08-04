@@ -5596,8 +5596,8 @@
     "Date": "04/08/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "09:45:50",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:38:26",
+    "DailyLog": "Attempt to merge project impact branches in git and fixing the errors that result from it"
   },
   {
     "Date": "04/08/2025",
