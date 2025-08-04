@@ -5609,8 +5609,8 @@
   {
     "Date": "04/08/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:52:59",
-    "DailyLog": null
+    "ClockIn": "07:45:00",
+    "ClockOut": "17:54:37",
+    "DailyLog": "Merevisi aset scene dalam game (Trivia, Art, Doorway) untuk game Frame Guard."
   }
 ]
