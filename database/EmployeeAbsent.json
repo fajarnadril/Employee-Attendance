@@ -5675,5 +5675,12 @@
     "ClockIn": "10:08:42",
     "ClockOut": "17:24:20",
     "DailyLog": "Finish Project Impact Version 1.0 update"
+  },
+  {
+    "Date": "06/08/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": null,
+    "ClockOut": "17:44:01",
+    "DailyLog": null
   }
 ]
