@@ -5647,5 +5647,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "18:25:35",
     "DailyLog": "Membuat objek objek tambahan untuk scene FrameGuard"
+  },
+  {
+    "Date": "06/08/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:42:03",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
