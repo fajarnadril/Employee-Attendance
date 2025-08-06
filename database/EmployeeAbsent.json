@@ -5666,8 +5666,8 @@
     "Date": "06/08/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:59:39",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:22:39",
+    "DailyLog": "- Fixed Shop\n- Level 1 basically done\n- Connected Shop into playerstats, enemy & painting"
   },
   {
     "Date": "06/08/2025",
