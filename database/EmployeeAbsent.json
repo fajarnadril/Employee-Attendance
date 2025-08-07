@@ -5694,8 +5694,8 @@
     "Date": "07/08/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:59:54",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:03:00",
+    "DailyLog": "testing project stir in admission and bug fixes"
   },
   {
     "Date": "07/08/2025",
