@@ -5682,5 +5682,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:44:30",
     "DailyLog": "Membuat UI untuk menu upgrade, trivia dan end screen."
+  },
+  {
+    "Date": "07/08/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:11:25",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
