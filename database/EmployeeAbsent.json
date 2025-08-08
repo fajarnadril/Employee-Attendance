@@ -5724,5 +5724,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:08:21",
     "DailyLog": "Project stir add invisible wall and input bug fixes"
+  },
+  {
+    "Date": "08/08/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": null,
+    "ClockOut": "17:10:40",
+    "DailyLog": null
   }
 ]
