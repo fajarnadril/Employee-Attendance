@@ -5728,8 +5728,8 @@
   {
     "Date": "08/08/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:10:40",
-    "DailyLog": null
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:11:06",
+    "DailyLog": "Membuat cutscene untuk FrameGuard"
   }
 ]
