@@ -5773,5 +5773,12 @@
     "ClockIn": "09:09:41",
     "ClockOut": "16:52:42",
     "DailyLog": "Fix project impact missing mesh assets & paper research "
+  },
+  {
+    "Date": "12/08/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:07:57",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
