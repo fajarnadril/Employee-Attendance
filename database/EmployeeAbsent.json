@@ -5806,8 +5806,8 @@
     "Date": "13/08/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:36:16",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:19:46",
+    "DailyLog": "- Added language option"
   },
   {
     "Date": "13/08/2025",
