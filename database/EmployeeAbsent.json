@@ -5820,8 +5820,8 @@
     "Date": "13/08/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "09:11:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:43:25",
+    "DailyLog": "Paper research"
   },
   {
     "Date": "13/08/2025",
