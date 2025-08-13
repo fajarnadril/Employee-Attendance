@@ -5833,8 +5833,8 @@
   {
     "Date": "13/08/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:31:12",
-    "DailyLog": null
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:31:54",
+    "DailyLog": "Membuat aset untuk scene game Project Heist."
   }
 ]
