@@ -3557,10 +3557,10 @@
   },
   {
     "Date": "04/07/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "15:50:51",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Attempt to fix bug in void map where players movement are impeded for reasons currently unknown and starts to research and learn about unity VFX"
   },
   {
     "Date": "07/07/2025",
