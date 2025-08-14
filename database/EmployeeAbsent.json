@@ -3592,10 +3592,10 @@
   },
   {
     "Date": "07/07/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:28:23",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue with researching vfx and continue with the attempts to fix the bug for project impact in void scene where the players movement can be halted"
   },
   {
     "Date": "07/07/2025",
