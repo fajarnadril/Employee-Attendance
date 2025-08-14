@@ -5286,10 +5286,10 @@
   },
   {
     "Date": "30/07/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:09:09",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue with VFX assets research and development for project impact"
   },
   {
     "Date": "08/07/2025",
