@@ -3543,10 +3543,10 @@
   },
   {
     "Date": "04/07/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:01:52",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat menu pause baru yang dapat mengulang game, kembali ke menu, dan quit game untuk project stir"
   },
   {
     "Date": "04/07/2025",
