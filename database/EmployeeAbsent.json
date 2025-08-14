@@ -3984,10 +3984,10 @@
   },
   {
     "Date": "22/07/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:44:23",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue with developing and researching vfx assets as well as continuing with the creation of 2 Binus themed main menu for project impact."
   },
   {
     "Date": "22/07/2025",
