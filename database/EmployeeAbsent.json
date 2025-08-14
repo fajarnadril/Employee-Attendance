@@ -3550,10 +3550,10 @@
   },
   {
     "Date": "04/07/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": null,
-    "ClockOut": "11:02:25",
-    "DailyLog": null
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat kembali Binus Anggrek untuk di Roblox dan dilanjutkan dengan Texturing"
   },
   {
     "Date": "04/07/2025",
