@@ -5917,8 +5917,8 @@
   {
     "Date": "14/08/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:46:14",
-    "DailyLog": null
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:46:48",
+    "DailyLog": "Melanjutkan pembuatan objek-objek scene untuk Project Heist."
   }
 ]
