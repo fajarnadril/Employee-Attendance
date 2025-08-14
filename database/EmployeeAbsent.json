@@ -5841,8 +5841,8 @@
     "Date": "14/08/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "08:59:32",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "23:23:59",
+    "DailyLog": "Refurnish project impact main menu"
   },
   {
     "Date": "14/08/2025",
