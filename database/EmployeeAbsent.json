@@ -3396,10 +3396,10 @@
   },
   {
     "Date": "02/07/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:00:50",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Menambahkan map pemandangan baru untuk menu dan menambah mobil yang akan diikuti oleh player saat di UI Menu"
   },
   {
     "Date": "02/07/2025",
