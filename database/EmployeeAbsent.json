@@ -3802,10 +3802,10 @@
   },
   {
     "Date": "14/07/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:34:30",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Researching 3D Asset development on blender and Shader graph + VFX graph on Unity"
   },
   {
     "Date": "15/07/2025",
