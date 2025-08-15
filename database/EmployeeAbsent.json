@@ -5925,8 +5925,8 @@
     "Date": "15/08/2025",
     "EmployeeID": 2602100114,
     "ClockIn": "08:41:19",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:01:05",
+    "DailyLog": "Membuat asset objek-objek untuk scene game Project Heist."
   },
   {
     "Date": "15/08/2025",
