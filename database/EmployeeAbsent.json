@@ -5953,8 +5953,8 @@
     "Date": "19/08/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:03:37",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:02:50",
+    "DailyLog": "- fixed enemy patrol"
   },
   {
     "Date": "19/08/2025",
