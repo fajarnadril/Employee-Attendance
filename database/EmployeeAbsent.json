@@ -5980,8 +5980,8 @@
   {
     "Date": "19/08/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:15:45",
-    "DailyLog": null
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:16:28",
+    "DailyLog": "Melanjutkan pembuatan tileset scene untuk game Project Heist"
   }
 ]
