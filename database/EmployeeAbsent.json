@@ -5948,5 +5948,12 @@
     "ClockIn": "09:08:47",
     "ClockOut": "17:16:18",
     "DailyLog": "Plan for project impact next update and create it's pitchdeck"
+  },
+  {
+    "Date": "19/08/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:03:37",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
