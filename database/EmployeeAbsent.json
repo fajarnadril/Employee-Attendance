@@ -6037,7 +6037,7 @@
     "Date": "21/08/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:00:52",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:06:58",
+    "DailyLog": "add ready/not ready to menu multiplayer and continue on multiplayer map scripts and features"
   }
 ]
