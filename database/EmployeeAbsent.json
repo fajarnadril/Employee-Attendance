@@ -6023,8 +6023,8 @@
     "Date": "21/08/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:37:20",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:54:26",
+    "DailyLog": "- added player throw mechanic\n- added player line of sight"
   },
   {
     "Date": "21/08/2025",
