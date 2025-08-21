@@ -6043,8 +6043,8 @@
   {
     "Date": "21/08/2025",
     "EmployeeID": 2602054770,
-    "ClockIn": null,
-    "ClockOut": "20:02:02",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "20:02:27",
+    "DailyLog": "Refurnish project impact maps"
   }
 ]
