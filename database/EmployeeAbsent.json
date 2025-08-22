@@ -6078,8 +6078,8 @@
   {
     "Date": "22/08/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "18:14:58",
-    "DailyLog": null
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:23",
+    "DailyLog": "Pembuatan tileset baru untuk game Project Heist."
   }
 ]
