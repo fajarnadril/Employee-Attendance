@@ -6046,5 +6046,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "20:02:27",
     "DailyLog": "Refurnish project impact maps"
+  },
+  {
+    "Date": "22/08/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:53:05",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
