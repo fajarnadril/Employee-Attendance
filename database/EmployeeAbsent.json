@@ -6121,8 +6121,8 @@
     "Date": "26/08/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:59:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:43",
+    "DailyLog": "create multiplayer variants of project stir duel race scripts for multiplayer"
   },
   {
     "Date": "26/08/2025",
