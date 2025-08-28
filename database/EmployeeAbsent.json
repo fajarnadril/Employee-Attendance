@@ -6198,8 +6198,8 @@
     "Date": "28/08/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:01:37",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:01:30",
+    "DailyLog": "continue project stir script conversion to multiplayer"
   },
   {
     "Date": "28/08/2025",
