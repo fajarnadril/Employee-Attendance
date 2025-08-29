@@ -6207,5 +6207,12 @@
     "ClockIn": "10:28:18",
     "ClockOut": "20:30:39",
     "DailyLog": "Fix Binus Fbx Missing Mesh"
+  },
+  {
+    "Date": "29/08/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:55:12",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
