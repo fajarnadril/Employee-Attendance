@@ -6235,5 +6235,12 @@
     "ClockIn": "09:10:24",
     "ClockOut": "17:40:01",
     "DailyLog": "Finish fixing binus fbx missing mesh, continue refurnish apo island map, records project impact ad "
+  },
+  {
+    "Date": "01/09/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:12:26",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
