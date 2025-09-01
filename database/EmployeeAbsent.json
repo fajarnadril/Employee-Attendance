@@ -6260,8 +6260,8 @@
   {
     "Date": "01/09/2025",
     "EmployeeID": 2602054770,
-    "ClockIn": null,
-    "ClockOut": "22:54:34",
-    "DailyLog": null
+    "ClockIn": "09:15:00",
+    "ClockOut": "22:55:13",
+    "DailyLog": "Continue to refurnish apo island map"
   }
 ]
