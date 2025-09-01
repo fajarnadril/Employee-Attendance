@@ -6256,5 +6256,12 @@
     "ClockIn": "08:59:13",
     "ClockOut": "17:44:11",
     "DailyLog": "project stir multiplayer bug fixing"
+  },
+  {
+    "Date": "01/09/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": null,
+    "ClockOut": "22:54:34",
+    "DailyLog": null
   }
 ]
