@@ -6298,5 +6298,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "19:15:00",
     "DailyLog": "mendambah fitur fitur lsm untuk bic"
+  },
+  {
+    "Date": "05/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "memperbaiki bug pada mechanic mechanic baru di lsm  untuk bic"
   }
 ]
