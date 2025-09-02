@@ -6305,5 +6305,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "memperbaiki bug pada mechanic mechanic baru di lsm  untuk bic"
+  },
+  {
+    "Date": "06/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "membuat bahasa korea di lsm "
   }
 ]
