@@ -6382,5 +6382,12 @@
     "ClockIn": "09:06:08",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "19/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "membuat mechanic auto delete untuk mengubah aquarium"
   }
 ]
