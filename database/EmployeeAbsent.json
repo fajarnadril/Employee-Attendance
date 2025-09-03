@@ -6431,5 +6431,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "memperbaiki bug pada decor only"
+  },
+  {
+    "Date": "28/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "mengubah data data aquarium decor yang kurang akurat "
   }
 ]
