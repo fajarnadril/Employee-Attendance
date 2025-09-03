@@ -6389,5 +6389,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:30:00",
     "DailyLog": "membuat mechanic auto delete untuk mengubah aquarium"
+  },
+  {
+    "Date": "20/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "memperbaiki hit box pada aquarium "
   }
 ]
