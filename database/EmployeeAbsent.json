@@ -6424,5 +6424,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "membuat build decor only "
+  },
+  {
+    "Date": "27/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "memperbaiki bug pada decor only"
   }
 ]
