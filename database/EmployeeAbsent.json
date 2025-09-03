@@ -6403,5 +6403,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:30:00",
     "DailyLog": "membuat ui untuk mengubah aquarium"
+  },
+  {
+    "Date": "22/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:00:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "memperbaiki dan menambah hover pada ui"
   }
 ]
