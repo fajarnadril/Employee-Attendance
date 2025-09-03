@@ -6410,5 +6410,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "18:00:00",
     "DailyLog": "memperbaiki dan menambah hover pada ui"
+  },
+  {
+    "Date": "25/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "memperbaiki mechanic mengubah aquarium"
   }
 ]
