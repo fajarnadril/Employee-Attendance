@@ -6438,5 +6438,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "mengubah data data aquarium decor yang kurang akurat "
+  },
+  {
+    "Date": "29/08/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "test build terakhir untuk mengirim ke publisher"
   }
 ]
