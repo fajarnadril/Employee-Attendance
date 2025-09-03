@@ -6449,8 +6449,8 @@
   {
     "Date": "03/09/2025",
     "EmployeeID": 2602054770,
-    "ClockIn": null,
-    "ClockOut": "17:10:51",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:11:13",
+    "DailyLog": "Continue with Apo Island Refurnish"
   }
 ]
