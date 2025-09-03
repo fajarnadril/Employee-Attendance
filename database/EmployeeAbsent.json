@@ -6445,5 +6445,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "test build terakhir untuk mengirim ke publisher"
+  },
+  {
+    "Date": "03/09/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": null,
+    "ClockOut": "17:10:51",
+    "DailyLog": null
   }
 ]
