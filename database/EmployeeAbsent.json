@@ -6361,5 +6361,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "menambah mechanic mengganti aquarium menjadi bentuk lain"
+  },
+  {
+    "Date": "03/09/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:46:38",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
