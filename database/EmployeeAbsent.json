@@ -6620,5 +6620,12 @@
     "ClockIn": "08:11:00",
     "ClockOut": "17:20:00",
     "DailyLog": "Melanjutkan pembuatan scene pameran \"Comedy\" untuk \"FrameGuard\"."
+  },
+  {
+    "Date": "07/08/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:49:00",
+    "ClockOut": "17:35:00",
+    "DailyLog": "Melanjutkan pembuatan beberapa animasi enemy (Sneaking, Idle, Shooting, dan Busted) untuk game FrameGuard."
   }
 ]
