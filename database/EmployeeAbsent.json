@@ -7082,5 +7082,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Redesign mekanik game utama The Reverist"
+  },
+  {
+    "Date": "21/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Lanjut redesign mekanik game utama The Reverist"
   }
 ]
