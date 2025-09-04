@@ -6182,10 +6182,10 @@
   },
   {
     "Date": "28/08/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:57:55",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:58:00",
+    "ClockOut": "18:03:00",
+    "DailyLog": "- Added scroll mechanic to card selection\n- added map card limiter mechanic"
   },
   {
     "Date": "28/08/2025",
