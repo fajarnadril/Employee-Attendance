@@ -6627,5 +6627,12 @@
     "ClockIn": "08:49:00",
     "ClockOut": "17:35:00",
     "DailyLog": "Melanjutkan pembuatan beberapa animasi enemy (Sneaking, Idle, Shooting, dan Busted) untuk game FrameGuard."
+  },
+  {
+    "Date": "26/08/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:43:00",
+    "ClockOut": "17:50:00",
+    "DailyLog": "Melanjutkan pembuatan tileset \"Museum\"  dan melakukan revisi pada tileset \"Mansion\" game Project Heist."
   }
 ]
