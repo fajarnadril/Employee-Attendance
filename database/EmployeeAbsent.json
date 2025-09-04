@@ -6830,5 +6830,12 @@
     "ClockIn": "08:56:00",
     "ClockOut": "18:32:00",
     "DailyLog": "- Updated Menu and display card selection\n- Added Menu door that change scene\n- updated scriptable object map\n- updated scriptable object card"
+  },
+  {
+    "Date": "29/08/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:12:00",
+    "ClockOut": "19:20:00",
+    "DailyLog": "- Updated Menu UI & combined table and map UI\n- added esc button functionality for closing UI"
   }
 ]
