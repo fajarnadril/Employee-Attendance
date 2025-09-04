@@ -7264,5 +7264,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "hari ini masih mengerjakan game yang akan dikumpulkan untuk gameXcellence, Mulai mengerjakan bagian scoring dan juga plant behaviour"
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat NPCs 2D untuk map map di Game Gemastik"
   }
 ]
