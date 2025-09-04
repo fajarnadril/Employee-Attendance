@@ -5776,10 +5776,10 @@
   },
   {
     "Date": "12/08/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:07:57",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:43:00",
+    "ClockOut": "17:11:00",
+    "DailyLog": "Melanjutkan menambahkan detail untuk bagian cutscene game dan membuat logo untuk game FrameGuard."
   },
   {
     "Date": "12/08/2025",
