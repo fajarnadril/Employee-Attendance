@@ -6984,5 +6984,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Penyelesaian akhir & dokumentasi final"
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Polish Prototype The Reverist versi lama untuk showcase di W3GG"
   }
 ]
