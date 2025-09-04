@@ -6963,5 +6963,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Finalisasi storyboard & GDD Silent Trip"
+  },
+  {
+    "Date": "27/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Penyusunan laporan akhir Silent Trip"
   }
 ]
