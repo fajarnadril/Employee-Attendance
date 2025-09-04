@@ -6501,5 +6501,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membuat material glow untuk beberapa asset untuk membuat game environment lebih hidup."
+  },
+  {
+    "Date": "07/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Implementasi shader air ke dalam background environment dan adjust agar menjadi lebih stylized.\n"
   }
 ]
