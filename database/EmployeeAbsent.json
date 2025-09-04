@@ -6851,5 +6851,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Mulai desain game untuk lomba Gemastik 2025: Membuat game phasing awal"
+  },
+  {
+    "Date": "04/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Lanjutan game phasing dan kerangka alur permainan"
   }
 ]
