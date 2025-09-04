@@ -7131,5 +7131,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Pengerjaan Mekanik yang diperlukan untuk Gemastik terutama pada mekanik bangunan"
+  },
+  {
+    "Date": "04/08/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Pengerjaan Mekanik yang diperlukan untuk Gemastik terutama pada mekanik bangunan (2)"
   }
 ]
