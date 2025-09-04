@@ -6774,5 +6774,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Test final sebelum pengiriman untuk publisher\n"
+  },
+  {
+    "Date": "07/08/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "- Added tutorial\n- Added SFX and BGM"
   }
 ]
