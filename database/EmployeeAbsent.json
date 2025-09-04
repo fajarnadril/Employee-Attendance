@@ -6487,5 +6487,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Membuat LevelSelect Scene untuk memilih level dalam game dengan variasi berbeda dalam unity game engine."
+  },
+  {
+    "Date": "05/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat Custom Lighting menggunakan Light Cookies untuk memberikan efek dinamis"
   }
 ]
