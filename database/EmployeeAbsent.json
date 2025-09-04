@@ -7068,5 +7068,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "19:00:00",
     "DailyLog": "Pembuatan asset yang kurang Watts and Homes"
+  },
+  {
+    "Date": "19/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "finalisasi dan submisi gaem Watts and Homes ke Taipei Game Show 2026"
   }
 ]
