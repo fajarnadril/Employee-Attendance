@@ -6942,5 +6942,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Penyusunan laporan pendukung"
+  },
+  {
+    "Date": "22/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Research seputar social anxiety disorder untuk referensi akademis"
   }
 ]
