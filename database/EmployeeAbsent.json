@@ -5741,10 +5741,10 @@
   },
   {
     "Date": "11/08/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:36:18",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:36:00",
+    "ClockOut": "17:21:00",
+    "DailyLog": "Melanjutkan pembuatan scene untuk creator credit dan menambahkan detail untuk cutscene game FrameGuard."
   },
   {
     "Date": "11/08/2025",
