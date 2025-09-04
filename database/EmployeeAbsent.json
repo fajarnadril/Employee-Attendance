@@ -7131,5 +7131,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Redesign character ke 4 dan initial balancing ke 4 character"
+  },
+  {
+    "Date": "29/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Finalisasi character design art dan mulai proses pembuatan UI main menu dan Character selection"
   }
 ]
