@@ -6508,5 +6508,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Implementasi shader air ke dalam background environment dan adjust agar menjadi lebih stylized.\n"
+  },
+  {
+    "Date": "08/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat shader yang menggerakkan vertex rumput agar bergerak naik turun.\n"
   }
 ]
