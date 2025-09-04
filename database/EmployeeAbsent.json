@@ -6837,5 +6837,12 @@
     "ClockIn": "08:12:00",
     "ClockOut": "19:20:00",
     "DailyLog": "- Updated Menu UI & combined table and map UI\n- added esc button functionality for closing UI"
+  },
+  {
+    "Date": "04/09/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": null,
+    "ClockOut": "17:26:23",
+    "DailyLog": null
   }
 ]
