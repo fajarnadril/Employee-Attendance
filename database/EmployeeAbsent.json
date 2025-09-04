@@ -6781,5 +6781,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "- Added tutorial\n- Added SFX and BGM"
+  },
+  {
+    "Date": "08/08/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "- added SFX & BGM\n- added Cutscene\n- added more UI"
   }
 ]
