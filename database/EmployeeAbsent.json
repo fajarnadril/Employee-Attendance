@@ -6536,5 +6536,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat Repo Baru untuk versi bahasa Inggris Game Gemastik kemudian membuat branch untuk setiap role.\n"
+  },
+  {
+    "Date": "15/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Mengganti text bahasa Indonesia menjadi Bahasa Inggris di setiap komponen UI dan dialog."
   }
 ]
