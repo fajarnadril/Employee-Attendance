@@ -6809,5 +6809,12 @@
     "ClockIn": "08:24:00",
     "ClockOut": "18:15:00",
     "DailyLog": "- Fixed cinemachine frameguard"
+  },
+  {
+    "Date": "15/08/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:55:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "- Added Camera shake effect\n- added extra effect to enemy hit"
   }
 ]
