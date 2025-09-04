@@ -6718,5 +6718,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Kembali dari BIC dan pengurusan Biaya"
+  },
+  {
+    "Date": "20/08/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Pembuatan Asset aquarium baru untuk Luminote"
   }
 ]
