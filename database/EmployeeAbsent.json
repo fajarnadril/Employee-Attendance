@@ -6592,5 +6592,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Melakukan animasi dan modeling beberapa tanaman agar lebih hidup dan menarik secara visual\n"
+  },
+  {
+    "Date": "28/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat dan memperkuat asset untuk game lain yang akan disubmit ke PAX AUS, yaitu membuat asset lain dan mengganti asset yang sudah ada agar berbeda\n"
   }
 ]
