@@ -6893,5 +6893,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Menata ulang desain game Silent Trip (alur utama)"
+  },
+  {
+    "Date": "12/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Revisi phasing gameplay Silent Trip"
   }
 ]
