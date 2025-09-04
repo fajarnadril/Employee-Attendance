@@ -7152,5 +7152,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Pengerjaan Mekanik yang diperlukan untuk Gemastik terutama pada pengerjaan mekanik tanah dan bangunan field (2)"
+  },
+  {
+    "Date": "07/08/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Polishing untuk game gemastik dan pencarian bug"
   }
 ]
