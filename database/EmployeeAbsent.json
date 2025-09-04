@@ -7397,5 +7397,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "19:15:00",
     "DailyLog": "Melakukan lighting kedalam unity"
+  },
+  {
+    "Date": "29/08/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Pembuatan assets 2d ulang beberapa"
   }
 ]
