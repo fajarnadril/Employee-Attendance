@@ -7376,5 +7376,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Menyelesaikan block out bagian kamar"
+  },
+  {
+    "Date": "26/08/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "UV wraping Bagian level kamar"
   }
 ]
