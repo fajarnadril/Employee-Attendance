@@ -6844,5 +6844,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:27:07",
     "DailyLog": "work on enrichment final report"
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mulai desain game untuk lomba Gemastik 2025: Membuat game phasing awal"
   }
 ]
