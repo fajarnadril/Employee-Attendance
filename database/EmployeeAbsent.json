@@ -7369,5 +7369,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:30:00",
     "DailyLog": "Memodel Level bagian awal yaitu Kamar"
+  },
+  {
+    "Date": "25/08/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Menyelesaikan block out bagian kamar"
   }
 ]
