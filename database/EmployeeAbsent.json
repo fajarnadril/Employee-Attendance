@@ -7124,5 +7124,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Redesign 2 character tambahan terkait skill, ultimate, dan passive"
+  },
+  {
+    "Date": "28/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Redesign character ke 4 dan initial balancing ke 4 character"
   }
 ]
