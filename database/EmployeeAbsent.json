@@ -6529,5 +6529,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan evaluasi dan testing untuk pengumpulan lomba game selanjutnya\n"
+  },
+  {
+    "Date": "14/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat Repo Baru untuk versi bahasa Inggris Game Gemastik kemudian membuat branch untuk setiap role.\n"
   }
 ]
