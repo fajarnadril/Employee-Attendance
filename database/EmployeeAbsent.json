@@ -6210,10 +6210,10 @@
   },
   {
     "Date": "29/08/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:55:12",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:55:00",
+    "ClockOut": "17:22:00",
+    "DailyLog": "Melanjutkan revisi untuk tileset untuk area \"Mansion\" game Project Heist."
   },
   {
     "Date": "29/08/2025",
