@@ -6823,5 +6823,12 @@
     "ClockIn": "08:43:00",
     "ClockOut": "17:22:00",
     "DailyLog": "- Added Line of sight using Mesh\n- Added Enemy Chase function"
+  },
+  {
+    "Date": "26/08/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:56:00",
+    "ClockOut": "18:32:00",
+    "DailyLog": "- Updated Menu and display card selection\n- Added Menu door that change scene\n- updated scriptable object map\n- updated scriptable object card"
   }
 ]
