@@ -6841,8 +6841,8 @@
   {
     "Date": "04/09/2025",
     "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "17:26:23",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:27:07",
+    "DailyLog": "work on enrichment final report"
   }
 ]
