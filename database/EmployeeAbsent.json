@@ -7390,5 +7390,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "19:00:00",
     "DailyLog": "Texturing Bagian level kamar"
+  },
+  {
+    "Date": "28/08/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:15:00",
+    "DailyLog": "Melakukan lighting kedalam unity"
   }
 ]
