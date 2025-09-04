@@ -6473,5 +6473,12 @@
     "ClockIn": "09:47:47",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat particle system untuk game gemastik dan membuat asset lainnya"
   }
 ]
