@@ -6970,5 +6970,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Penyusunan laporan akhir Silent Trip"
+  },
+  {
+    "Date": "28/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Review keseluruhan (design, GDD, laporan, research)"
   }
 ]
