@@ -7103,5 +7103,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Check GDD, pengaturan jadwal untuk pembuatan The Reverist ulang"
+  },
+  {
+    "Date": "25/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Update Competition Portfolio& Upload Game Access Information"
   }
 ]
