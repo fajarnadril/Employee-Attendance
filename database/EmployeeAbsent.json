@@ -6049,10 +6049,10 @@
   },
   {
     "Date": "22/08/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:53:05",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:21:00",
+    "ClockOut": "19:12:00",
+    "DailyLog": "- added player throw mechanic to gameplay test"
   },
   {
     "Date": "22/08/2025",
