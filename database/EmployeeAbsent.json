@@ -6140,10 +6140,10 @@
   },
   {
     "Date": "27/08/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:43:57",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:44:00",
+    "ClockOut": "17:01:00",
+    "DailyLog": "Pembuatan tileset untuk area \"Museum\" dengan menambahkan \"Guard Room\" game Project Heist."
   },
   {
     "Date": "27/08/2025",
