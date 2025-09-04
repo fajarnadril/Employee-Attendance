@@ -6606,5 +6606,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Melakukan Finalisasi asset 3D dan melakukan visual polishin bersama game designer agar tujuan design tercapai yaitu pergantian asset 3D dan 2D\n"
+  },
+  {
+    "Date": "04/09/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": "10:12:28",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
