@@ -7075,5 +7075,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "finalisasi dan submisi gaem Watts and Homes ke Taipei Game Show 2026"
+  },
+  {
+    "Date": "20/08/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Redesign mekanik game utama The Reverist"
   }
 ]
