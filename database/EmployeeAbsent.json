@@ -6464,8 +6464,8 @@
     "Date": "04/09/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:59:10",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:42:46",
+    "DailyLog": "- fix UI bug"
   },
   {
     "Date": "04/09/2025",
