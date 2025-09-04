@@ -6886,5 +6886,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Lanjutan GDD (fitur, mekanik, sistem)"
+  },
+  {
+    "Date": "11/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Menata ulang desain game Silent Trip (alur utama)"
   }
 ]
