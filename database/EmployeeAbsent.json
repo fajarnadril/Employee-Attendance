@@ -7278,5 +7278,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membuat UI Game Gemastik"
+  },
+  {
+    "Date": "05/08/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat menyusun Scene Game Gemastik"
   }
 ]
