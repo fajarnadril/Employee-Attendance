@@ -6522,5 +6522,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Melakukan evaluasi terakit game yang sudah dibuat untuk Gemastik dari segi asset dan visual\n"
+  },
+  {
+    "Date": "12/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan evaluasi dan testing untuk pengumpulan lomba game selanjutnya\n"
   }
 ]
