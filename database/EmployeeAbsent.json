@@ -6613,5 +6613,12 @@
     "ClockIn": "10:12:28",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:11:00",
+    "ClockOut": "17:20:00",
+    "DailyLog": "Melanjutkan pembuatan scene pameran \"Comedy\" untuk \"FrameGuard\"."
   }
 ]
