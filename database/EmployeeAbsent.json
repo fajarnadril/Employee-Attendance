@@ -6494,5 +6494,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat Custom Lighting menggunakan Light Cookies untuk memberikan efek dinamis"
+  },
+  {
+    "Date": "06/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat material glow untuk beberapa asset untuk membuat game environment lebih hidup."
   }
 ]
