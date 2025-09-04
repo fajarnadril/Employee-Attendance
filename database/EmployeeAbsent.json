@@ -6977,5 +6977,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Review keseluruhan (design, GDD, laporan, research)"
+  },
+  {
+    "Date": "29/08/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Penyelesaian akhir & dokumentasi final"
   }
 ]
