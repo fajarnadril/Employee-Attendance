@@ -6571,5 +6571,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Level design untuk placeholder agar mengetahui tampilan game secara menyeluruh tersampaikan kepada designer\n"
+  },
+  {
+    "Date": "25/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membuat beberapa 3D Asset untuk game PAX AUS yaitu beberapa asset tanaman awal untuk nantinya diimport ke unity.\n"
   }
 ]
