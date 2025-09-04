@@ -6732,5 +6732,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Penambahan UI untuk Luminote"
+  },
+  {
+    "Date": "22/08/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Pembuatan Aquarium baru"
   }
 ]
