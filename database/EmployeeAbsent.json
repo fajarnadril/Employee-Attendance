@@ -6480,5 +6480,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Membuat particle system untuk game gemastik dan membuat asset lainnya"
+  },
+  {
+    "Date": "04/08/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat LevelSelect Scene untuk memilih level dalam game dengan variasi berbeda dalam unity game engine."
   }
 ]
