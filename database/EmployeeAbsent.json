@@ -7467,5 +7467,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Mulai membuat protoype game baru yang berjudul Farmatro"
+  },
+  {
+    "Date": "15/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan concepting pada 2d ui layout yang dibutuhkan"
   }
 ]
