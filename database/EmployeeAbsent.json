@@ -7509,5 +7509,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Membuat Asset 2D untuk game Farmatro "
+  },
+  {
+    "Date": "26/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Memfiunalisasi asset 2d dan 3d yang sudah di develop dan di berikan ke programmer"
   }
 ]
