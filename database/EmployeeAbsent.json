@@ -7495,5 +7495,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengurus keperluan dan budgeting TGS (Tokyo Game Show) Tiket pesawat dan Hotel"
+  },
+  {
+    "Date": "22/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat budgeting untuk Gamescom Thailand seperti Hotel dan lain sebagainya.\nMembuat Video untuk keperluan showcase Airasia"
   }
 ]
