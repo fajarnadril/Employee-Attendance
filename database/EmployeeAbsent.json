@@ -7516,5 +7516,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Memfiunalisasi asset 2d dan 3d yang sudah di develop dan di berikan ke programmer"
+  },
+  {
+    "Date": "27/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melakukan listing dan mengisi detail dokumen yang diperlukan untuk submission GameXcellence"
   }
 ]
