@@ -7404,5 +7404,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Pembuatan assets 2d ulang beberapa"
+  },
+  {
+    "Date": "01/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Develop Game Gemastik, Mekanik game dan proposal "
   }
 ]
