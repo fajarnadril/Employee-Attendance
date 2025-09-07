@@ -7481,5 +7481,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "membuat UI untuk game farmatro "
+  },
+  {
+    "Date": "20/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengurus keperluan dan budgeting TGS (Tokyo Game Show)"
   }
 ]
