@@ -7474,5 +7474,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan concepting pada 2d ui layout yang dibutuhkan"
+  },
+  {
+    "Date": "19/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "membuat UI untuk game farmatro "
   }
 ]
