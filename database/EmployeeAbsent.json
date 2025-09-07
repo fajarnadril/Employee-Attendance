@@ -7432,5 +7432,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Finalisasi Proposal gemastik dan mendekor proposal "
+  },
+  {
+    "Date": "07/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat 2D asset untuk karakter dalam game"
   }
 ]
