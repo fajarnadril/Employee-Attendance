@@ -7460,5 +7460,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Melakukan listing game yang akan disubmit ke GameXcellence"
+  },
+  {
+    "Date": "14/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Mulai membuat protoype game baru yang berjudul Farmatro"
   }
 ]
