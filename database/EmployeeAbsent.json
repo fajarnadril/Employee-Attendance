@@ -7523,5 +7523,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Melakukan listing dan mengisi detail dokumen yang diperlukan untuk submission GameXcellence"
+  },
+  {
+    "Date": "28/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat Pitchdeck untuk keperluan Pitching"
   }
 ]
