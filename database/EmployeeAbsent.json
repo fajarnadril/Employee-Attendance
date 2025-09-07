@@ -7446,5 +7446,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Membuat 2D asset untuk UI didalam game"
+  },
+  {
+    "Date": "12/08/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mulai berdiskusi dan concepting game untuk submission GameXcellence"
   }
 ]
