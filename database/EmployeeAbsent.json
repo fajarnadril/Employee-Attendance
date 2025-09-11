@@ -5552,10 +5552,10 @@
   },
   {
     "Date": "01/08/2025",
-    "EmployeeID": 2602089824,
-    "ClockIn": "09:16:02",
-    "ClockOut": "23:03:48",
-    "DailyLog": "make a content for socmed binusgat\n"
+    "EmployeeID": "2602089824",
+    "ClockIn": "09:00:00",
+    "ClockOut": "23:00:00",
+    "DailyLog": "make a content for socmed binusgat"
   },
   {
     "Date": "01/08/2025",
