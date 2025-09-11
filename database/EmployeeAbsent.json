@@ -5580,10 +5580,10 @@
   },
   {
     "Date": "04/08/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "08:59:49",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "project stir ui script fixed"
   },
   {
     "Date": "04/08/2025",
