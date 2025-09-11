@@ -5811,10 +5811,10 @@
   },
   {
     "Date": "13/08/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:00:01",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "project stir itch io arr design"
   },
   {
     "Date": "13/08/2025",
