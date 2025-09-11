@@ -6133,10 +6133,10 @@
   },
   {
     "Date": "26/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:54:04",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Refurnish Project Impact Maps"
   },
   {
     "Date": "27/08/2025",
