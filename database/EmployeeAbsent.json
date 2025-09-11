@@ -5657,9 +5657,9 @@
   },
   {
     "Date": "06/08/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "08:58:58",
-    "ClockOut": "16:32:07",
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
     "DailyLog": "mengerjakan stir"
   },
   {
