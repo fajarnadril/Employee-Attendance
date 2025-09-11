@@ -5629,10 +5629,10 @@
   },
   {
     "Date": "05/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:24:50",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Attempt to merge project impact branches in git and fixing the errors that result from it"
   },
   {
     "Date": "05/08/2025",
