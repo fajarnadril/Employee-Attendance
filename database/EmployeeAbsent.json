@@ -5699,9 +5699,9 @@
   },
   {
     "Date": "07/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:01:53",
-    "ClockOut": "17:10:49",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
     "DailyLog": "Researching papers about music education and serious games"
   },
   {
