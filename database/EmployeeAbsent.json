@@ -6168,9 +6168,9 @@
   },
   {
     "Date": "27/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:18:34",
-    "ClockOut": "17:32:39",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
     "DailyLog": "Fix Project Impact Binus fbx missing mesh problem"
   },
   {
