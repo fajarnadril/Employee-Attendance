@@ -5818,9 +5818,9 @@
   },
   {
     "Date": "13/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:11:24",
-    "ClockOut": "17:43:25",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
     "DailyLog": "Paper research"
   },
   {
