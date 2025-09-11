@@ -6070,10 +6070,10 @@
   },
   {
     "Date": "22/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:30:07",
-    "ClockOut": "20:25:48",
-    "DailyLog": "Refurnish Project Impact Maps\n"
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "20:30:00",
+    "DailyLog": "Refurnish Project Impact Maps"
   },
   {
     "Date": "22/08/2025",
