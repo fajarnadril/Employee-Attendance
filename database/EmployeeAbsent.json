@@ -5797,9 +5797,9 @@
   },
   {
     "Date": "12/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:09:24",
-    "ClockOut": "17:35:19",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
     "DailyLog": "Paper research for project rhythm paper"
   },
   {
