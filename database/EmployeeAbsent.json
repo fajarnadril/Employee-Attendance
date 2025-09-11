@@ -6007,9 +6007,9 @@
   },
   {
     "Date": "20/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:33:03",
-    "ClockOut": "19:27:21",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "19:30:00",
     "DailyLog": "Refurnishing project impact maps, organizing its files and assets\n"
   },
   {
