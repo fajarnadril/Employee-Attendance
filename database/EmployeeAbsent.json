@@ -5671,9 +5671,9 @@
   },
   {
     "Date": "06/08/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:08:42",
-    "ClockOut": "17:24:20",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
     "DailyLog": "Finish Project Impact Version 1.0 update"
   },
   {
