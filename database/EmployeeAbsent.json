@@ -7619,8 +7619,8 @@
     "Date": "11/09/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:29:06",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:17:00",
+    "DailyLog": "- Can confirm cards now\n- added crouch mechanic"
   },
   {
     "Date": "11/09/2025",
