@@ -7667,8 +7667,8 @@
   {
     "Date": "12/09/2025",
     "EmployeeID": 2602054770,
-    "ClockIn": null,
-    "ClockOut": "18:56:01",
-    "DailyLog": null
+    "ClockIn": "09:45:00",
+    "ClockOut": "18:57:12",
+    "DailyLog": "Make Ad for Project Impact"
   }
 ]
