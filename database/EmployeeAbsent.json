@@ -7656,5 +7656,12 @@
     "ClockIn": "09:03:29",
     "ClockOut": "17:12:14",
     "DailyLog": "mengerjakan project stir"
+  },
+  {
+    "Date": "12/09/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": null,
+    "ClockOut": "17:33:46",
+    "DailyLog": null
   }
 ]
