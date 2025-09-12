@@ -7642,5 +7642,12 @@
     "ClockIn": "10:00:00",
     "ClockOut": "22:19:45",
     "DailyLog": "Fix project impact minor error, research game & game assets development"
+  },
+  {
+    "Date": "12/09/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:55:59",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
