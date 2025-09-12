@@ -7660,8 +7660,8 @@
   {
     "Date": "12/09/2025",
     "EmployeeID": 2602071575,
-    "ClockIn": null,
-    "ClockOut": "17:33:46",
-    "DailyLog": null
+    "ClockIn": "08:47:00",
+    "ClockOut": "17:34:06",
+    "DailyLog": "- tried using a* pathfinding (it didnt worked)\n\n- fix crouch bug\n- added function to read agent velocity"
   }
 ]
