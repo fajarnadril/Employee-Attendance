@@ -7670,5 +7670,12 @@
     "ClockIn": "09:45:00",
     "ClockOut": "18:57:12",
     "DailyLog": "Make Ad for Project Impact"
+  },
+  {
+    "Date": "15/09/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": null,
+    "ClockOut": "08:45:49",
+    "DailyLog": null
   }
 ]
