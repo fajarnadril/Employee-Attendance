@@ -7761,5 +7761,12 @@
     "ClockIn": "10:07:44",
     "ClockOut": "22:42:53",
     "DailyLog": "Refurnish Apo Island Map"
+  },
+  {
+    "Date": "18/09/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:37:48",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
