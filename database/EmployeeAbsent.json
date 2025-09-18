@@ -7793,8 +7793,8 @@
   {
     "Date": "18/09/2025",
     "EmployeeID": 2602071575,
-    "ClockIn": null,
-    "ClockOut": "17:08:28",
-    "DailyLog": null
+    "ClockIn": "08:33:00",
+    "ClockOut": "17:08:49",
+    "DailyLog": "- line of sight enemy added and fixed "
   }
 ]
