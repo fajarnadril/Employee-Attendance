@@ -7843,8 +7843,8 @@
     "Date": "22/09/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:43:04",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:17:12",
+    "DailyLog": "- fix project heist bug"
   },
   {
     "Date": "22/09/2025",
