@@ -7878,8 +7878,8 @@
     "Date": "23/09/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:57:48",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "19:35:01",
+    "DailyLog": "- fix bug"
   },
   {
     "Date": "23/09/2025",
