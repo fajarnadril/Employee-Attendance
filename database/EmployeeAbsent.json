@@ -7885,8 +7885,8 @@
     "Date": "23/09/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:58:56",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:42",
+    "DailyLog": "attempting to create project stir multiplayer coop inputs"
   },
   {
     "Date": "23/09/2025",
