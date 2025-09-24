@@ -7908,5 +7908,12 @@
     "ClockIn": "08:47:26",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "24/09/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:49:19",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
