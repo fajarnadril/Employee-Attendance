@@ -7894,5 +7894,12 @@
     "ClockIn": "09:10:30",
     "ClockOut": "23:37:18",
     "DailyLog": "Attempt to add ground crack vfx unto project impact apo island map "
+  },
+  {
+    "Date": "24/09/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:20:05",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
