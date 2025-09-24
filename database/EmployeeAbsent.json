@@ -7920,8 +7920,8 @@
     "Date": "24/09/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:59:27",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "22:29:09",
+    "DailyLog": "- Added Pop Up window \n- fixed confirm card bug where mouse card will not be accepted"
   },
   {
     "Date": "24/09/2025",
