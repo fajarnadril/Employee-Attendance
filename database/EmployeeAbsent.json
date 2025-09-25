@@ -7961,8 +7961,8 @@
   {
     "Date": "25/09/2025",
     "EmployeeID": 2602071575,
-    "ClockIn": null,
-    "ClockOut": "19:06:34",
-    "DailyLog": null
+    "ClockIn": "08:15:00",
+    "ClockOut": "19:06:48",
+    "DailyLog": "- Pop up UI fixed\n- throw cards now removes cards displayed in UI"
   }
 ]
