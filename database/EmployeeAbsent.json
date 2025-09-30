@@ -8020,5 +8020,12 @@
     "ClockIn": "08:27:00",
     "ClockOut": "20:36:13",
     "DailyLog": "- LOS  enemy can now be seen\n- Disguise & Shadow step now works"
+  },
+  {
+    "Date": "30/09/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "07:48:11",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
