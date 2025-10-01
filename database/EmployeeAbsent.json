@@ -5762,10 +5762,10 @@
   },
   {
     "Date": "11/08/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "09:03:21",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Texturing dan Modelling melanjut utk Roblox KemanggiFun"
   },
   {
     "Date": "11/08/2025",
