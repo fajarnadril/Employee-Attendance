@@ -8090,5 +8090,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Mengerjakan material dan shader untuk meningkatkan visual ke dalam game yang akan dikumpulkan ke PAX AUS"
+  },
+  {
+    "Date": "03/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Mengerjakan visual dari game yang dibuat untuk dikumpulkan ke PAX AUS 2025 seperti asset 3D"
   }
 ]
