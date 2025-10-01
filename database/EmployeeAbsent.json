@@ -8097,5 +8097,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Mengerjakan visual dari game yang dibuat untuk dikumpulkan ke PAX AUS 2025 seperti asset 3D"
+  },
+  {
+    "Date": "01/10/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": null,
+    "ClockOut": "17:05:19",
+    "DailyLog": null
   }
 ]
