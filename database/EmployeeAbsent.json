@@ -8101,8 +8101,8 @@
   {
     "Date": "01/10/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:05:19",
-    "DailyLog": null
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:06:06",
+    "DailyLog": "Pembuatan objek-objek untuk area \"Tavern\" game Project Heist "
   }
 ]
