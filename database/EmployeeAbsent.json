@@ -8076,5 +8076,12 @@
     "ClockIn": "11:54:59",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "01/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Mengerjakan asset untuk game dan melakukan finalisasi untuk dikumpulkan ke PAX AUS "
   }
 ]
