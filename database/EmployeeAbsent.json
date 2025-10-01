@@ -8074,8 +8074,8 @@
     "Date": "01/10/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "11:54:59",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:47:04",
+    "DailyLog": "Finishing Lab Interior"
   },
   {
     "Date": "01/09/2025",
