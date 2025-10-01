@@ -8072,10 +8072,10 @@
   },
   {
     "Date": "01/10/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "11:54:59",
-    "ClockOut": "17:47:04",
-    "DailyLog": "Finishing Lab Interior"
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Finishing Part 1 Lab Interior"
   },
   {
     "Date": "01/09/2025",
