@@ -8342,5 +8342,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengerjakan Asset-Asset untuk Lab Interior"
+  },
+  {
+    "Date": "24/09/2025",
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengerjakan Asset-Asset untuk Lab Interior"
   }
 ]
