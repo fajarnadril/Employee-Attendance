@@ -8440,5 +8440,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "pembahasan design"
+  },
+  {
+    "Date": "04/09/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Persiapan asset untuk design exploration baru"
   }
 ]
