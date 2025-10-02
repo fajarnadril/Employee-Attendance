@@ -8417,8 +8417,8 @@
     "Date": "02/10/2025",
     "EmployeeID": 2602054770,
     "ClockIn": "10:24:19",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:22:03",
+    "DailyLog": "Continue with Project Impact Revision"
   },
   {
     "Date": "01/09/2025",
