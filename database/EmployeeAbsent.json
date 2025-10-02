@@ -7687,10 +7687,10 @@
   },
   {
     "Date": "15/09/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:17:01",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "08:57:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Develop a shared camera system that follows the midpoint between cars and auto-zooms to keep both players visible for project stir\n"
   },
   {
     "Date": "15/09/2025",
