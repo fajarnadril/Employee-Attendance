@@ -7708,10 +7708,10 @@
   },
   {
     "Date": "16/09/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "03:06:48",
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "08:58:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Tested multiple display configuration to assign Player 1 and Player 2 cameras to different monitors for project stir\n"
   },
   {
     "Date": "16/09/2025",
