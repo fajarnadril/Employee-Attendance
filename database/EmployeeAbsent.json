@@ -8377,5 +8377,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Texturing Asset-Asset untuk Lab Interior"
+  },
+  {
+    "Date": "02/10/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:06:37",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
