@@ -7848,9 +7848,9 @@
   },
   {
     "Date": "22/09/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:02:39",
-    "ClockOut": "17:15:48",
+    "EmployeeID": "2602149691",
+    "ClockIn": "08:58:00",
+    "ClockOut": "17:15:00",
     "DailyLog": "create custom script for third person driving for project stir multiplayer"
   },
   {
