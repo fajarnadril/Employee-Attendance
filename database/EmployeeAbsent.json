@@ -8608,5 +8608,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Merevisi dan melanjutkan pembuatan tileset untuk tileset \"Museum\" game Project Heist"
+  },
+  {
+    "Date": "10/09/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Pembuatan objek-objek dekorasi untuk area \"Museum\" game Project Heist"
   }
 ]
