@@ -8468,5 +8468,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Asset peta area 1 dan finalisasi world map"
+  },
+  {
+    "Date": "11/09/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Asset peta area 2 dan finalisasi area 1"
   }
 ]
