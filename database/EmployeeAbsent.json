@@ -7652,10 +7652,10 @@
   },
   {
     "Date": "12/09/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:03:29",
-    "ClockOut": "17:12:14",
-    "DailyLog": "mengerjakan project stir"
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:12:00",
+    "DailyLog": "mengerjakan project stir multiplayer"
   },
   {
     "Date": "12/09/2025",
