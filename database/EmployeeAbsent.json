@@ -8454,5 +8454,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Pembuatan awal asset peta world map"
+  },
+  {
+    "Date": "09/09/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Lanjut Pembuatan  asset peta world map"
   }
 ]
