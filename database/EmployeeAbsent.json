@@ -6280,9 +6280,9 @@
   },
   {
     "Date": "02/09/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:01:13",
-    "ClockOut": "17:00:55",
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:02:00",
     "DailyLog": "project stir continue trying making multiplayer"
   },
   {
