@@ -8664,5 +8664,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Melanjutkan pembuatan animasi karakter utama Project Heist."
+  },
+  {
+    "Date": "02/09/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue with Apo Island Scene Refurnish"
   }
 ]
