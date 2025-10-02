@@ -7610,10 +7610,10 @@
   },
   {
     "Date": "10/09/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "13:56:41",
-    "DailyLog": null
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:02:00",
+    "DailyLog": "Implemented Render Texture for player camera output and displayed it through UI Raw Image for project stir\n"
   },
   {
     "Date": "11/09/2025",
