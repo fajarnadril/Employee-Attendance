@@ -7680,9 +7680,9 @@
   },
   {
     "Date": "15/09/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:51:54",
-    "ClockOut": "17:34:36",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:47:00",
+    "ClockOut": "18:22:00",
     "DailyLog": "- Object now rotates depends on the angle"
   },
   {
