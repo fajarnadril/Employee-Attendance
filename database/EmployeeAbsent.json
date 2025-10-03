@@ -8727,5 +8727,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Mengerjakan dan membuat 3D asset untuk game yang akan dishowcase "
+  },
+  {
+    "Date": "08/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat 3D game asset menggunakan blender dan unity untuk game yang membutuhkan banyak asset tanaman serta membuat animasinya menggunakan bone/rig"
   }
 ]
