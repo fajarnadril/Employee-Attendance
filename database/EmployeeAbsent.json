@@ -7736,10 +7736,10 @@
   },
   {
     "Date": "17/09/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:52:37",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:51:00",
+    "ClockOut": "18:28:00",
+    "DailyLog": "- line of Sight working\n- enemy can now see player infront of em"
   },
   {
     "Date": "17/09/2025",
