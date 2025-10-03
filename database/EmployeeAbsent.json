@@ -8762,5 +8762,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Membuat beberapa props dengan blender untuk mendukung environment seperti pagar dan traktor untuk mendukung tema pada game"
+  },
+  {
+    "Date": "15/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:00:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Membuat shader air dan mengatur lighting untuk meningkatkan visual pada scene, agar lebih hidup"
   }
 ]
