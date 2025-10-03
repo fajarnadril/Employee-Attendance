@@ -8804,5 +8804,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Melakukan revisi pada beberapa pergantian bahasa di bebeapa UI detail agar sesuai dengan tutorial"
+  },
+  {
+    "Date": "23/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat 3D asset dan animasi serta mengatur beberapa props pada environment sesuai arahan revisi"
   }
 ]
