@@ -8002,10 +8002,10 @@
   },
   {
     "Date": "29/09/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:01:20",
-    "ClockOut": "23:04:00",
-    "DailyLog": "Continue with Project Impact Rogue Tasklist and its ad"
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Continue to recreate Project Impact: Rogue Ad and update it's Game mechanics + dynamics based on revision"
   },
   {
     "Date": "29/09/2025",
