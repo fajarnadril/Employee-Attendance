@@ -6245,9 +6245,9 @@
   },
   {
     "Date": "01/09/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:22:33",
-    "ClockOut": "17:50:10",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:45:00",
     "DailyLog": "- fixed card bug not showing card details\n- fixed card bug where card wont bounce"
   },
   {
