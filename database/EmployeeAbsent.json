@@ -6470,9 +6470,9 @@
   {
     "Date": "04/09/2025",
     "EmployeeID": "2602076336",
-    "ClockIn": "08:15:00",
-    "ClockOut": "17:45:00",
-    "DailyLog": "Membuat asset 3D dan diimplementasi ke dalam Unity"
+    "ClockIn": "08:00:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Mulai membuat konsep  3D asset untuk game yang akan dishowcase. Pembuatan asset menggunakan blender dan diexport ke Unity"
   },
   {
     "Date": "01/08/2025",
