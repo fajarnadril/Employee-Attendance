@@ -7953,10 +7953,10 @@
   },
   {
     "Date": "25/09/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:25:42",
-    "ClockOut": "22:43:58",
-    "DailyLog": "Improve Roguelike and pvp mode experience for Project Impact : Rogue"
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Recreate Project Impact: Rogue Ad and update it's Game mechanics + dynamics based on revision"
   },
   {
     "Date": "25/09/2025",
