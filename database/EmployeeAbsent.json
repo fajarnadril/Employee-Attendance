@@ -8720,12 +8720,5 @@
     "ClockIn": "09:49:17",
     "ClockOut": null,
     "DailyLog": null
-  },
-  {
-    "Date": "07/09/2025",
-    "EmployeeID": "2602076336",
-    "ClockIn": "08:15:00",
-    "ClockOut": "17:45:00",
-    "DailyLog": "Melakukan pembuatan game asset dengan aplikasi blender dan level art di unity untuk game yang akan dishowcase di IGDX"
   }
 ]
