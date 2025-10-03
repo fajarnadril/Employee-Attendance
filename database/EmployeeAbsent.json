@@ -8734,5 +8734,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat 3D game asset menggunakan blender dan unity untuk game yang membutuhkan banyak asset tanaman serta membuat animasinya menggunakan bone/rig"
+  },
+  {
+    "Date": "09/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Merevisi animasi yang sudah dibuat kemudian didiskusikan dengan game designer. Selain itu, melakukan level art untuk environment dengan tilemap"
   }
 ]
