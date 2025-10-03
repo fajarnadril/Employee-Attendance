@@ -8853,5 +8853,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat animasi dengan bone rig untuk tanaman gandum dan diimplementasi dalam unity"
+  },
+  {
+    "Date": "26/09/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:23:00",
+    "ClockOut": "18:26:00",
+    "DailyLog": "- Fixed Lobby card bug"
   }
 ]
