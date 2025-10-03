@@ -8832,5 +8832,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Membuat 3D asset props dan animasinya kemudian diimport ke dalam unity untuk mulai diimplementasi "
+  },
+  {
+    "Date": "16/09/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:31:00",
+    "ClockOut": "17:19:00",
+    "DailyLog": "- Added the raycast"
   }
 ]
