@@ -6371,10 +6371,10 @@
   },
   {
     "Date": "03/09/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:47:14",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:34:00",
+    "ClockOut": "18:27:00",
+    "DailyLog": "- lanjut project heist (bug testing card pop up UI)\n- mengerjakan final assignment "
   },
   {
     "Date": "03/09/2025",
