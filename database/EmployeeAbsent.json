@@ -8811,5 +8811,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Membuat 3D asset dan animasi serta mengatur beberapa props pada environment sesuai arahan revisi"
+  },
+  {
+    "Date": "24/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "07:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Merevisi beberapa 3D asset dan mulai membuat beberapa shader serta mengatur light cookies agar lebih hidup"
   }
 ]
