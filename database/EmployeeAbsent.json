@@ -8797,5 +8797,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Mengganti beberapa unique character dan font pada beberapa UI agar mendukung tutorial pada Level tutorial"
+  },
+  {
+    "Date": "22/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Melakukan revisi pada beberapa pergantian bahasa di bebeapa UI detail agar sesuai dengan tutorial"
   }
 ]
