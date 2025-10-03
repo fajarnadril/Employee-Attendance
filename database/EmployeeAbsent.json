@@ -7778,10 +7778,10 @@
   },
   {
     "Date": "18/09/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:11:41",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Update Project Impact Ad based on Revision"
   },
   {
     "Date": "18/09/2025",
