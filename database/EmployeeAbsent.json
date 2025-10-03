@@ -8748,5 +8748,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Melakukan revisi terhadap tile yang dibuat agar menjadi satu dengan upper part pada tilemap. Dilakukan di blender kemudian diexport ke unity"
+  },
+  {
+    "Date": "11/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Melakukan revisi terhadap animasi bone yang masih terkesan aneh di unity. Animasi yang dibuat harus lebih simple dan tidak terlalu extreme"
   }
 ]
