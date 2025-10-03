@@ -8720,5 +8720,12 @@
     "ClockIn": "09:49:17",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "07/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Mengerjakan dan membuat 3D asset untuk game yang akan dishowcase "
   }
 ]
