@@ -6273,10 +6273,10 @@
   },
   {
     "Date": "02/09/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:52:38",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:51:00",
+    "ClockOut": "17:54:00",
+    "DailyLog": "- lanjut project heist (bug testing)\n- mengerjakan final assignment "
   },
   {
     "Date": "02/09/2025",
