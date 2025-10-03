@@ -8818,5 +8818,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Merevisi beberapa 3D asset dan mulai membuat beberapa shader serta mengatur light cookies agar lebih hidup"
+  },
+  {
+    "Date": "25/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Mulai melakukan percobaan untuk membuat particle system untuk menambah kesan juicy pada game"
   }
 ]
