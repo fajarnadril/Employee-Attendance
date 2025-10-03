@@ -8776,5 +8776,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Mulai mengganti bahasa pada game untuk dibuat tutorial dalam bahasa lain, yaitu bahasa lain. Hal ini dilakukan dengan import font baru ke Unity"
+  },
+  {
+    "Date": "17/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Mengganti bahasa pada beberapa dialogue dan UI agar bisa mendukung tutorial"
   }
 ]
