@@ -6462,10 +6462,10 @@
   },
   {
     "Date": "04/09/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:59:10",
-    "ClockOut": "18:42:46",
-    "DailyLog": "- fix UI bug"
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:29:00",
+    "ClockOut": "18:02:00",
+    "DailyLog": "- Polishing mechanic project Heist"
   },
   {
     "Date": "04/09/2025",
