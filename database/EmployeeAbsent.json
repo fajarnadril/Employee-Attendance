@@ -8846,5 +8846,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Membuat asset 3D tanaman gandum, proses pembuatan meliputi mencari referensi dan membuat base mesh hingga texturing"
+  },
+  {
+    "Date": "30/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat animasi dengan bone rig untuk tanaman gandum dan diimplementasi dalam unity"
   }
 ]
