@@ -8755,5 +8755,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Melakukan revisi terhadap animasi bone yang masih terkesan aneh di unity. Animasi yang dibuat harus lebih simple dan tidak terlalu extreme"
+  },
+  {
+    "Date": "12/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "Membuat beberapa props dengan blender untuk mendukung environment seperti pagar dan traktor untuk mendukung tema pada game"
   }
 ]
