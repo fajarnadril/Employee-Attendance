@@ -8839,5 +8839,12 @@
     "ClockIn": "08:31:00",
     "ClockOut": "17:19:00",
     "DailyLog": "- Added the raycast"
+  },
+  {
+    "Date": "29/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat asset 3D tanaman gandum, proses pembuatan meliputi mencari referensi dan membuat base mesh hingga texturing"
   }
 ]
