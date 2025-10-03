@@ -8825,5 +8825,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Mulai melakukan percobaan untuk membuat particle system untuk menambah kesan juicy pada game"
+  },
+  {
+    "Date": "26/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat 3D asset props dan animasinya kemudian diimport ke dalam unity untuk mulai diimplementasi "
   }
 ]
