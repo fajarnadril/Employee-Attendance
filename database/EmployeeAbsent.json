@@ -8044,9 +8044,9 @@
   },
   {
     "Date": "30/09/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:27:27",
-    "ClockOut": "23:21:31",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
     "DailyLog": "Replace Project Impact BGM, continue with roguelike powerup system"
   },
   {
