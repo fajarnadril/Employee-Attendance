@@ -8741,5 +8741,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Merevisi animasi yang sudah dibuat kemudian didiskusikan dengan game designer. Selain itu, melakukan level art untuk environment dengan tilemap"
+  },
+  {
+    "Date": "10/09/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Melakukan revisi terhadap tile yang dibuat agar menjadi satu dengan upper part pada tilemap. Dilakukan di blender kemudian diexport ke unity"
   }
 ]
