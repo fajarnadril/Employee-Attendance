@@ -6455,10 +6455,10 @@
   },
   {
     "Date": "04/09/2025",
-    "EmployeeID": 2602089824,
-    "ClockIn": "08:45:02",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602089824",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "looking for references for research papers with the team,and revising parts that are still not good\n"
   },
   {
     "Date": "04/09/2025",
