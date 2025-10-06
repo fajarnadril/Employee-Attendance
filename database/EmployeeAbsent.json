@@ -9364,5 +9364,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Tokyo Game Show, mulai membuat fitur blessing #3"
+  },
+  {
+    "Date": "10/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Tokyo Game Show, mulai melakukan beberapa polishing visual dan juga mekanik"
   }
 ]
