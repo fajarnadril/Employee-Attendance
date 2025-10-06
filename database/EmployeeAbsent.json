@@ -8986,5 +8986,12 @@
     "ClockIn": "08:39:00",
     "ClockOut": "17:40:00",
     "DailyLog": "Pengajuan HKI (desain dan dokumentasi pendukung)"
+  },
+  {
+    "Date": "16/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:51:00",
+    "ClockOut": "17:16:00",
+    "DailyLog": "Revisi dokumen HKI sesuai masukan"
   }
 ]
