@@ -9203,5 +9203,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "19:15:00",
     "DailyLog": "Membuat asset UI"
+  },
+  {
+    "Date": "01/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Submisi GameXcellence, check timeline pengerjaan"
   }
 ]
