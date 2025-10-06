@@ -9245,5 +9245,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Grading Taipei Game Show Indie Game Award melalui website resmi TGS."
+  },
+  {
+    "Date": "11/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengedit video demo terbaru The Reverist berdasarkan build terkini."
   }
 ]
