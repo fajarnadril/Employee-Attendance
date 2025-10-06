@@ -8972,5 +8972,12 @@
     "ClockIn": "08:53:00",
     "ClockOut": "17:20:00",
     "DailyLog": "Finalisasi draft makalah, kirim ke pembimbing untuk review"
+  },
+  {
+    "Date": "12/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:44:00",
+    "ClockOut": "17:27:00",
+    "DailyLog": "Koreksi akhir makalah berdasarkan feedback"
   }
 ]
