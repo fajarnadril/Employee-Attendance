@@ -9455,5 +9455,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Menambahkan beberapa mekanik waktu didalam game"
+  },
+  {
+    "Date": "29/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Menambahkan beberapa mekanik yang berhubungan dengan item didalam game"
   }
 ]
