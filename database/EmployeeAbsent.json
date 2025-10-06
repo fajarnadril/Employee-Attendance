@@ -9210,5 +9210,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Submisi GameXcellence, check timeline pengerjaan"
+  },
+  {
+    "Date": "02/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Ngecilin scope untuk tokyo game show, milih character dan skill yang bakal dimasukin untuk prototype demo"
   }
 ]
