@@ -8958,5 +8958,12 @@
     "ClockIn": "08:41:00",
     "ClockOut": "17:24:00",
     "DailyLog": "Sempurnakan visualisasi data untuk makalah"
+  },
+  {
+    "Date": "10/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:47:00",
+    "ClockOut": "17:33:00",
+    "DailyLog": "Periksa kesesuaian format makalah dengan panduan Gemastik"
   }
 ]
