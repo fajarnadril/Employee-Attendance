@@ -9021,5 +9021,12 @@
     "ClockIn": "08:49:00",
     "ClockOut": "17:28:00",
     "DailyLog": "Evaluasi feedback dari Gemastik dan demo lama Silent Trip"
+  },
+  {
+    "Date": "23/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:46:00",
+    "ClockOut": "17:37:00",
+    "DailyLog": "Desain ulang UI dan layout gameplay demo"
   }
 ]
