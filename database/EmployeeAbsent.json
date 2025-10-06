@@ -9014,5 +9014,12 @@
     "ClockIn": "08:58:00",
     "ClockOut": "17:25:00",
     "DailyLog": "Finalisasi semua dokumen (laporan, makalah, HKI, presentasi)"
+  },
+  {
+    "Date": "22/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:49:00",
+    "ClockOut": "17:28:00",
+    "DailyLog": "Evaluasi feedback dari Gemastik dan demo lama Silent Trip"
   }
 ]
