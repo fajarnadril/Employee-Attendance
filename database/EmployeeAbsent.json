@@ -9371,5 +9371,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Tokyo Game Show, mulai melakukan beberapa polishing visual dan juga mekanik"
+  },
+  {
+    "Date": "11/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan diskusi sambil tetap mengerjakan game persiapan untuk TGS"
   }
 ]
