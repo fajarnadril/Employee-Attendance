@@ -9007,5 +9007,12 @@
     "ClockIn": "08:43:00",
     "ClockOut": "17:19:00",
     "DailyLog": "Latihan wawancara, simulasi tanya-jawab"
+  },
+  {
+    "Date": "19/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:58:00",
+    "ClockOut": "17:25:00",
+    "DailyLog": "Finalisasi semua dokumen (laporan, makalah, HKI, presentasi)"
   }
 ]
