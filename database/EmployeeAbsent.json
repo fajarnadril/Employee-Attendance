@@ -9217,5 +9217,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Ngecilin scope untuk tokyo game show, milih character dan skill yang bakal dimasukin untuk prototype demo"
+  },
+  {
+    "Date": "03/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "initial balancing character \"prodigy\" vs \"prodigy\""
   }
 ]
