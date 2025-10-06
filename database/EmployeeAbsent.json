@@ -8965,5 +8965,12 @@
     "ClockIn": "08:47:00",
     "ClockOut": "17:33:00",
     "DailyLog": "Periksa kesesuaian format makalah dengan panduan Gemastik"
+  },
+  {
+    "Date": "11/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:53:00",
+    "ClockOut": "17:20:00",
+    "DailyLog": "Finalisasi draft makalah, kirim ke pembimbing untuk review"
   }
 ]
