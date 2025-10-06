@@ -8979,5 +8979,12 @@
     "ClockIn": "08:44:00",
     "ClockOut": "17:27:00",
     "DailyLog": "Koreksi akhir makalah berdasarkan feedback"
+  },
+  {
+    "Date": "15/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:39:00",
+    "ClockOut": "17:40:00",
+    "DailyLog": "Pengajuan HKI (desain dan dokumentasi pendukung)"
   }
 ]
