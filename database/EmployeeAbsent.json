@@ -9070,5 +9070,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "22:15:00",
     "DailyLog": "Updating Map Baru buat gemastik "
+  },
+  {
+    "Date": "03/09/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:15:00",
+    "ClockOut": "22:00:00",
+    "DailyLog": "Updating Map Baru buat gemastik "
   }
 ]
