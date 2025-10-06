@@ -9329,5 +9329,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan pengerjaan untuk game yang akan di showcase di Tokyo Game Show, mulai membuat fitur item"
+  },
+  {
+    "Date": "02/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan pengerjaan untuk game yang akan di showcase di Tokyo Game Show, mulai membuat fitur item #2"
   }
 ]
