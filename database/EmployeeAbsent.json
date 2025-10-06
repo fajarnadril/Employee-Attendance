@@ -9028,5 +9028,12 @@
     "ClockIn": "08:46:00",
     "ClockOut": "17:37:00",
     "DailyLog": "Desain ulang UI dan layout gameplay demo"
+  },
+  {
+    "Date": "24/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:57:00",
+    "ClockOut": "17:11:00",
+    "DailyLog": "Rework visual environment & lighting demo"
   }
 ]
