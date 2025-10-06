@@ -8909,5 +8909,12 @@
     "ClockIn": "09:55:44",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "01/09/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "20:30:00",
+    "DailyLog": "Mengerjakan map tambahan baru untuk gemastik"
   }
 ]
