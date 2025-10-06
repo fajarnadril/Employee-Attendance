@@ -9385,5 +9385,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan pengerjaan balancing didalam game"
+  },
+  {
+    "Date": "15/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "TGS, Mulai mengerjakan kembali mekanik item"
   }
 ]
