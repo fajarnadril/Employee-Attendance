@@ -9035,5 +9035,12 @@
     "ClockIn": "08:57:00",
     "ClockOut": "17:11:00",
     "DailyLog": "Rework visual environment & lighting demo"
+  },
+  {
+    "Date": "25/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:52:00",
+    "ClockOut": "17:35:00",
+    "DailyLog": "Revisi karakter/asset 2D yang digunakan dalam demo"
   }
 ]
