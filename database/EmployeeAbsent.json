@@ -9231,5 +9231,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Menyusun daftar prioritas pekerjaan minggu ini dan sinkronisasi tugasanggota tim."
+  },
+  {
+    "Date": "09/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Pembuatan pitch deck The Reverist versi pitching untuk Tokyo Game Show."
   }
 ]
