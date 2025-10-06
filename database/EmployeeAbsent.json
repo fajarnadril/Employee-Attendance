@@ -9238,5 +9238,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Pembuatan pitch deck The Reverist versi pitching untuk Tokyo Game Show."
+  },
+  {
+    "Date": "10/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Grading Taipei Game Show Indie Game Award melalui website resmi TGS."
   }
 ]
