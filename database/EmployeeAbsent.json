@@ -9378,5 +9378,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan diskusi sambil tetap mengerjakan game persiapan untuk TGS"
+  },
+  {
+    "Date": "12/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan pengerjaan balancing didalam game"
   }
 ]
