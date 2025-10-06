@@ -9161,5 +9161,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "19:30:00",
     "DailyLog": "Membuat map kota 10%"
+  },
+  {
+    "Date": "23/09/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "19:30:00",
+    "DailyLog": "Membuat map kota 30%"
   }
 ]
