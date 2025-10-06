@@ -9042,5 +9042,12 @@
     "ClockIn": "08:52:00",
     "ClockOut": "17:35:00",
     "DailyLog": "Revisi karakter/asset 2D yang digunakan dalam demo"
+  },
+  {
+    "Date": "26/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:41:00",
+    "ClockOut": "17:42:00",
+    "DailyLog": "Integrasi hasil desain ke build terbaru bersama tim"
   }
 ]
