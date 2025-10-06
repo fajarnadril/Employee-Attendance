@@ -9266,5 +9266,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:45:00",
     "DailyLog": "Pendaftaran IGDX Booth dan IGDX Business Pass, serta pengecekan ulang timeline pengerjaan."
+  },
+  {
+    "Date": "16/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Finalisasi pitch deck The Reverist untuk Tokyo Game Show."
   }
 ]
