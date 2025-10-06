@@ -8916,5 +8916,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "20:30:00",
     "DailyLog": "Mengerjakan map tambahan baru untuk gemastik"
+  },
+  {
+    "Date": "01/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:42:00",
+    "ClockOut": "17:18:00",
+    "DailyLog": "Review hasil evaluasi sebelumnya, buat daftar revisi laporan akhir"
   }
 ]
