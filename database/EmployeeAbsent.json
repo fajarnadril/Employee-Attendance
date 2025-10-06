@@ -9119,5 +9119,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "20:30:00",
     "DailyLog": "Membuat map kamar untuk tutorial silent trip"
+  },
+  {
+    "Date": "15/09/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "20:15:00",
+    "DailyLog": "Lanjut Membuat map kamar untuk tutorial silent trip 40%"
   }
 ]
