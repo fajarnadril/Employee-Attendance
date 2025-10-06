@@ -9427,5 +9427,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "TGS, Mulai mengerjakan translation kembali untuk beberapa hal yang dilewatkan"
+  },
+  {
+    "Date": "23/09/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "TGS, Polishing sebelum TGS"
   }
 ]
