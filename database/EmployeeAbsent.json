@@ -8923,5 +8923,12 @@
     "ClockIn": "08:42:00",
     "ClockOut": "17:18:00",
     "DailyLog": "Review hasil evaluasi sebelumnya, buat daftar revisi laporan akhir"
+  },
+  {
+    "Date": "02/09/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:57:00",
+    "ClockOut": "17:09:00",
+    "DailyLog": "Revisi Bab 1\u20132 laporan akhir (latar belakang & metodologi)"
   }
 ]
