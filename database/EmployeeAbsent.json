@@ -9469,5 +9469,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Menambahkan beberapa mekanik yang berhubungan dengan blessing didalam game"
+  },
+  {
+    "Date": "07/10/2025",
+    "EmployeeID": 2602089824,
+    "ClockIn": "08:51:02",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
