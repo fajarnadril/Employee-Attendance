@@ -9609,5 +9609,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "persiapan booth showcase tokyo game show"
+  },
+  {
+    "Date": "25/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "showcase day 1 business day tokyo game show"
   }
 ]
