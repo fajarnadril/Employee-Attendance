@@ -9511,5 +9511,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:15:00",
     "DailyLog": "final polishing dan qa sebelum mengirim build ke publisher"
+  },
+  {
+    "Date": "04/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "final bug fixing"
   }
 ]
