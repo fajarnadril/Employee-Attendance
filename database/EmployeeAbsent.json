@@ -9481,8 +9481,8 @@
     "Date": "07/10/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "09:01:38",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:44",
+    "DailyLog": "continue project klunker menu scripting"
   },
   {
     "Date": "07/10/2025",
