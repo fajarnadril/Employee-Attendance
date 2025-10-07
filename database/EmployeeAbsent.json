@@ -9539,5 +9539,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "menambah mechanic fog kedalam grid base map"
+  },
+  {
+    "Date": "11/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "membuat player movement pada map"
   }
 ]
