@@ -9546,5 +9546,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "19:00:00",
     "DailyLog": "membuat player movement pada map"
+  },
+  {
+    "Date": "12/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "membuat save system sederhana sementara unutk grid"
   }
 ]
