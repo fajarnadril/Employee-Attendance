@@ -9504,5 +9504,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "polishing scene explore dan menambah fitur quest"
+  },
+  {
+    "Date": "03/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "final polishing dan qa sebelum mengirim build ke publisher"
   }
 ]
