@@ -9532,5 +9532,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:00:00",
     "DailyLog": "membuat grid base map"
+  },
+  {
+    "Date": "10/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "menambah mechanic fog kedalam grid base map"
   }
 ]
