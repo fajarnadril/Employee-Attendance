@@ -9518,5 +9518,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "final bug fixing"
+  },
+  {
+    "Date": "08/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "membuat fitur baru yaitu fog"
   }
 ]
