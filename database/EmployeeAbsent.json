@@ -9497,5 +9497,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "polishing scene decor luminote mio "
+  },
+  {
+    "Date": "02/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "polishing scene explore dan menambah fitur quest"
   }
 ]
