@@ -9567,5 +9567,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "menambah asset character dan grid pada map"
+  },
+  {
+    "Date": "17/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "melakukan persiapan show case tokyo game show"
   }
 ]
