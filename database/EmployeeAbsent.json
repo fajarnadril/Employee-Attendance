@@ -9488,8 +9488,8 @@
     "Date": "07/10/2025",
     "EmployeeID": 2602105784,
     "ClockIn": "09:04:39",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "21:14:28",
+    "DailyLog": "Texturing Lift Basement"
   },
   {
     "Date": "01/09/2025",
