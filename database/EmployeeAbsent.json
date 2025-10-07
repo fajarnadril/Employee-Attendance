@@ -9595,5 +9595,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "menambah localization bahasa jepang dan transisi pindah bahasa pada build game"
+  },
+  {
+    "Date": "23/09/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "persiapan dan penerbangan ke tokyo game show"
   }
 ]
