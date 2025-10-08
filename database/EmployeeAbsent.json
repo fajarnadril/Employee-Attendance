@@ -9679,5 +9679,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Showcase di Tokyo Game Show"
+  },
+  {
+    "Date": "26/09/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Showcase di Tokyo Game Show"
   }
 ]
