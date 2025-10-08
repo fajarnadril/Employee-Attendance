@@ -9690,8 +9690,8 @@
   {
     "Date": "08/10/2025",
     "EmployeeID": 2602100114,
-    "ClockIn": null,
-    "ClockOut": "17:04:29",
-    "DailyLog": null
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:05:03",
+    "DailyLog": "Melanjutkan pembuatan animasi \"Attack\" karakter utama game Project Heist."
   }
 ]
