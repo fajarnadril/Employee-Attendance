@@ -7715,10 +7715,10 @@
   },
   {
     "Date": "16/09/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": null,
-    "ClockOut": "03:07:33",
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat fitur tutorial pada game Arva"
   },
   {
     "Date": "16/09/2025",
