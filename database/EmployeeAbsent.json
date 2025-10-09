@@ -7701,10 +7701,10 @@
   },
   {
     "Date": "15/09/2025",
-    "EmployeeID": 2602069620,
-    "ClockIn": "17:34:18",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melakukan Persiapan Build game dalam bahasa jepang untuk keperluan TGS"
   },
   {
     "Date": "16/09/2025",
