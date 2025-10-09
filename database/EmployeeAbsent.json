@@ -9784,5 +9784,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Melakukan Janji Meet2Match dengan publisher dan investor"
+  },
+  {
+    "Date": "23/09/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "TOKYO GAME SHOW 2025 (TGS)"
   }
 ]
