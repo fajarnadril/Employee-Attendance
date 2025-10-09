@@ -9805,5 +9805,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "SHOWCASE TOKYO GAME SHOW 2025 (TGS)"
+  },
+  {
+    "Date": "26/09/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "SHOWCASE TOKYO GAME SHOW 2025 (TGS)"
   }
 ]
