@@ -9826,5 +9826,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengerjakan dokumentasi selama di Tokyo Game Show dan realisasi"
+  },
+  {
+    "Date": "09/10/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "09:00:28",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
