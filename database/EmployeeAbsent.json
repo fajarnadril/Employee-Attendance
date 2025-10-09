@@ -9756,5 +9756,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengumpulkan responden untuk paper Gemastik 18"
+  },
+  {
+    "Date": "17/09/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Membuat kuisoner feedback untuk Tokyo Game Show"
   }
 ]
