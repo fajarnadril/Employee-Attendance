@@ -7666,10 +7666,10 @@
   },
   {
     "Date": "12/09/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:45:00",
-    "ClockOut": "18:57:12",
-    "DailyLog": "Make Ad for Project Impact"
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Make Ad For Project Impact"
   },
   {
     "Date": "15/09/2025",
