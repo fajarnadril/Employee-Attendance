@@ -8709,10 +8709,10 @@
   },
   {
     "Date": "03/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:49:17",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Continue with Project Impact Revision"
   },
   {
     "Date": "07/09/2025",
