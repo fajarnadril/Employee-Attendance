@@ -9894,8 +9894,8 @@
     "Date": "13/10/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:54:41",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "20:20:38",
+    "DailyLog": "- fix enemy bug "
   },
   {
     "Date": "13/10/2025",
