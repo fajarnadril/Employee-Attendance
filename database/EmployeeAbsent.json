@@ -9978,8 +9978,8 @@
     "Date": "16/10/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:50:55",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:17:11",
+    "DailyLog": "continue importing menu ui to tdr's menu ui"
   },
   {
     "Date": "16/10/2025",
