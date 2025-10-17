@@ -10019,8 +10019,8 @@
   {
     "Date": "17/10/2025",
     "EmployeeID": 2602071575,
-    "ClockIn": null,
-    "ClockOut": "16:33:02",
-    "DailyLog": null
+    "ClockIn": "08:33:00",
+    "ClockOut": "16:33:22",
+    "DailyLog": "- Added Player StateMachine\n- added player walking down animation"
   }
 ]
