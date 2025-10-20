@@ -10022,5 +10022,12 @@
     "ClockIn": "08:33:00",
     "ClockOut": "16:33:22",
     "DailyLog": "- Added Player StateMachine\n- added player walking down animation"
+  },
+  {
+    "Date": "20/10/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:52:41",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
