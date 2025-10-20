@@ -10054,8 +10054,8 @@
   {
     "Date": "20/10/2025",
     "EmployeeID": 2602071575,
-    "ClockIn": null,
-    "ClockOut": "18:16:54",
-    "DailyLog": null
+    "ClockIn": "08:24:00",
+    "ClockOut": "18:17:19",
+    "DailyLog": "- added player attack\n- fixed guard sprite bug"
   }
 ]
