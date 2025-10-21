@@ -10057,5 +10057,12 @@
     "ClockIn": "08:24:00",
     "ClockOut": "18:17:19",
     "DailyLog": "- added player attack\n- fixed guard sprite bug"
+  },
+  {
+    "Date": "21/10/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:33:32",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
