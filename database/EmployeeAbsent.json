@@ -10097,8 +10097,8 @@
     "Date": "22/10/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:59:39",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "21:19:14",
+    "DailyLog": "- fixed player attack animation\n- added hitbox to player attack\n- attack is now 8 area"
   },
   {
     "Date": "22/10/2025",
