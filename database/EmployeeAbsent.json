@@ -10078,5 +10078,12 @@
     "ClockIn": "08:54:29",
     "ClockOut": "17:00:32",
     "DailyLog": "fixing project klunker main menu broken navigations"
+  },
+  {
+    "Date": "22/10/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:55:32",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
