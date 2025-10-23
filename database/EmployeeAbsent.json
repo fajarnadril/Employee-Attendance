@@ -10274,5 +10274,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengikuti Acara penutupan GEMASTIK 2025"
+  },
+  {
+    "Date": "31/10/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melakukan follow up dengan para publisher dan investor dengan memberikan update game Arva and the Barren Land"
   }
 ]
