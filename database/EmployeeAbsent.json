@@ -10120,5 +10120,12 @@
     "ClockIn": "08:59:29",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "01/10/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengerjakan GEMASTIK FINAL, melakukan design game final sesuai dengan proposal yang sudah dikumpulkan pada tahap seleksi GEMASTIK\n"
   }
 ]
