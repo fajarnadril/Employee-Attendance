@@ -10111,8 +10111,8 @@
     "Date": "23/10/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:53:43",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:04:43",
+    "DailyLog": "continue UI importing and fixing more navigations"
   },
   {
     "Date": "23/10/2025",
