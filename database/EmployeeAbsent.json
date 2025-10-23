@@ -10134,5 +10134,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengerjakan GEMASTIK FINAL, melakukan listing mekanik dan fitur yang dibutuhkan dan mengarahkan rekan tim untuk menyelesaikan fitur yang dijanjikan"
+  },
+  {
+    "Date": "03/10/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengerjakan GEMASTIK FINAL, review dan revisi UI pada game agar terlihat cozy game yang santai"
   }
 ]
