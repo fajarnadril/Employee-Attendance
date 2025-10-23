@@ -10267,5 +10267,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Mengikuti kegiatan acara GEMASTIK 2025 yang diselenggarakan oleh Telkom University"
+  },
+  {
+    "Date": "30/10/2025",
+    "EmployeeID": "2602069620",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Mengikuti Acara penutupan GEMASTIK 2025"
   }
 ]
