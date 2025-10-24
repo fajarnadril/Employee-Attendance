@@ -10337,5 +10337,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat factory pop animation dan membuat dirt effect dengan particle system di unity"
+  },
+  {
+    "Date": "10/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat animasi kapal berjalan dengan animation unity. Animasi ini direncanakan akan diplay saat permainan dimulai"
   }
 ]
