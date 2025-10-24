@@ -10631,5 +10631,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Pulang dari Gamescom Asia X Thailand Game Show"
+  },
+  {
+    "Date": "21/10/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Kembali melanjutkan game Farmatro (ada beberapa perubahan mekanik yang terjadi)"
   }
 ]
