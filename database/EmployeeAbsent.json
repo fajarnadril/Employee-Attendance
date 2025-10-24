@@ -10281,5 +10281,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Melakukan follow up dengan para publisher dan investor dengan memberikan update game Arva and the Barren Land"
+  },
+  {
+    "Date": "24/10/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:55:55",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
