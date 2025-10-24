@@ -10309,5 +10309,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Bikin animasi pada conveyor factory dan juga line renderer untuk menunjukkan connection antar building"
+  },
+  {
+    "Date": "06/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Bikin animasi house pop dan factory pop saat mengirim dan menerima makanan. Animasi dibuat langsung di tab animation unity "
   }
 ]
