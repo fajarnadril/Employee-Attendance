@@ -8394,9 +8394,9 @@
   },
   {
     "Date": "02/10/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:47:51",
-    "ClockOut": "18:32:51",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:24:00",
     "DailyLog": "- Lockpick mechanic added"
   },
   {
