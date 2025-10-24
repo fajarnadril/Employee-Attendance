@@ -10708,5 +10708,12 @@
     "ClockIn": "08:51:00",
     "ClockOut": "19:33:00",
     "DailyLog": "- fixed door Bug\n- added note\n- fixed tutor bug\n- add tutor for lockpick\n- changed tutor image\n- add temp indicator for disguise\n"
+  },
+  {
+    "Date": "09/10/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:26:00",
+    "ClockOut": "17:54:00",
+    "DailyLog": "- added team logo\n- fixed door bug"
   }
 ]
