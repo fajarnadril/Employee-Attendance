@@ -10673,5 +10673,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Mengikuti Rangkaian acara Gemastik"
+  },
+  {
+    "Date": "29/10/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Mengikuti Rangkaian acara Gemastik"
   }
 ]
