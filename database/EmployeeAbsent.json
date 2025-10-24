@@ -10372,5 +10372,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Merevisi animasi \"Attack\" karakter utama game Project Heist "
+  },
+  {
+    "Date": "15/10/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melanjutkan pembuatan animasi \"Attack\" karakter utama game Project Heist"
   }
 ]
