@@ -10533,5 +10533,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Melakukan persiapan general untuk final Gemastik, mulai dari materi, teknis, hingga pembagian tugas tim."
+  },
+  {
+    "Date": "31/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melakukan followUp kepada publisher dan memberikan build terbaru "
   }
 ]
