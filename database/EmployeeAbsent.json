@@ -10288,5 +10288,12 @@
     "ClockIn": "08:55:55",
     "ClockOut": null,
     "DailyLog": null
+  },
+  {
+    "Date": "01/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Membuat animasi sayap burung di blender kemudian diimport ke unity "
   }
 ]
