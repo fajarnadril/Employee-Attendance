@@ -8682,9 +8682,9 @@
   {
     "Date": "03/10/2025",
     "EmployeeID": "2602071575",
-    "ClockIn": "08:57:00",
-    "ClockOut": "17:01:00",
-    "DailyLog": "Fixed Lockpick mechanic\nfixed card after throw bug\nAdded sound mechanic to object"
+    "ClockIn": "08:43:00",
+    "ClockOut": "19:21:00",
+    "DailyLog": "- Fixed Lockpick mechanic\n- Added throw object mechanic"
   },
   {
     "Date": "03/10/2025",
