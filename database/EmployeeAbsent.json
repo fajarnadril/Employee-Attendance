@@ -10351,5 +10351,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat particle system untuk reforestation dengan memanfaatkan properties shape sehingga memutar gedung"
+  },
+  {
+    "Date": "03/10/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Melanjutkan pembuatan animasi \"Attack\" karakter utama game Project Heist "
   }
 ]
