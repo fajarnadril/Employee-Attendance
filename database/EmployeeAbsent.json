@@ -10414,5 +10414,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Pembuatan UI untuk main menu game Project Heist"
+  },
+  {
+    "Date": "27/10/2025",
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Pembuatan objek-objek untuk dekorasi dalam scene \"Museum\" game Project Heist"
   }
 ]
