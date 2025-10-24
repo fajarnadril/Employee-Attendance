@@ -10722,5 +10722,12 @@
     "ClockIn": "08:13:00",
     "ClockOut": "18:27:00",
     "DailyLog": "- fixing player crouch line of sight bug"
+  },
+  {
+    "Date": "15/10/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:41:00",
+    "ClockOut": "19:01:00",
+    "DailyLog": "- Lockdown Effect added\n- Line of sight bug fixed"
   }
 ]
