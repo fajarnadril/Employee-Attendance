@@ -10652,5 +10652,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Pengerjaan game Farmatro, fokus terhadap sistem blessing yang akan sedikit diubah"
+  },
+  {
+    "Date": "24/10/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Pengerjaan game Farmatro, mengerjakan mekanik blessing dan merubah behaviour tanaman"
   }
 ]
