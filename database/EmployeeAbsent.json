@@ -10316,5 +10316,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Bikin animasi house pop dan factory pop saat mengirim dan menerima makanan. Animasi dibuat langsung di tab animation unity "
+  },
+  {
+    "Date": "07/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Improve shader yang digunakan untuk menunjukkan koneksi antar building pada fase preview. Shader dibuat dengan shader graph"
   }
 ]
