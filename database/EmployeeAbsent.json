@@ -9857,10 +9857,10 @@
   },
   {
     "Date": "10/10/2025",
-    "EmployeeID": 2602100114,
-    "ClockIn": "08:50:05",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602100114",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Melanjutkan pembuatan animasi \"Attack\" karakter utama game Project Heist"
   },
   {
     "Date": "10/10/2025",
