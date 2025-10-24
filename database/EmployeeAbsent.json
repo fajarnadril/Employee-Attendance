@@ -10491,5 +10491,12 @@
     "ClockIn": "07:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Mempersiapkan presentasi gemastik seperti pembagian Role dan pemantapan materi presentasi "
+  },
+  {
+    "Date": "23/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Melakukan persiapan untuk presentasi Gemastik secara online dengan pembagian role presentasi dan slide"
   }
 ]
