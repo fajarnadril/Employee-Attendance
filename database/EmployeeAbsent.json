@@ -10659,5 +10659,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Pengerjaan game Farmatro, mengerjakan mekanik blessing dan merubah behaviour tanaman"
+  },
+  {
+    "Date": "27/10/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Pengerjaan game Farmatro, merubah behaviour tanaman dan mengerjakan mekanik item "
   }
 ]
