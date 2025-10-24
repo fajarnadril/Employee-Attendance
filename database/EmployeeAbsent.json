@@ -10540,5 +10540,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melakukan followUp kepada publisher dan memberikan build terbaru "
+  },
+  {
+    "Date": "01/10/2025",
+    "EmployeeID": "2602076840",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengerjakan finalisasi mekanik game yang masih diperlukan untuk game Farmatro"
   }
 ]
