@@ -10302,5 +10302,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Implementasi animasi pop spawn dan animasi burung ke dalam test scene beserta anim controllernya"
+  },
+  {
+    "Date": "03/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Bikin animasi pada conveyor factory dan juga line renderer untuk menunjukkan connection antar building"
   }
 ]
