@@ -10505,5 +10505,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Menyiapkan sesi presentasi untuk kompetisi Gemastik secara online dengan melakukan koordinasi antar anggota tim"
+  },
+  {
+    "Date": "27/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Melaksanakan rapat internal untuk persiapan presentasi Gemastik, meliputi pembagian tugas presenter dan perbaikan materi pada slide."
   }
 ]
