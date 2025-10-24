@@ -10323,5 +10323,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Improve shader yang digunakan untuk menunjukkan koneksi antar building pada fase preview. Shader dibuat dengan shader graph"
+  },
+  {
+    "Date": "08/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Melakukan revisi shader dengan merombak shader graph di unity, yaitu membuat logic yang lebih singkat untuk mengubah speed"
   }
 ]
