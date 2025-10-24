@@ -10295,5 +10295,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Membuat animasi sayap burung di blender kemudian diimport ke unity "
+  },
+  {
+    "Date": "02/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Implementasi animasi pop spawn dan animasi burung ke dalam test scene beserta anim controllernya"
   }
 ]
