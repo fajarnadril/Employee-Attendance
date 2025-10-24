@@ -10330,5 +10330,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Melakukan revisi shader dengan merombak shader graph di unity, yaitu membuat logic yang lebih singkat untuk mengubah speed"
+  },
+  {
+    "Date": "09/10/2025",
+    "EmployeeID": "2602076336",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Membuat factory pop animation dan membuat dirt effect dengan particle system di unity"
   }
 ]
