@@ -10694,5 +10694,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "- fix door UI bug\n- added card usage for door"
+  },
+  {
+    "Date": "07/10/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:23:00",
+    "ClockOut": "17:22:00",
+    "DailyLog": "- added font\n- fixed the HUB\n- fixed menu\n- fixed enemy with no patrol\n- fixed cards\n- added UI thingy"
   }
 ]
