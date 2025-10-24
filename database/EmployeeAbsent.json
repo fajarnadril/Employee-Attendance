@@ -10729,5 +10729,12 @@
     "ClockIn": "08:41:00",
     "ClockOut": "19:01:00",
     "DailyLog": "- Lockdown Effect added\n- Line of sight bug fixed"
+  },
+  {
+    "Date": "16/10/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:41:00",
+    "ClockOut": "19:01:00",
+    "DailyLog": "- fix interact and throw bug"
   }
 ]
