@@ -9920,10 +9920,10 @@
   },
   {
     "Date": "13/10/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "11:52:28",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Modelling dan Texturing Interior Admission"
   },
   {
     "Date": "14/10/2025",
