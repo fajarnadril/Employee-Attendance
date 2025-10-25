@@ -10820,5 +10820,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Melanjuti bug testing game Watts and Homes dan recap apa yang diperlukan/kurang"
+  },
+  {
+    "Date": "06/10/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Mengkoordinasikan tim untuk develop lanjutan Watts and Homes"
   }
 ]
