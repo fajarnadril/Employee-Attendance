@@ -10764,5 +10764,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Modelling dan Texturing Lab Hotel"
+  },
+  {
+    "Date": "17/10/2025",
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Modelling dan Texturing Interior Admission"
   }
 ]
