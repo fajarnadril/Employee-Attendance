@@ -10904,5 +10904,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Konfirmasi final dan pengumpulan abstrak ke tim GALA Conference"
+  },
+  {
+    "Date": "27/10/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "lanjut develop Watts and Homes, bug fixing"
   }
 ]
