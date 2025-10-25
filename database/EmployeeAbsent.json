@@ -8408,10 +8408,10 @@
   },
   {
     "Date": "02/10/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "10:02:57",
-    "ClockOut": "17:09:23",
-    "DailyLog": "Modelling dan Measuring untuk asset-asset Lab Hotel"
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Modelling dan Measuring utk Lab Hotel"
   },
   {
     "Date": "02/10/2025",
