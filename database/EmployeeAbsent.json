@@ -10911,5 +10911,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "lanjut develop Watts and Homes, bug fixing"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Design level baru untuk ditambahkan ke Watts and Homes"
   }
 ]
