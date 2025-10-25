@@ -10876,5 +10876,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Lanjut menyesuaikan abstrak berdasarkan format baru "
+  },
+  {
+    "Date": "20/10/2025",
+    "EmployeeID": "2602099863",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Pengecekan ulang timeline pengerjaan untuk GALA Conference dan menyiapkan semua dokumen persyaratan"
   }
 ]
