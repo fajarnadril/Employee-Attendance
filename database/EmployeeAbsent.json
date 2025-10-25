@@ -9479,10 +9479,10 @@
   },
   {
     "Date": "07/10/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "09:04:39",
-    "ClockOut": "21:14:28",
-    "DailyLog": "Texturing Lift Basement"
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Modelling dan Texturing Lab Hotel"
   },
   {
     "Date": "01/09/2025",
