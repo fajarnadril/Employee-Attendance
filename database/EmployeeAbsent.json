@@ -11198,5 +11198,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "19:15:00",
     "DailyLog": "Lanjut Membuat UI dalam in game"
+  },
+  {
+    "Date": "10/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "07:30:00",
+    "ClockOut": "19:30:00",
+    "DailyLog": "Membuat minigame untuk game hp"
   }
 ]
