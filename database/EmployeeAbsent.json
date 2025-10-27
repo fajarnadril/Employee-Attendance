@@ -11520,5 +11520,12 @@
     "ClockIn": "08:32:00",
     "ClockOut": "17:47:00",
     "DailyLog": "Finalisasi ekspresi & silhouette karakter"
+  },
+  {
+    "Date": "15/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:46:00",
+    "ClockOut": "18:10:00",
+    "DailyLog": "Revisi karakter utama sesuai masukan visual"
   }
 ]
