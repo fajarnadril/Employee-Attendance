@@ -11548,5 +11548,12 @@
     "ClockIn": "08:38:00",
     "ClockOut": "17:41:00",
     "DailyLog": "Integrasi asset desain ke scene vertical slice"
+  },
+  {
+    "Date": "21/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:50:00",
+    "ClockOut": "18:19:00",
+    "DailyLog": "Fine-tuning komposisi scene dan atmosfer warna"
   }
 ]
