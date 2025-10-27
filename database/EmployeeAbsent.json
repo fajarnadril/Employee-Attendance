@@ -11541,5 +11541,12 @@
     "ClockIn": "08:58:00",
     "ClockOut": "17:23:00",
     "DailyLog": "Desain UI/UX baru untuk flow interaksi demo"
+  },
+  {
+    "Date": "20/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:38:00",
+    "ClockOut": "17:41:00",
+    "DailyLog": "Integrasi asset desain ke scene vertical slice"
   }
 ]
