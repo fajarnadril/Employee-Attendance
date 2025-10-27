@@ -11219,5 +11219,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "19:00:00",
     "DailyLog": "Membuat npcs untuk silent trip"
+  },
+  {
+    "Date": "15/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Finishing effect"
   }
 ]
