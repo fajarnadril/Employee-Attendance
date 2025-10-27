@@ -11331,5 +11331,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Membuat texturing kamar untuk silent trip"
+  },
+  {
+    "Date": "14/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Mengirim build dan pitch deck ke phblishers"
   }
 ]
