@@ -11555,5 +11555,12 @@
     "ClockIn": "08:50:00",
     "ClockOut": "18:19:00",
     "DailyLog": "Fine-tuning komposisi scene dan atmosfer warna"
+  },
+  {
+    "Date": "22/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:42:00",
+    "ClockOut": "17:58:00",
+    "DailyLog": "Buat dokumentasi desain untuk tim dev"
   }
 ]
