@@ -11447,8 +11447,8 @@
   {
     "Date": "27/10/2025",
     "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "17:00:54",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:01:17",
+    "DailyLog": "Continue Ui Project Klunker Main Map"
   }
 ]
