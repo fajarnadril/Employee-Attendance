@@ -11345,5 +11345,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Membuat texturing kamar untuk silent trip lanjutan"
+  },
+  {
+    "Date": "15/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Planning final demo"
   }
 ]
