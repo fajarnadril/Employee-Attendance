@@ -11226,5 +11226,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:30:00",
     "DailyLog": "Finishing effect"
+  },
+  {
+    "Date": "16/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membuat animation untuk silent trip"
   }
 ]
