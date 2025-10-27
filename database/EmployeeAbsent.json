@@ -11296,5 +11296,12 @@
     "ClockIn": "07:15:00",
     "ClockOut": "17:45:00",
     "DailyLog": "igdx day 1"
+  },
+  {
+    "Date": "24/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membuat kamar untuk silent trip"
   }
 ]
