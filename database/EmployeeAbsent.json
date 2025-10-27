@@ -11415,5 +11415,12 @@
     "ClockIn": "08:00:00",
     "ClockOut": "17:30:00",
     "DailyLog": "Menambah visual fog"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "Membuat fog 3d"
   }
 ]
