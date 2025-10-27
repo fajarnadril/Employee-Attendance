@@ -11261,5 +11261,12 @@
     "ClockIn": "07:15:00",
     "ClockOut": "18:00:00",
     "DailyLog": "Membuat save file tile"
+  },
+  {
+    "Date": "22/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "18:30:00",
+    "DailyLog": "Membuat ppt finalis gemastik"
   }
 ]
