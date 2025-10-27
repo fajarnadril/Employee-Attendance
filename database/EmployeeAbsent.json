@@ -11044,5 +11044,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:30:00",
     "DailyLog": "berangkat untuk PAX Aus"
+  },
+  {
+    "Date": "10/10/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Hari pertama PAX Aus"
   }
 ]
