@@ -11485,5 +11485,12 @@
     "ClockIn": "08:44:00",
     "ClockOut": "17:39:00",
     "DailyLog": "Desain layout interaksi utama dan elemen penting"
+  },
+  {
+    "Date": "08/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:53:00",
+    "ClockOut": "18:20:00",
+    "DailyLog": "Desain prop, furnitur, dan detail world-building"
   }
 ]
