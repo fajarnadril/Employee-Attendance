@@ -10960,5 +10960,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Lanjut budgeting GALA "
+  },
+  {
+    "Date": "27/10/2025",
+    "EmployeeID": 2602054770,
+    "ClockIn": "08:34:52",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
