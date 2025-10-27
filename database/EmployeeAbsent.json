@@ -11233,5 +11233,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Membuat animation untuk silent trip"
+  },
+  {
+    "Date": "17/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membuat setup silent trip"
   }
 ]
