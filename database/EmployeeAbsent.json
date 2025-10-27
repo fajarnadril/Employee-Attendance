@@ -11429,5 +11429,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Bug fix fog mechanic"
+  },
+  {
+    "Date": "30/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "18:00:00",
+    "DailyLog": "Revamp ui decor"
   }
 ]
