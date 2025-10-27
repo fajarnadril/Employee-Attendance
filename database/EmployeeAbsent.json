@@ -11268,5 +11268,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:30:00",
     "DailyLog": "Membuat ppt finalis gemastik"
+  },
+  {
+    "Date": "07/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "07:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat save file character position"
   }
 ]
