@@ -11569,5 +11569,12 @@
     "ClockIn": "08:53:00",
     "ClockOut": "17:44:00",
     "DailyLog": "Polish terakhir untuk bagian visual vertical slice"
+  },
+  {
+    "Date": "24/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:37:00",
+    "ClockOut": "18:22:00",
+    "DailyLog": "Review hasil 3 minggu, catat kekurangan & rencana perbaikan"
   }
 ]
