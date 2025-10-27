@@ -11394,5 +11394,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "18:00:00",
     "DailyLog": "memperbaiki mechanic camera movement"
+  },
+  {
+    "Date": "23/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat mechanic fog"
   }
 ]
