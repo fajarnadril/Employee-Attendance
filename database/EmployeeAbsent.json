@@ -11366,5 +11366,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Start membuat final demo"
+  },
+  {
+    "Date": "17/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:15:00",
+    "DailyLog": "Memperbaiki bug dalam grid"
   }
 ]
