@@ -11282,5 +11282,12 @@
     "ClockIn": "07:15:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Preparation igdx"
+  },
+  {
+    "Date": "23/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:45:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membuat ppt gemastik"
   }
 ]
