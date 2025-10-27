@@ -11149,5 +11149,12 @@
     "ClockIn": "08:30:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Persiapan gambar untuk event di map"
+  },
+  {
+    "Date": "31/10/2025",
+    "EmployeeID": "2702326744",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:45:00",
+    "DailyLog": "pembuatan gambar untuk event di map"
   }
 ]
