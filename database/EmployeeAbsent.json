@@ -11583,5 +11583,12 @@
     "ClockIn": "08:48:00",
     "ClockOut": "18:40:00",
     "DailyLog": "Persiapan presentasi dan perbaikan laporan akhir"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:54:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Hari pertama pelaksanaan final Gemastik"
   }
 ]
