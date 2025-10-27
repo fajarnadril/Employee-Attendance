@@ -11457,5 +11457,12 @@
     "ClockIn": "08:43:00",
     "ClockOut": "17:45:00",
     "DailyLog": "Evaluasi hasil IGDX, catat feedback untuk rencana redesign"
+  },
+  {
+    "Date": "02/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:50:00",
+    "ClockOut": "18:12:00",
+    "DailyLog": "Buat daftar prioritas redesign visual dan flow gameplay"
   }
 ]
