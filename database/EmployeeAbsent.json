@@ -11373,5 +11373,12 @@
     "ClockIn": "08:15:00",
     "ClockOut": "17:15:00",
     "DailyLog": "Memperbaiki bug dalam grid"
+  },
+  {
+    "Date": "20/10/2025",
+    "EmployeeID": "2702288651",
+    "ClockIn": "08:30:00",
+    "ClockOut": "17:30:00",
+    "DailyLog": "Membuat mechanic camera movement 3d"
   }
 ]
