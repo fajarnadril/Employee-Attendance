@@ -11324,5 +11324,12 @@
     "ClockIn": "08:45:00",
     "ClockOut": "18:15:00",
     "DailyLog": "Follow up email igdx"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": "2702285933",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:15:00",
+    "DailyLog": "Membuat texturing kamar untuk silent trip"
   }
 ]
