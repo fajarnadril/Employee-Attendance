@@ -8898,10 +8898,10 @@
   },
   {
     "Date": "06/10/2025",
-    "EmployeeID": 2702285933,
-    "ClockIn": "09:55:44",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2702285933",
+    "ClockIn": "08:30:00",
+    "ClockOut": "19:00:00",
+    "DailyLog": "Membuat map kota untuk silent trip 80%"
   },
   {
     "Date": "01/09/2025",
