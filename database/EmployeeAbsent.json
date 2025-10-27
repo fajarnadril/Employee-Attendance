@@ -11464,5 +11464,12 @@
     "ClockIn": "08:50:00",
     "ClockOut": "18:12:00",
     "DailyLog": "Buat daftar prioritas redesign visual dan flow gameplay"
+  },
+  {
+    "Date": "03/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:37:00",
+    "ClockOut": "17:54:00",
+    "DailyLog": "Buat sketch awal environment utama (ruang & mood)"
   }
 ]
