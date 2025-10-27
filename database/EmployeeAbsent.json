@@ -11506,5 +11506,12 @@
     "ClockIn": "08:41:00",
     "ClockOut": "17:55:00",
     "DailyLog": "Review hasil minggu ini, kumpulkan feedback internal"
+  },
+  {
+    "Date": "13/10/2025",
+    "EmployeeID": "2702258535",
+    "ClockIn": "08:57:00",
+    "ClockOut": "18:14:00",
+    "DailyLog": "Mulai desain karakter pendukung baru berdasarkan cerita"
   }
 ]
