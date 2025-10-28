@@ -11611,5 +11611,12 @@
     "ClockIn": "08:57:00",
     "ClockOut": "17:35:00",
     "DailyLog": "Evaluasi hasil lomba, refleksi, dan penyesuaian rencana November"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:21:00",
+    "ClockOut": "18:01:00",
+    "DailyLog": "- bug fix"
   }
 ]
