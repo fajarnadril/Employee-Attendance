@@ -11639,5 +11639,12 @@
     "ClockIn": "08:41:00",
     "ClockOut": "17:53:00",
     "DailyLog": "added more indicator for cards usage"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": null,
+    "ClockOut": "17:01:25",
+    "DailyLog": null
   }
 ]
