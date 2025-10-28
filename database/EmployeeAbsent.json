@@ -10970,10 +10970,10 @@
   },
   {
     "Date": "27/10/2025",
-    "EmployeeID": 2602071575,
-    "ClockIn": "08:45:43",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602071575",
+    "ClockIn": "08:45:00",
+    "ClockOut": "17:22:00",
+    "DailyLog": "- Added more UI\n- added more type of inputs for exiting UI"
   },
   {
     "Date": "27/10/2025",
