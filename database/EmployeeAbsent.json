@@ -11643,8 +11643,8 @@
   {
     "Date": "28/10/2025",
     "EmployeeID": 2602149691,
-    "ClockIn": null,
-    "ClockOut": "17:01:25",
-    "DailyLog": null
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:03:52",
+    "DailyLog": "help with tech event in binus"
   }
 ]
