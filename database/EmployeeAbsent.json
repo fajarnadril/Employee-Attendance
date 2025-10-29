@@ -11646,5 +11646,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:03:52",
     "DailyLog": "help with tech event in binus"
+  },
+  {
+    "Date": "29/10/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "09:02:51",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
