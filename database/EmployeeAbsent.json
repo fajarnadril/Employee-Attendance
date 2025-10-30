@@ -11653,5 +11653,12 @@
     "ClockIn": "09:02:51",
     "ClockOut": "17:03:31",
     "DailyLog": "Bug fixing project klunker after techvolution evejnt"
+  },
+  {
+    "Date": "30/10/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:53:34",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
