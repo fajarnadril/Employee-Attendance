@@ -11723,5 +11723,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "search for references for the remaining sections in a scientific paper"
+  },
+  {
+    "Date": "29/10/2025",
+    "EmployeeID": "2602089824",
+    "ClockIn": "09:00:00",
+    "ClockOut": "18:45:00",
+    "DailyLog": "search for references for the remaining sections in a scientific research paper"
   }
 ]
