@@ -9969,10 +9969,10 @@
   },
   {
     "Date": "15/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "12:14:04",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - balance roguelike gameplay + adjust apo island scene & design 4 player UI splitscreen"
   },
   {
     "Date": "16/10/2025",
