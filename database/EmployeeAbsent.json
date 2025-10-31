@@ -11758,5 +11758,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Project Impact Rogue - Adjust Player UI & Balance roguelike stats values Gacci - filter/evaluate Game Design Documents"
+  },
+  {
+    "Date": "17/10/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Address errors from branch merging + redo vfx assets"
   }
 ]
