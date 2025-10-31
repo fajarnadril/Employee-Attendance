@@ -11772,5 +11772,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Project Impact Rogue - redo vfx assets"
+  },
+  {
+    "Date": "23/10/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - redo vfx assets + make alternative stats balance for 2 player roguelike coop"
   }
 ]
