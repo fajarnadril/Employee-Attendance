@@ -8870,10 +8870,10 @@
   },
   {
     "Date": "06/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "08:32:06",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Redesign powerup panel ui & balance roguelike mode Gacci - filter/evaluate Game Design Documents"
   },
   {
     "Date": "06/10/2025",
