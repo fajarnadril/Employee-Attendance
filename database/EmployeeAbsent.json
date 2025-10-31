@@ -9913,10 +9913,10 @@
   },
   {
     "Date": "13/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:46:30",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Attempt to create vfx assets & balance enemy spawns in roguelike mode"
   },
   {
     "Date": "13/10/2025",
