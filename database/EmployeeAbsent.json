@@ -9997,10 +9997,10 @@
   },
   {
     "Date": "16/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:31:39",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Continue with roguelike balancing + Adjust Apo Island Scene\nVideo Material - Edit Virtual challenge material & Record the mp3"
   },
   {
     "Date": "17/10/2025",
