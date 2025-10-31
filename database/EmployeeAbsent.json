@@ -9878,10 +9878,10 @@
   },
   {
     "Date": "10/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:25:45",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Attempt to create vfx assets"
   },
   {
     "Date": "13/10/2025",
