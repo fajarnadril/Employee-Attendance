@@ -10963,10 +10963,10 @@
   },
   {
     "Date": "27/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "08:34:52",
-    "ClockOut": "16:54:20",
-    "DailyLog": "Continue on Project Impact VFX assets"
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - finish V0.8.4 vfx assets + Plan V0.9 vfx assets"
   },
   {
     "Date": "27/10/2025",
