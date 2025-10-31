@@ -11800,5 +11800,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Project Impact Rogue - Adjust vfx assets + make another attempt at skinned mesh character effect vfx"
+  },
+  {
+    "Date": "30/10/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Plan for revamped roguelike enemy spawning system for better gameplay balance"
   }
 ]
