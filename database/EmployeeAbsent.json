@@ -11786,5 +11786,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Project Impact Rogue - redo vfx assets from shader graph & particles effect to VFX graph"
+  },
+  {
+    "Date": "28/10/2025",
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Gather Feedback from game showcase event"
   }
 ]
