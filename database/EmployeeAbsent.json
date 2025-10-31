@@ -10046,10 +10046,10 @@
   },
   {
     "Date": "20/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "14:14:24",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - redo vfx assets"
   },
   {
     "Date": "20/10/2025",
