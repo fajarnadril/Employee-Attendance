@@ -9934,10 +9934,10 @@
   },
   {
     "Date": "14/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "09:00:45",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - Attempt to create vfx assets & Balance roguelike mode + planned 4 player roguelike mode"
   },
   {
     "Date": "14/10/2025",
