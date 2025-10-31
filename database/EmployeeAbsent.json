@@ -9654,10 +9654,10 @@
   },
   {
     "Date": "08/10/2025",
-    "EmployeeID": 2602054770,
-    "ClockIn": "10:33:45",
-    "ClockOut": "20:38:26",
-    "DailyLog": "Judging/Grading GACCI Game Design Document"
+    "EmployeeID": "2602054770",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Project Impact Rogue - balance roguelike stats & search vfx assets Gacci - filter/evaluate Game Design Documents"
   },
   {
     "Date": "24/09/2025",
