@@ -5993,9 +5993,9 @@
   },
   {
     "Date": "20/08/2025",
-    "EmployeeID": 2602089824,
-    "ClockIn": "09:03:37",
-    "ClockOut": "21:59:10",
+    "EmployeeID": "2602089824",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:15:00",
     "DailyLog": "make a content for socmed binusgat"
   },
   {
