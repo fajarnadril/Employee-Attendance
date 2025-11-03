@@ -9472,9 +9472,9 @@
   },
   {
     "Date": "07/10/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:01:38",
-    "ClockOut": "17:00:44",
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
     "DailyLog": "continue project klunker menu scripting"
   },
   {
