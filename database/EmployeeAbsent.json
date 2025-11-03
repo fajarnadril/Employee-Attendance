@@ -11747,10 +11747,10 @@
   },
   {
     "Date": "31/10/2025",
-    "EmployeeID": 2602089824,
-    "ClockIn": "08:58:35",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602089824",
+    "ClockIn": "08:15:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "make a content for socmed binusgat"
   },
   {
     "Date": "07/10/2025",
