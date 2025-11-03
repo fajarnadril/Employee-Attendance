@@ -9941,9 +9941,9 @@
   },
   {
     "Date": "14/10/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:01:49",
-    "ClockOut": "17:00:50",
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
     "DailyLog": "continue importing menu ui to TDR Menu"
   },
   {
