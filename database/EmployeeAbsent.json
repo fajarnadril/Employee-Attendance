@@ -11649,10 +11649,10 @@
   },
   {
     "Date": "29/10/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:02:51",
-    "ClockOut": "17:03:31",
-    "DailyLog": "Bug fixing project klunker after techvolution evejnt"
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Bug fixing project klunker after techvolution event"
   },
   {
     "Date": "30/10/2025",
