@@ -11807,5 +11807,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Project Impact Rogue - Plan for revamped roguelike enemy spawning system for better gameplay balance"
+  },
+  {
+    "Date": "03/11/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:53:46",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
