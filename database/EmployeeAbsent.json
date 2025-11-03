@@ -10977,10 +10977,10 @@
   },
   {
     "Date": "27/10/2025",
-    "EmployeeID": 2602105784,
-    "ClockIn": "08:59:42",
-    "ClockOut": null,
-    "DailyLog": null
+    "EmployeeID": "2602105784",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:00:00",
+    "DailyLog": "Modelling untuk Auditorium"
   },
   {
     "Date": "01/10/2025",
