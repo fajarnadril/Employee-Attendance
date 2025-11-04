@@ -11875,8 +11875,8 @@
     "Date": "04/11/2025",
     "EmployeeID": 2602071575,
     "ClockIn": "08:52:15",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "18:37:36",
+    "DailyLog": "- Fixed knockdown enemy LOS bug"
   },
   {
     "Date": "04/11/2025",
