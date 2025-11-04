@@ -11863,5 +11863,12 @@
     "ClockIn": "09:00:00",
     "ClockOut": "17:00:00",
     "DailyLog": "Texturing Auditorium"
+  },
+  {
+    "Date": "04/11/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:30:50",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
