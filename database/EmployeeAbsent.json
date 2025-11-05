@@ -11884,5 +11884,12 @@
     "ClockIn": "08:57:26",
     "ClockOut": "17:00:49",
     "DailyLog": "video editing and preparing video material"
+  },
+  {
+    "Date": "05/11/2025",
+    "EmployeeID": 2602100114,
+    "ClockIn": "08:32:34",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
