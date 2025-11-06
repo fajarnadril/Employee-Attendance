@@ -11912,5 +11912,12 @@
     "ClockIn": "08:59:52",
     "ClockOut": "18:07:40",
     "DailyLog": "continue with creating GAT topic video "
+  },
+  {
+    "Date": "06/11/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": null,
+    "ClockOut": "19:46:03",
+    "DailyLog": null
   }
 ]
