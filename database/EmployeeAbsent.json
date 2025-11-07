@@ -11919,5 +11919,12 @@
     "ClockIn": "08:23:00",
     "ClockOut": "19:46:19",
     "DailyLog": "- Added hiding place\n- fixed some bugs"
+  },
+  {
+    "Date": "07/11/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:47:05",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
