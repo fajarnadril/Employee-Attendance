@@ -12045,5 +12045,12 @@
     "ClockIn": "09:00:58",
     "ClockOut": "17:03:01",
     "DailyLog": "create & record mock-up digital content learning video + research how to upload game on steam"
+  },
+  {
+    "Date": "14/11/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:50:53",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
