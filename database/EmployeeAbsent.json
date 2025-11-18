@@ -12073,5 +12073,12 @@
     "ClockIn": "08:56:24",
     "ClockOut": "17:00:19",
     "DailyLog": "revisi pkm kc beta"
+  },
+  {
+    "Date": "18/11/2025",
+    "EmployeeID": 2602071575,
+    "ClockIn": "08:41:40",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
