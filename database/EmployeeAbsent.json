@@ -12120,7 +12120,7 @@
     "Date": "24/11/2025",
     "EmployeeID": 2602149691,
     "ClockIn": "08:57:21",
-    "ClockOut": null,
-    "DailyLog": null
+    "ClockOut": "17:00:50",
+    "DailyLog": "refiting project stir ui to fit ultrawides"
   }
 ]
