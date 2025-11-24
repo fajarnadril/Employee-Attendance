@@ -12115,5 +12115,12 @@
     "ClockIn": "08:52:36",
     "ClockOut": "17:03:54",
     "DailyLog": "fixing project stir ui to fit 3440x1440\n"
+  },
+  {
+    "Date": "24/11/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:57:21",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
