@@ -12136,5 +12136,12 @@
     "ClockIn": "08:45:31",
     "ClockOut": "17:00:50",
     "DailyLog": "refiting project stir ui for ultrawide"
+  },
+  {
+    "Date": "27/11/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:51:22",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
