@@ -12104,9 +12104,9 @@
   },
   {
     "Date": "20/11/2025",
-    "EmployeeID": 2602149691,
-    "ClockIn": "09:04:43",
-    "ClockOut": "17:13:34",
+    "EmployeeID": "2602149691",
+    "ClockIn": "09:00:00",
+    "ClockOut": "17:04:00",
     "DailyLog": "revisi paper artikel ilmiah "
   },
   {
