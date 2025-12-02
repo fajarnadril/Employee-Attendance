@@ -12157,5 +12157,12 @@
     "ClockIn": "08:52:36",
     "ClockOut": "17:01:23",
     "DailyLog": "designinng project klunker ui"
+  },
+  {
+    "Date": "02/12/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:54:18",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
