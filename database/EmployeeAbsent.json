@@ -12178,5 +12178,12 @@
     "ClockIn": "08:52:43",
     "ClockOut": "17:00:34",
     "DailyLog": "improved project klunker minimap and improve some gameplay ui"
+  },
+  {
+    "Date": "05/12/2025",
+    "EmployeeID": 2602149691,
+    "ClockIn": "08:50:42",
+    "ClockOut": null,
+    "DailyLog": null
   }
 ]
